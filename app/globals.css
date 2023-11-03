@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(0,0,0);
+  background: rgb(255,255,255);
+}
+
+h1 {
+  font-weight: 300; /* Lighter weight for larger headings */
+  font-size: 2.5rem; /* Larger font size for higher-level headings */
+  line-height: 3rem; /* Line height slightly larger than font size for readability */
+}
+
+h2 {
+  font-weight: 400; /* Normal weight */
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+h3 {
+  font-weight: 500; /* Medium weight */
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+}
+
+h4 {
+  font-weight: 600; /* Semi-bold weight */
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h5 {
+  font-weight: 700; /* Bold weight */
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+h6 {
+  font-weight: 800; /* Extra-bold weight */
+  font-size: 1rem; /* Smallest font size for the least important headings */
+  line-height: 1.5rem; /* Standard line height */
+}
+
+
