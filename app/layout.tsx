@@ -15,7 +15,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link href="./../tailslim.css" rel="stylesheet" />
-        <link href="/tailslim.css" rel="stylesheet" />
       </head>
       <body>
         <main className="flex grow min-h-screen justify-center items-start">
