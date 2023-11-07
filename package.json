@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "style": "tailwindcss -i ./app/globals.css -o ./tailslim.css --watch"
+    "style": "tailwindcss -i ./app/globals.css -o ./public/tailslim.css --watch"
   },
   "dependencies": {
     "react": "^18",

@@ -610,8 +610,8 @@ video {
   min-height: 100vh;
 }
 
-.w-44 {
-  width: 11rem;
+.w-40 {
+  width: 10rem;
 }
 
 .w-52 {
@@ -624,10 +624,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-40 {
-  width: 10rem;
 }
 
 .max-w-5xl {
