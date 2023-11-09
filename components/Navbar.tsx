@@ -37,7 +37,7 @@ function Navbar() {
         <NavigationMenuItem>
           <NavigationMenuTrigger className='h-10'>Themes</NavigationMenuTrigger>
           <NavigationMenuContent className=''>
-            <ul className="grid w-[250px] gap-3 p-4 md:grid-cols-1 ">
+            <ul className="grid w-[250px] gap-3 p-4 grid-cols-1 md:w-[450px] md:grid-cols-2 ">
               {themes.map((theme) => (
                 <ListItem
                 key={theme.title}
