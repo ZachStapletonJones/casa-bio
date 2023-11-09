@@ -10,25 +10,17 @@ Install dependencies:
 npm i
 ```
 
-Run the development server:
+Run the development server for local build:
 ```bash
 npm run dev
 ```
 
-Update global stylesheet for static builds:
-```bash
-npm run styles
-```
-
-Export static files to the /out folder:
-```bash
-npm run build
-```
+Commit changes to Github for deployment:
 
 ```
 Notes: 
-- To complete the package, cappy the tailslim.css file from the root directory into the out folder.
-- In VSCode/Cursor, quickly format the html for readability using Shift+Alt+F
+- next.config.js basePath will need to be configured for final domain
+- ./out folder in repo contains all static files
 ```
 
 ## References
@@ -36,3 +28,5 @@ Notes:
 [`Next.js Documentation`](https://nextjs.org/docs)
 
 [`TailwindCSS Documentation`](https://tailwindcss.com/docs/installation)
+
+[`Next App Router Github Pages Deployment Guide`](https://github.com/gregrickaby/nextjs-github-pages)

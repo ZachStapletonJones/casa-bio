@@ -14,7 +14,7 @@ function Profile(profile:ProfileData){
 
 export default function ProfileGrid() {
     return (
-        <div className='flex grow gap-4'>
+        <div className='flex grow gap-4 flex-wrap'>
             {profiles.map((p, index)=><Profile key={index} {...p} />)}
         </div>
     )

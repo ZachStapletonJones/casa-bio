@@ -16,7 +16,7 @@ function Theme(theme:ThemeData){
 
 export default function ThemeGrid() {
     return (
-        <div className='flex grow gap-4'>
+        <div className='flex grow gap-4 flex-wrap'>
             {themes.map((t, index)=><Theme key={index} {...t} />)}
         </div>
     )
