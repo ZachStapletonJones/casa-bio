@@ -10,11 +10,11 @@ import { FileTextIcon, Link2Icon } from '@radix-ui/react-icons'
 
 function Navbar() {
   return (
-    <nav className='w-full flex justify-center bg-slate-100 m-0 top-0 sticky'>
+    <nav className='w-full flex justify-center bg-slate-100 border border-b-1  m-0 top-0 sticky py-2'>
         <div className='max-w-7xl w-full flex justify-between items-center'>
         {/* Logo */}
-        <Link href={'/'} className='flex items-center justify-start sm:gap-2'>
-            <img className='sm:h-20 h-16' src='casa-bio-v2.png' alt='Casa Bio' />
+        <Link href={'/'} className='flex items-center justify-start sm:gap-4'>
+            <img className='sm:h-10 h-10 pl-2 2xl:pl-0' src='casa-bio-v3.png' alt='Casa Bio' />
             <div className=' flex flex-col items-start p-0 m-0 text-blue-950'>
                 <div className='scroll-m-20 merriweather text-xl font-bold lg:text-2xl '>CASA Bio</div>
                 <p className='text-sm font-normal align-middle leading-4 italic hidden sm:block'>
@@ -24,7 +24,7 @@ function Navbar() {
         </Link>
         {/* Menu */}
         <NavigationMenu>
-        <NavigationMenuList className='gap-4'>
+        <NavigationMenuList className='gap lg:gap-2'>
         <NavigationMenuItem >
           <Link href="https://drive.google.com/file/d/1m-fzN0zkaEZ14X04BsodCkF96IajJuld/view?usp=sharing" legacyBehavior passHref>
             <NavigationMenuLink target='_blank' className={`${navigationMenuTriggerStyle()} bg-white text-blue-950 border border-1 border-slate-300/[.55] hover:bg-slate-200 hover:text-blue-950 active:bg-slate-200 active:text-blue-950 focus:bg-slate-200 focus:text-blue-950`}>
