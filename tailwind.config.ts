@@ -16,6 +16,68 @@ module.exports = {
       },
     },
     extend: {
+      typography:{
+        DEFAULT: {
+          css: {
+            h1: {
+              color: 'hsl(226 57% 21%)',
+              scrollMargin: '5rem',
+              paddingBottom: '0.5rem',
+              borderBottomWidth: '2px',
+              width: 'fit-content',
+              fontWeight: 600,
+              fontSize: '1.875rem', 
+              lineHeight: '2.25rem'
+            },
+            h2: {
+              color: 'hsl(226 57% 21%)',
+              scrollMargin: '5rem',
+              paddingBottom: '0.5rem',
+              borderBottomWidth: '2px',
+              fontWeight: 600,
+              width: 'fit-content',
+              fontSize: '1.5rem', 
+              lineHeight: '2rem'
+            },
+            h3: {
+              color: 'hsl(226 57% 21%)',
+              scrollMargin: '5rem',
+              paddingBottom: '0.5rem',
+              fontWeight: 600,
+              width: 'fit-content',
+              fontSize: '1.25rem', 
+              lineHeight: '1.75rem'
+            },
+            h4: {
+              color: 'hsl(226 57% 21%)',
+              scrollMargin: '5rem',
+              paddingBottom: '0.5rem',
+              fontWeight: 500,
+              width: 'fit-content',
+              fontSize: '1.125rem', 
+              lineHeight: '1.75rem'
+            },
+            h5: {
+              color: 'hsl(226 57% 21%)',
+              scrollMargin: '5rem',
+              paddingBottom: '0.5rem',
+              fontWeight: 500,
+              width: 'fit-content',
+              fontSize: '1rem', 
+              lineHeight: '1.5rem'
+            },
+            h6: {
+              color: 'hsl(226 57% 21%)',
+              scrollMargin: '5rem',
+              paddingBottom: '0.5rem',
+              fontWeight: 500,
+              width: 'fit-content',
+              fontSize: '1.5rem', 
+              lineHeight: '2rem'
+            },
+          }
+        }
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
