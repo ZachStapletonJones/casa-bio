@@ -1,5 +1,5 @@
-1:HL["/_next/static/css/de56e9bdd98d8212.css","style",{"crossOrigin":""}]
-0:["4jI3CG_fXVRZDHKi-cw8h",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/de56e9bdd98d8212.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+1:HL["https://zachstapletonjones.github.io/casa-bio/_next/static/css/de56e9bdd98d8212.css","style",{"crossOrigin":""}]
+0:["ekT69NBW4Cc00YlTXj2hy",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"https://zachstapletonjones.github.io/casa-bio/_next/static/css/de56e9bdd98d8212.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
 4:I[6954,[],""]
 5:I[7264,[],""]
 7:I[8326,["326","static/chunks/326-a244cdf3b150e525.js","931","static/chunks/app/page-d5b1e8bd1d0032c8.js"],""]
