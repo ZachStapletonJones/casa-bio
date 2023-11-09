@@ -16,7 +16,7 @@ function Navbar() {
         <Link href={'/'} className='flex items-center justify-start sm:gap-2'>
             <img className='sm:h-20 h-16' src='casa-bio-v2.png' alt='Casa Bio' />
             <div className=' flex flex-col items-start p-0 m-0 text-blue-950'>
-                <div className='scroll-m-20 text-xl font-bold lg:text-2xl '>CASA Bio</div>
+                <div className='scroll-m-20 merriweather text-xl font-bold lg:text-2xl '>CASA Bio</div>
                 <p className='text-sm font-normal align-middle leading-4 italic hidden sm:block'>
                     Catalyzing Across Sectors to Advance the Bioeconomy
                 </p>

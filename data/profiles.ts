@@ -6,18 +6,18 @@ export type ProfileData = {
 
 export const profiles:ProfileData[] = [
     {
-        photo: 'https://roadmap.ebrc.org/wp-content/uploads/2022/09/Alam_Khalid_Color-1-150x150.jpg',
-        name: 'Khalid Alam',
-        affiliation: 'Stemloop, Inc.'
+        photo: 'placeholder-profile.png',
+        name: 'Ivan Knowles',
+        affiliation: 'Zagorski Technologies Ltd'
     },
     {
-        photo: 'https://roadmap.ebrc.org/wp-content/uploads/2022/09/T.Alexander_Headshot_Smile-1-150x150.png',
-        name: 'Thomas Alexander',
-        affiliation: 'North Carolina State University'
+        photo: 'placeholder-profile.png',
+        name: 'Noreen Jagger',
+        affiliation: 'On Point Training Ltd'
     },
     {
-        photo: 'https://roadmap.ebrc.org/wp-content/uploads/2019/06/Emily-Aurand-e1602543591681-150x150.jpg',
-        name: 'Emily R. Aurand',
-        affiliation: 'EBRC'
+        photo: 'placeholder-profile.png',
+        name: 'Rachel Wagstaff',
+        affiliation: 'Cunningham Video Services Ltd'
     }
 ]
