@@ -6,7 +6,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel,
 import { Button } from './ui/button'
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, navigationMenuTriggerStyle } from './ui/navigation-menu'
 import { cn } from '@/lib/utils'
-import { FileTextIcon } from '@radix-ui/react-icons'
+import { FileTextIcon, Link2Icon } from '@radix-ui/react-icons'
 
 function Navbar() {
   return (
@@ -34,6 +34,15 @@ function Navbar() {
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
+        <NavigationMenuItem >
+          <Link href="/" legacyBehavior passHref>
+            <NavigationMenuLink target='_blank' className={`${navigationMenuTriggerStyle()} bg-white text-blue-950 border border-1 border-slate-300/[.55] hover:bg-slate-200 hover:text-blue-950 active:bg-slate-200 active:text-blue-950 focus:bg-slate-200 focus:text-blue-950`}>
+            <div className='text-blue-950 flex items-center gap-2'>
+              <Link2Icon />
+              Apply</div>
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuTrigger className='h-10'>Themes</NavigationMenuTrigger>
           <NavigationMenuContent className=''>
@@ -43,6 +52,7 @@ function Navbar() {
                 key={theme.title}
                 title={theme.title}
                 href={theme.slug}
+                about={theme.promptImage}
               >
                 {theme.description}
               </ListItem>
@@ -62,22 +72,25 @@ function Navbar() {
 const ListItem = React.forwardRef<
   React.ElementRef<"a">,
   React.ComponentPropsWithoutRef<"a">
->(({ className, title, children, ...props }, ref) => {
+>(({ className, about, title, children, ...props }, ref) => {
   return (
     <li>
       <NavigationMenuLink asChild>
         <a
           ref={ref}
           className={cn(
-            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground grid grid-cols-12 gap-2 items-center",
             className
           )}
           {...props}
         >
+            <img className='object-contain col-span-2' src={about} alt='' />
+        <div className='col-span-10'>
           <div className="text-sm font-semibold leading-none">{title}</div>
           <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
             {children}
           </p>
+          </div>
         </a>
       </NavigationMenuLink>
     </li>

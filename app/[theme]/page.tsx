@@ -1,8 +1,10 @@
+import { Button } from '@/components/ui/button'
 import { themes } from '@/data/themes'
 import Link from 'next/link'
 import React from 'react'
 import Markdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import { ChevronLeftIcon } from '@radix-ui/react-icons'
 
 export async function generateStaticParams() { 
     return themes.map((theme) => ({
@@ -13,11 +15,26 @@ export async function generateStaticParams() {
 export default function ThemePage({params}:{params:{theme:string}}) {
     const themeData = themes.find(t=>t.slug === params.theme)
   return (
-    <div className='flex flex-col gap-12 w-full grow items-start justify-center'>
-        {/* <div>{themeData?.title}</div>
-        <div>{themeData?.tagline}</div> */}
-        <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.summary}</Markdown>
-        <Link className='pt-4' href={`/`}>{`< Home`}</Link>
+    <div className='flex flex-col gap-12 w-full grow items-start justify-start'>
+      <div className='flex flex-col w-full items-start'>
+        <Link href={'/'}>
+        <Button variant={'link'} className='p-0 m-0 flex items-center gap-2'><ChevronLeftIcon />Return</Button>
+        </Link>
+       
+      <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.tagline}</Markdown>
+      </div> 
+        <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.introduction}</Markdown>
+        <img className='bg-secondary w-full h-[200px]' src={themeData?.bannerImage} alt={themeData?.title} />
+        <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.content}</Markdown>
+        <div className='space-y-8'>
+          <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Roadmap Goals</h2>
+          <div>Coming soon...</div>
+        </div>
+        <div className='space-y-8'>
+          <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Footnotes</h2>
+          <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.footnotes}</Markdown>
+        </div>
+      
     </div>
     
   )

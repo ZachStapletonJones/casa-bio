@@ -5,166 +5,147 @@ export type ThemeData = {
     slug: string,
     description: string,
     tagline: string,
-    summary: string,
+    introduction: string,
+    content: string,
+    footnotes:string
     
 }
 
 export const themes:ThemeData[] = [
     {
-        //Theme 1
-        promptImage: 'https://roadmap.ebrc.org/wp-content/uploads/2020/10/FoodAgriculture_Icon_Green-150x150.png',
-        bannerImage: 'https://roadmap.ebrc.org/wp-content/uploads/2022/09/Copy-of-Theme-4-Remake-Flat-Web-Size-2048x1366.jpg',
-        title: 'FOOD & AGRICULTURE',
-        slug: 'food-agriculture',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        tagline: 'Food & Agriculture addresses specific opportunities for engineering biology to reduce greenhouse gas emissions from food production and waste and towards making agriculture and food systems more robust to climate change.',
-        summary: 
-`# The Impact of Climate Change on Agriculture
-Agriculture and food systems are **especially vulnerable to climate change**. More intense and frequent droughts, floods, and heat waves have **decimated agricultural output** in all parts of the world, but have been especially detrimental to the Global South.[^1][^2][^3]
+//Theme 1
+promptImage: 'placeholder-prompt.png',
+bannerImage: 'placeholder-banner.png',
+title: 'Climate Change Solutions',
+slug: 'climate-change-solutions',
+description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+tagline: 
+`# Climate Change Solutions
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+`,
+introduction: 
+`## Introduction
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id faucibus turpis, quis gravida nisi. Curabitur nulla tortor, rhoncus sed luctus id, interdum pulvinar ipsum. Vestibulum finibus lobortis dictum. In lobortis et risus laoreet facilisis. Mauris sed suscipit justo. Integer porta luctus nibh, eget lacinia massa scelerisque eu. Cras rhoncus augue neque, sed interdum lectus mollis eu. Nam semper justo lectus, quis semper felis vestibulum vel. Praesent ut sapien sit amet justo tempor elementum a ac risus. Mauris mollis volutpat vehicula. Phasellus sit amet risus ipsum. Cras in ultricies leo, vel ornare mi. Nam fermentum rutrum massa, quis fermentum nibh convallis eget. Morbi faucibus varius magna, sed rutrum enim dignissim sit amet. Etiam lacinia eu magna id pretium. Morbi fringilla imperdiet tortor, ut auctor nisi.
+`,
+content: 
+`Phasellus et sapien id erat molestie dignissim. Proin id porta nunc, efficitur egestas tellus. Morbi dignissim at tellus ut mattis. Nunc dictum erat eu mauris malesuada efficitur. Aenean sed placerat metus, vel volutpat ex. Sed tristique ornare dolor, ut elementum mauris fringilla vitae. Nunc facilisis congue auctor.
 
-## The Need for Enhanced Food Security
+Donec vel urna imperdiet, varius purus id, tempor sapien. Nulla id ex ultricies, auctor libero id, dapibus sapien. Donec condimentum metus quis pharetra convallis. Suspendisse pretium lobortis felis id scelerisque. Pellentesque varius, ipsum vitae vestibulum dictum, nulla urna consequat nisi, sit amet posuere risus urna eget mauris. Maecenas rhoncus, mi non dignissim gravida, quam nisl auctor sem, in posuere augue augue vitae felis. Aliquam ut nisi erat. Aenean lacinia non dui sed euismod. Sed vitae tristique enim, mollis tempus nisl. Nunc eget sapien pharetra, aliquam magna id, vestibulum ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras finibus volutpat venenatis. Nullam id fermentum justo.
 
-The impacts of these extreme climate events are compounded by a *growing global population*, leading to an acute need to improve food security. 
-
-### Current Agricultural Practices and Climate Change
-
-On top of this, many current agricultural practices even contribute to climate change and instability, through:
-- The production of greenhouse gases (particularly methane)
-- Production and over-application of synthetic nitrogen fertilizer
-- Inefficient water use
-- Production of waste
-
-## Leveraging Engineering Biology in Agriculture
-
-The food and agriculture sector must leverage engineering biology to:
-1. Minimize its impact on climate change
-2. Sustain production in the face of abiotic and biotic stressors that result from climate change
-
-### Focus Areas
-
-The **Food & Agriculture** theme focuses on engineering biology research opportunities to enable:
-- Production of food and crops with lower greenhouse gas (GHG) emissions through climate-friendly biofertilizers
-- Sustainable production of meat and meat-alternatives
-- Crop and soil resilience
-- Opportunities in ‘smart agriculture’
-- Opportunities to limit food waste or convert it to useful products
-
-## Stakeholder Engagement
-
-Importantly, further advancement of engineering biology for agriculture requires ongoing stakeholder engagement between biotech researchers, legislators, consumers, and agriculture producers in order to:
-- Identify tolerable risk thresholds
-- Lower barriers to adoption
-- Incentivize scale-up
-
-For more information, please visit the [Engineering Biology Research Consortium](https://www.ebrc.org).
-
-[^1]: Reference 1
-[^2]: Reference 2
-[^3]: Reference 3`,
-        
+Duis vel orci scelerisque, tempor dolor ac, rutrum tellus. Donec vestibulum justo ut lectus faucibus tristique. Nullam volutpat tincidunt consequat. Sed vitae tellus ultrices, vulputate enim sed, tempor sapien. Mauris dictum tincidunt congue. Quisque dignissim lorem non tristique tempus. Aliquam scelerisque ligula at suscipit rutrum. Integer vitae lacus ut felis semper eleifend non a nisi. Integer ornare mi in efficitur euismod. Nunc molestie magna tellus, sit amet aliquet felis tristique sed. Pellentesque lacinia consequat nibh, at commodo lacus porta quis. Nullam nunc turpis, rhoncus et euismod id, tempus eu metus. Morbi sed felis lectus. Curabitur venenatis quis nisl quis interdum. Vivamus auctor vehicula risus, et ullamcorper diam suscipit ac. Curabitur quis feugiat enim, vel feugiat purus.
+`,
+footnotes: 
+`- Footnote 1
+- Footnote 2
+`      
     },
     {
-        //Theme 2
-        promptImage: 'https://roadmap.ebrc.org/wp-content/uploads/2019/02/lightbulb-150x150.png',
-        bannerImage: 'https://roadmap.ebrc.org/wp-content/uploads/2022/09/Copy-of-Theme-4-Remake-Flat-Web-Size-2048x1366.jpg',
-        title: 'TRANSPORTATION & ENERGY',
-        slug: 'transportation-energy',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        tagline: 'Transportation & Energy addresses engineering biology opportunities in biofuels, electricity production and storage, and reducing emissions from transportation, shipping, and aviation.',
-        summary: 
-`# The Impact of Climate Change on Agriculture
-Agriculture and food systems are **especially vulnerable to climate change**. More intense and frequent droughts, floods, and heat waves have **decimated agricultural output** in all parts of the world, but have been especially detrimental to the Global South.[^1][^2][^3]
+//Theme 2
+promptImage: 'placeholder-prompt.png',
+bannerImage: 'placeholder-banner.png',
+title: 'Food and Agriculture Innovation',
+slug: 'food-agriculture-innovation',
+description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+tagline: 
+`# Food and Agriculture Innovation
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+`,
+introduction: 
+`## Introduction
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id faucibus turpis, quis gravida nisi. Curabitur nulla tortor, rhoncus sed luctus id, interdum pulvinar ipsum. Vestibulum finibus lobortis dictum. In lobortis et risus laoreet facilisis. Mauris sed suscipit justo. Integer porta luctus nibh, eget lacinia massa scelerisque eu. Cras rhoncus augue neque, sed interdum lectus mollis eu. Nam semper justo lectus, quis semper felis vestibulum vel. Praesent ut sapien sit amet justo tempor elementum a ac risus. Mauris mollis volutpat vehicula. Phasellus sit amet risus ipsum. Cras in ultricies leo, vel ornare mi. Nam fermentum rutrum massa, quis fermentum nibh convallis eget. Morbi faucibus varius magna, sed rutrum enim dignissim sit amet. Etiam lacinia eu magna id pretium. Morbi fringilla imperdiet tortor, ut auctor nisi.
+`,
+content: 
+`Phasellus et sapien id erat molestie dignissim. Proin id porta nunc, efficitur egestas tellus. Morbi dignissim at tellus ut mattis. Nunc dictum erat eu mauris malesuada efficitur. Aenean sed placerat metus, vel volutpat ex. Sed tristique ornare dolor, ut elementum mauris fringilla vitae. Nunc facilisis congue auctor.
 
-## The Need for Enhanced Food Security
+Donec vel urna imperdiet, varius purus id, tempor sapien. Nulla id ex ultricies, auctor libero id, dapibus sapien. Donec condimentum metus quis pharetra convallis. Suspendisse pretium lobortis felis id scelerisque. Pellentesque varius, ipsum vitae vestibulum dictum, nulla urna consequat nisi, sit amet posuere risus urna eget mauris. Maecenas rhoncus, mi non dignissim gravida, quam nisl auctor sem, in posuere augue augue vitae felis. Aliquam ut nisi erat. Aenean lacinia non dui sed euismod. Sed vitae tristique enim, mollis tempus nisl. Nunc eget sapien pharetra, aliquam magna id, vestibulum ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras finibus volutpat venenatis. Nullam id fermentum justo.
 
-The impacts of these extreme climate events are compounded by a *growing global population*, leading to an acute need to improve food security. 
-
-### Current Agricultural Practices and Climate Change
-
-On top of this, many current agricultural practices even contribute to climate change and instability, through:
-- The production of greenhouse gases (particularly methane)
-- Production and over-application of synthetic nitrogen fertilizer
-- Inefficient water use
-- Production of waste
-
-## Leveraging Engineering Biology in Agriculture
-
-The food and agriculture sector must leverage engineering biology to:
-1. Minimize its impact on climate change
-2. Sustain production in the face of abiotic and biotic stressors that result from climate change
-
-### Focus Areas
-
-The **Food & Agriculture** theme focuses on engineering biology research opportunities to enable:
-- Production of food and crops with lower greenhouse gas (GHG) emissions through climate-friendly biofertilizers
-- Sustainable production of meat and meat-alternatives
-- Crop and soil resilience
-- Opportunities in ‘smart agriculture’
-- Opportunities to limit food waste or convert it to useful products
-
-## Stakeholder Engagement
-
-Importantly, further advancement of engineering biology for agriculture requires ongoing stakeholder engagement between biotech researchers, legislators, consumers, and agriculture producers in order to:
-- Identify tolerable risk thresholds
-- Lower barriers to adoption
-- Incentivize scale-up
-
-For more information, please visit the [Engineering Biology Research Consortium](https://www.ebrc.org).
-
-[^1]: Reference 1
-[^2]: Reference 2
-[^3]: Reference 3`,     
+Duis vel orci scelerisque, tempor dolor ac, rutrum tellus. Donec vestibulum justo ut lectus faucibus tristique. Nullam volutpat tincidunt consequat. Sed vitae tellus ultrices, vulputate enim sed, tempor sapien. Mauris dictum tincidunt congue. Quisque dignissim lorem non tristique tempus. Aliquam scelerisque ligula at suscipit rutrum. Integer vitae lacus ut felis semper eleifend non a nisi. Integer ornare mi in efficitur euismod. Nunc molestie magna tellus, sit amet aliquet felis tristique sed. Pellentesque lacinia consequat nibh, at commodo lacus porta quis. Nullam nunc turpis, rhoncus et euismod id, tempus eu metus. Morbi sed felis lectus. Curabitur venenatis quis nisl quis interdum. Vivamus auctor vehicula risus, et ullamcorper diam suscipit ac. Curabitur quis feugiat enim, vel feugiat purus.
+`,
+footnotes: 
+`- Footnote 1
+- Footnote 2
+`      
     },
     {
-        //Theme 3
-        promptImage: 'https://roadmap.ebrc.org/wp-content/uploads/2019/06/ind-bio-150x150.png',
-        bannerImage: 'https://roadmap.ebrc.org/wp-content/uploads/2022/09/Copy-of-Theme-4-Remake-Flat-Web-Size-2048x1366.jpg',
-        title: 'MATERIALS PRODUCTION & INDUSTRIAL PROCESSES',
-        slug: 'materials-production-industrial-processes',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        tagline: 'Materials Production & Industrial Processes identifies engineering biology opportunities in the built environment, textiles, and other consumer products for reducing the anthropogenic carbon footprint, reducing toxins and wastes, and recovering economically-valuable resources sustainably.',
-        summary: 
-`# The Impact of Climate Change on Agriculture
-Agriculture and food systems are **especially vulnerable to climate change**. More intense and frequent droughts, floods, and heat waves have **decimated agricultural output** in all parts of the world, but have been especially detrimental to the Global South.[^1][^2][^3]
+//Theme 3
+promptImage: 'placeholder-prompt.png',
+bannerImage: 'placeholder-banner.png',
+title: 'Supply Chain Resilience',
+slug: 'supply-chain-resilience',
+description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+tagline: 
+`# Supply Chain Resilience
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+`,
+introduction: 
+`## Introduction
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id faucibus turpis, quis gravida nisi. Curabitur nulla tortor, rhoncus sed luctus id, interdum pulvinar ipsum. Vestibulum finibus lobortis dictum. In lobortis et risus laoreet facilisis. Mauris sed suscipit justo. Integer porta luctus nibh, eget lacinia massa scelerisque eu. Cras rhoncus augue neque, sed interdum lectus mollis eu. Nam semper justo lectus, quis semper felis vestibulum vel. Praesent ut sapien sit amet justo tempor elementum a ac risus. Mauris mollis volutpat vehicula. Phasellus sit amet risus ipsum. Cras in ultricies leo, vel ornare mi. Nam fermentum rutrum massa, quis fermentum nibh convallis eget. Morbi faucibus varius magna, sed rutrum enim dignissim sit amet. Etiam lacinia eu magna id pretium. Morbi fringilla imperdiet tortor, ut auctor nisi.
+`,
+content: 
+`Phasellus et sapien id erat molestie dignissim. Proin id porta nunc, efficitur egestas tellus. Morbi dignissim at tellus ut mattis. Nunc dictum erat eu mauris malesuada efficitur. Aenean sed placerat metus, vel volutpat ex. Sed tristique ornare dolor, ut elementum mauris fringilla vitae. Nunc facilisis congue auctor.
 
-## The Need for Enhanced Food Security
+Donec vel urna imperdiet, varius purus id, tempor sapien. Nulla id ex ultricies, auctor libero id, dapibus sapien. Donec condimentum metus quis pharetra convallis. Suspendisse pretium lobortis felis id scelerisque. Pellentesque varius, ipsum vitae vestibulum dictum, nulla urna consequat nisi, sit amet posuere risus urna eget mauris. Maecenas rhoncus, mi non dignissim gravida, quam nisl auctor sem, in posuere augue augue vitae felis. Aliquam ut nisi erat. Aenean lacinia non dui sed euismod. Sed vitae tristique enim, mollis tempus nisl. Nunc eget sapien pharetra, aliquam magna id, vestibulum ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras finibus volutpat venenatis. Nullam id fermentum justo.
 
-The impacts of these extreme climate events are compounded by a *growing global population*, leading to an acute need to improve food security. 
+Duis vel orci scelerisque, tempor dolor ac, rutrum tellus. Donec vestibulum justo ut lectus faucibus tristique. Nullam volutpat tincidunt consequat. Sed vitae tellus ultrices, vulputate enim sed, tempor sapien. Mauris dictum tincidunt congue. Quisque dignissim lorem non tristique tempus. Aliquam scelerisque ligula at suscipit rutrum. Integer vitae lacus ut felis semper eleifend non a nisi. Integer ornare mi in efficitur euismod. Nunc molestie magna tellus, sit amet aliquet felis tristique sed. Pellentesque lacinia consequat nibh, at commodo lacus porta quis. Nullam nunc turpis, rhoncus et euismod id, tempus eu metus. Morbi sed felis lectus. Curabitur venenatis quis nisl quis interdum. Vivamus auctor vehicula risus, et ullamcorper diam suscipit ac. Curabitur quis feugiat enim, vel feugiat purus.
+`,
+footnotes: 
+`- Footnote 1
+- Footnote 2
+`      
+    },
+    {
+//Theme 4
+promptImage: 'placeholder-prompt.png',
+bannerImage: 'placeholder-banner.png',
+title: 'Human Health',
+slug: 'human-health',
+description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+tagline: 
+`# Human Health
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+`
+,introduction: 
+`## Introduction
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id faucibus turpis, quis gravida nisi. Curabitur nulla tortor, rhoncus sed luctus id, interdum pulvinar ipsum. Vestibulum finibus lobortis dictum. In lobortis et risus laoreet facilisis. Mauris sed suscipit justo. Integer porta luctus nibh, eget lacinia massa scelerisque eu. Cras rhoncus augue neque, sed interdum lectus mollis eu. Nam semper justo lectus, quis semper felis vestibulum vel. Praesent ut sapien sit amet justo tempor elementum a ac risus. Mauris mollis volutpat vehicula. Phasellus sit amet risus ipsum. Cras in ultricies leo, vel ornare mi. Nam fermentum rutrum massa, quis fermentum nibh convallis eget. Morbi faucibus varius magna, sed rutrum enim dignissim sit amet. Etiam lacinia eu magna id pretium. Morbi fringilla imperdiet tortor, ut auctor nisi.
+`,
+content: 
+`Phasellus et sapien id erat molestie dignissim. Proin id porta nunc, efficitur egestas tellus. Morbi dignissim at tellus ut mattis. Nunc dictum erat eu mauris malesuada efficitur. Aenean sed placerat metus, vel volutpat ex. Sed tristique ornare dolor, ut elementum mauris fringilla vitae. Nunc facilisis congue auctor.
 
-### Current Agricultural Practices and Climate Change
+Donec vel urna imperdiet, varius purus id, tempor sapien. Nulla id ex ultricies, auctor libero id, dapibus sapien. Donec condimentum metus quis pharetra convallis. Suspendisse pretium lobortis felis id scelerisque. Pellentesque varius, ipsum vitae vestibulum dictum, nulla urna consequat nisi, sit amet posuere risus urna eget mauris. Maecenas rhoncus, mi non dignissim gravida, quam nisl auctor sem, in posuere augue augue vitae felis. Aliquam ut nisi erat. Aenean lacinia non dui sed euismod. Sed vitae tristique enim, mollis tempus nisl. Nunc eget sapien pharetra, aliquam magna id, vestibulum ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras finibus volutpat venenatis. Nullam id fermentum justo.
 
-On top of this, many current agricultural practices even contribute to climate change and instability, through:
-- The production of greenhouse gases (particularly methane)
-- Production and over-application of synthetic nitrogen fertilizer
-- Inefficient water use
-- Production of waste
+Duis vel orci scelerisque, tempor dolor ac, rutrum tellus. Donec vestibulum justo ut lectus faucibus tristique. Nullam volutpat tincidunt consequat. Sed vitae tellus ultrices, vulputate enim sed, tempor sapien. Mauris dictum tincidunt congue. Quisque dignissim lorem non tristique tempus. Aliquam scelerisque ligula at suscipit rutrum. Integer vitae lacus ut felis semper eleifend non a nisi. Integer ornare mi in efficitur euismod. Nunc molestie magna tellus, sit amet aliquet felis tristique sed. Pellentesque lacinia consequat nibh, at commodo lacus porta quis. Nullam nunc turpis, rhoncus et euismod id, tempus eu metus. Morbi sed felis lectus. Curabitur venenatis quis nisl quis interdum. Vivamus auctor vehicula risus, et ullamcorper diam suscipit ac. Curabitur quis feugiat enim, vel feugiat purus.
+`,
+footnotes: 
+`- Footnote 1
+- Footnote 2
+`      
+    },
+    {
+//Theme 5
+promptImage: 'placeholder-prompt.png',
+bannerImage: 'placeholder-banner.png',
+title: 'Cross-Cutting Advances',
+slug: 'cross-cutting-advances',
+description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+tagline: 
+`# Cross-Cutting Advances
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+`,
+introduction: 
+`## Introduction
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id faucibus turpis, quis gravida nisi. Curabitur nulla tortor, rhoncus sed luctus id, interdum pulvinar ipsum. Vestibulum finibus lobortis dictum. In lobortis et risus laoreet facilisis. Mauris sed suscipit justo. Integer porta luctus nibh, eget lacinia massa scelerisque eu. Cras rhoncus augue neque, sed interdum lectus mollis eu. Nam semper justo lectus, quis semper felis vestibulum vel. Praesent ut sapien sit amet justo tempor elementum a ac risus. Mauris mollis volutpat vehicula. Phasellus sit amet risus ipsum. Cras in ultricies leo, vel ornare mi. Nam fermentum rutrum massa, quis fermentum nibh convallis eget. Morbi faucibus varius magna, sed rutrum enim dignissim sit amet. Etiam lacinia eu magna id pretium. Morbi fringilla imperdiet tortor, ut auctor nisi.
+`,
+content: 
+`Phasellus et sapien id erat molestie dignissim. Proin id porta nunc, efficitur egestas tellus. Morbi dignissim at tellus ut mattis. Nunc dictum erat eu mauris malesuada efficitur. Aenean sed placerat metus, vel volutpat ex. Sed tristique ornare dolor, ut elementum mauris fringilla vitae. Nunc facilisis congue auctor.
 
-## Leveraging Engineering Biology in Agriculture
+Donec vel urna imperdiet, varius purus id, tempor sapien. Nulla id ex ultricies, auctor libero id, dapibus sapien. Donec condimentum metus quis pharetra convallis. Suspendisse pretium lobortis felis id scelerisque. Pellentesque varius, ipsum vitae vestibulum dictum, nulla urna consequat nisi, sit amet posuere risus urna eget mauris. Maecenas rhoncus, mi non dignissim gravida, quam nisl auctor sem, in posuere augue augue vitae felis. Aliquam ut nisi erat. Aenean lacinia non dui sed euismod. Sed vitae tristique enim, mollis tempus nisl. Nunc eget sapien pharetra, aliquam magna id, vestibulum ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras finibus volutpat venenatis. Nullam id fermentum justo.
 
-The food and agriculture sector must leverage engineering biology to:
-1. Minimize its impact on climate change
-2. Sustain production in the face of abiotic and biotic stressors that result from climate change
-
-### Focus Areas
-
-The **Food & Agriculture** theme focuses on engineering biology research opportunities to enable:
-- Production of food and crops with lower greenhouse gas (GHG) emissions through climate-friendly biofertilizers
-- Sustainable production of meat and meat-alternatives
-- Crop and soil resilience
-- Opportunities in ‘smart agriculture’
-- Opportunities to limit food waste or convert it to useful products
-
-## Stakeholder Engagement
-
-Importantly, further advancement of engineering biology for agriculture requires ongoing stakeholder engagement between biotech researchers, legislators, consumers, and agriculture producers in order to:
-- Identify tolerable risk thresholds
-- Lower barriers to adoption
-- Incentivize scale-up
-
-For more information, please visit the [Engineering Biology Research Consortium](https://www.ebrc.org).
-
-[^1]: Reference 1
-[^2]: Reference 2
-[^3]: Reference 3`, 
-    }
+Duis vel orci scelerisque, tempor dolor ac, rutrum tellus. Donec vestibulum justo ut lectus faucibus tristique. Nullam volutpat tincidunt consequat. Sed vitae tellus ultrices, vulputate enim sed, tempor sapien. Mauris dictum tincidunt congue. Quisque dignissim lorem non tristique tempus. Aliquam scelerisque ligula at suscipit rutrum. Integer vitae lacus ut felis semper eleifend non a nisi. Integer ornare mi in efficitur euismod. Nunc molestie magna tellus, sit amet aliquet felis tristique sed. Pellentesque lacinia consequat nibh, at commodo lacus porta quis. Nullam nunc turpis, rhoncus et euismod id, tempus eu metus. Morbi sed felis lectus. Curabitur venenatis quis nisl quis interdum. Vivamus auctor vehicula risus, et ullamcorper diam suscipit ac. Curabitur quis feugiat enim, vel feugiat purus.
+`,
+footnotes: 
+`- Footnote 1
+- Footnote 2
+`      
+    },
+    
 ]

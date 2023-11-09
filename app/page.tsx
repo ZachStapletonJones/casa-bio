@@ -2,11 +2,13 @@ import ProfileGrid from '@/components/ProfileGrid'
 import ThemeGrid from '@/components/ThemeGrid'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
+import { Link2Icon } from '@radix-ui/react-icons'
+import Link from 'next/link'
 
 
 export default function Home() {
   return (
-      <div className="flex flex-col gap-12 w-full grow items-start justify-center">
+      <div className="flex flex-col gap-12 w-full grow items-start justify-center pt-4">
 
         {/* Splash Content */}
         <div className='flex w-full flex-col md:flex-row justify-between items-center gap-16 md:items-start'>
@@ -16,7 +18,7 @@ export default function Home() {
               <p>Recognizing that the world is on the cusp of an industrial revolution fueled by biotechnology and biomanufacturing, in September 2022, President Biden signed an <a className='text-primary font-semibold underline' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">Executive Order (EO) on Advancing Biotechnology and Biomanufacturing Innovation for a Sustainable, Safe, and Secure American Bioeconomy</a>.  The EO laid out a vision for a whole-of-government approach to advance biotechnology and biomanufacturing by creating a research agenda outlining foundational and use-inspired R&D needs for innovations in areas such as climate change, food and agriculture, supply chain resilience, and human health, as well as the cross-cutting advances to enable all these areas. Achieving this vision will require significant prioritization and staging of R&D investments across the US Government, as well as actions from the private sector; state, local, and tribal governments; and international partners. </p>
             </div>
             <a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">
-              <Button>View the Executive Order</Button>
+              <Button className='font-semibold'>View the Executive Order</Button>
             </a>
           </div>
           
@@ -34,7 +36,13 @@ export default function Home() {
               </div>
             </CardContent>
             <CardFooter className='flex w-full justify-end'>
-              <Button>Apply</Button>
+              <Link target='_blank' href="/">
+                <Button className='flex items-center gap-2 font-semibold'>
+                <Link2Icon />
+                  Apply
+                </Button>
+              </Link>
+              
             </CardFooter>
           </Card>
 
