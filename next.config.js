@@ -3,7 +3,7 @@ const isProd = process.env.NODE_ENV === 'production'
 const nextConfig = {
     output: 'export',
     trailingSlash: true,
-    assetPrefix: 'https://zachstapletonjones.github.io/casa-bio/',
+    assetPrefix: isProd ? 'https://zachstapletonjones.github.io/casa-bio' : undefined,
 }
 
 module.exports = nextConfig
