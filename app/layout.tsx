@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import 'tailslim.css'
 
 export const metadata: Metadata = {
   title: 'Casa Bio',
@@ -14,8 +13,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-      </head>
       <body>
         <main className="flex grow min-h-screen justify-center items-start">
           <div className='max-w-5xl flex flex-col justify-start items-start'>
