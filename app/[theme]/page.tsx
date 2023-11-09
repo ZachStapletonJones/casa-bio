@@ -20,8 +20,10 @@ export default function ThemePage({params}:{params:{theme:string}}) {
         <Link href={'/'}>
         <Button variant={'link'} className='p-0 m-0 flex items-center gap-2'><ChevronLeftIcon />Return</Button>
         </Link>
-       
-      <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.tagline}</Markdown>
+      <div className='w-full grid grid-cols-12'>
+      <Markdown className={'prose col-span-12 md:col-span-10 min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.tagline}</Markdown>
+      <img className='hidden md:block md:col-span-2 max-h-32 place-self-end' src={themeData?.promptImage} alt={themeData?.title} />
+      </div>
       </div> 
         <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.introduction}</Markdown>
         <img className='bg-secondary w-full h-[200px]' src={themeData?.bannerImage} alt={themeData?.title} />
