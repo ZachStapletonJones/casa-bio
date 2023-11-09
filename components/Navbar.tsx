@@ -27,7 +27,7 @@ function Navbar() {
         <NavigationMenuList className='gap-4'>
         <NavigationMenuItem >
           <Link href="https://drive.google.com/file/d/1m-fzN0zkaEZ14X04BsodCkF96IajJuld/view?usp=sharing" legacyBehavior passHref>
-            <NavigationMenuLink target='_blank' className={`${navigationMenuTriggerStyle()} bg-white flex items-center gap-2 text-foreground border border-1 border-slate-300/[.55] hover:bg-slate-200 hover:text-foreground active:bg-slate-200 active:text-foreground focus:bg-slate-200 focus:text-foreground`}>
+            <NavigationMenuLink target='_blank' className={`${navigationMenuTriggerStyle()} bg-white flex items-center gap-2 text-blue-950 border border-1 border-slate-300/[.55] hover:bg-slate-200 hover:text-blue-950 active:bg-slate-200 active:text-blue-950 focus:bg-slate-200 focus:text-blue-950`}>
               <FileTextIcon />
               Executive Order
             </NavigationMenuLink>
