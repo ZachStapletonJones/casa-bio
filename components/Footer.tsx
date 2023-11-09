@@ -10,7 +10,7 @@ import { FileTextIcon } from '@radix-ui/react-icons'
 
 function Footer() {
   return (
-    <div className='w-full flex justify-center bg-slate-100 m-0 py-3'>
+    <div className='w-full flex justify-center bg-slate-100 m-0 py-3 border-t border-slate-300'>
         <div className='max-w-7xl w-full flex justify-center items-center'>
         <div>Made by Knowinnovation</div>
         
