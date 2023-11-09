@@ -2,8 +2,8 @@
 const isProd = process.env.NODE_ENV === 'production'
 const nextConfig = {
     output: 'export',
-    trailingSlash: true,
-    assetPrefix: isProd ? '/casa-bio' : undefined,
+    basePath: "/casa-bio",
+    assetPrefix: isProd ? "/casa-bio" : undefined,
 }
 
 module.exports = nextConfig
