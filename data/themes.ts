@@ -21,7 +21,7 @@ slug: 'climate-change-solutions',
 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 tagline: 
 `# Climate Change Solutions
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 `,
 introduction: 
 `## Introduction
@@ -48,7 +48,7 @@ slug: 'food-agriculture-innovation',
 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 tagline: 
 `# Food and Agriculture Innovation
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 `,
 introduction: 
 `## Introduction
@@ -75,7 +75,7 @@ slug: 'supply-chain-resilience',
 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 tagline: 
 `# Supply Chain Resilience
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 `,
 introduction: 
 `## Introduction
@@ -102,7 +102,7 @@ slug: 'human-health',
 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 tagline: 
 `# Human Health
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 `
 ,introduction: 
 `## Introduction
@@ -129,7 +129,7 @@ slug: 'cross-cutting-advances',
 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 tagline: 
 `# Cross-Cutting Advances
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 `,
 introduction: 
 `## Introduction
