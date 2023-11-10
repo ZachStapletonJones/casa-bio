@@ -29,7 +29,7 @@ export default function ThemePage({params}:{params:{theme:string}}) {
         <img className='bg-secondary w-full h-[200px]' src={themeData?.bannerImage} alt={themeData?.title} />
         <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.content}</Markdown>
         <div className='space-y-8'>
-          <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Roadmap Goals</h2>
+          <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Subthemes</h2>
           <div>Coming soon...</div>
         </div>
         <div className='space-y-8'>
