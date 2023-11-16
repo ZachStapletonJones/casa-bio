@@ -28,7 +28,7 @@ export default function Home() {
               <CardTitle className='text-lg'>Town Hall Registration</CardTitle>
             </CardHeader>
             <CardContent className='flex flex-col gap-2'>
-            <p className='text-sm'>In early 2024, we will be hosting four virtual Town Hall meetings to hear from the community on what research areas are most exciting within our Bioeconomy Themes. These Town Halls will be highly interactive with lots of time in breakout rooms talking to other members of the community. Each Town Hall will have the same agenda, but are offered at different days and times to accommodate different schedules. We welcome everyone to attend! </p>
+            <p className='text-sm'>In early 2024, we will be hosting four virtual Town Hall meetings to hear from the community on what research areas are most exciting within our <Link className='underline' href={'#bioeconomy-themes'}>Bioeconomy Themes</Link>. These Town Halls will be highly interactive with lots of time in breakout rooms talking to other members of the community. Each Town Hall will have the same agenda, but are offered at different days and times to accommodate different schedules. We welcome everyone to attend! </p>
               <p className='text-sm'>Please complete the following two steps to register for a Town Hall!</p>
               <strong className='text-sm'><span className='underline'>Step 1:</span> Register for Your Chosen Date</strong>
               <p className='text-sm'>
@@ -96,7 +96,7 @@ export default function Home() {
         </div>
         
         <div className='flex flex-col gap-4 '>
-          <h2 className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Bioeconomy Themes</h2>
+          <h2 id="bioeconomy-themes" className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Bioeconomy Themes</h2>
           <ThemeGrid />
         </div>
 
