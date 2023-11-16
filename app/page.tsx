@@ -20,26 +20,32 @@ export default function Home() {
             <a className='w-fit' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">
               <Button className='font-semibold'>View the Executive Order</Button>
             </a>
+            <p>The CASA Bio initiative was created to help implement the Executive Order. Th goal is to bring alignment between the various stakeholders – both funder stakeholders and research community stakeholders – to identify synergistic paths forward for our bioeconomy.</p>
           </div>
           
-          <Card className='order-1 md:order-2 w-full md:w-80 sm:max-w-[450px] md:min-w-[350px] bg-secondary'>
+          <Card className='order-1 md:order-2 w-full md:w-80 sm:max-w-[550px] md:min-w-[450px] bg-secondary'>
             <CardHeader>
-              <CardTitle>Application Information</CardTitle>
-              <CardDescription>Register your interest in being a participant at an upcoming event!</CardDescription>
+              <CardTitle>Town Hall Registration</CardTitle>
+              <CardDescription>
+                <p>In early 2024, we will be hosting four virtual Town Hall meetings to hear from the community on what research areas are most exciting within our Bioeconomy Themes. These Town Halls will be highly interactive with lots of time in breakout rooms talking to other members of the community. Each Town Hall will have the same agenda, but are offered at different days and times to accommodate different schedules. We welcome everyone to attend! </p>
+              </CardDescription>
             </CardHeader>
             <CardContent className='flex flex-col gap-2'>
-              <strong>Upcoming Dates:</strong>
+              <p className='text-sm'>Please complete the following two steps to register for a Town Hall!</p>
+              <strong className='text-sm'><span className='underline'>Step 1:</span> Register for Your Chosen Date</strong>
               <div>
-                <div>Example Date: Jan 1, 2020</div>
-                <div>Example Date: Jan 2, 2020</div>
-                <div>Example Date: Jan 3, 2020</div>
+                <div>January 30th, 2024 @ 12pm EST </div>
+                <div>January 31st, 2024 @ 5pm EST</div>
+                <div>February 12th, 2024 @ 7pm EST</div>
+                <div>February 15th, 2024 @ 9am EST</div>
               </div>
             </CardContent>
-            <CardFooter className='flex w-full justify-end'>
+            <CardFooter className='flex flex-col w-full items-start gap-2 justify-start'>
+            <strong className='text-sm'><span className='underline'>Step 2:</span> Complete the Pre-Town Hall Survey</strong>
               <Link target='_blank' href="/">
                 <Button className='flex items-center gap-2 font-semibold'>
                 <Link2Icon />
-                  Apply
+                  Survey
                 </Button>
               </Link>
               
@@ -89,8 +95,19 @@ export default function Home() {
         </div>
         
         <div className='flex flex-col gap-4 '>
-          <h2 className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Themes</h2>
+          <h2 className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Bioeconomy Themes</h2>
           <ThemeGrid />
+        </div>
+
+        <div className='w-full flex flex-col gap-4'>
+        <h2 className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Glossary</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id faucibus turpis, quis gravida nisi. Curabitur nulla tortor, rhoncus sed luctus id, interdum pulvinar ipsum. Vestibulum finibus lobortis dictum. In lobortis et risus laoreet facilisis. Mauris sed suscipit justo. Integer porta luctus nibh, eget lacinia massa scelerisque eu</p>
+        <Link target='_blank' href="https://www.nist.gov/bioscience/nist-bioeconomy-lexicon">
+                <Button className='flex items-center gap-2 font-semibold'>
+                <Link2Icon />
+                  View the Glossary
+                </Button>
+              </Link>
         </div>
 
         <div className='flex flex-col gap-4'>
