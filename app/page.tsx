@@ -24,30 +24,31 @@ export default function Home() {
           </div>
           
           <Card className='order-1 md:order-2 w-full md:w-80 sm:max-w-[550px] md:min-w-[450px] bg-secondary'>
-            <CardHeader>
-              <CardTitle>Town Hall Registration</CardTitle>
-              <CardDescription>
-                <p>In early 2024, we will be hosting four virtual Town Hall meetings to hear from the community on what research areas are most exciting within our Bioeconomy Themes. These Town Halls will be highly interactive with lots of time in breakout rooms talking to other members of the community. Each Town Hall will have the same agenda, but are offered at different days and times to accommodate different schedules. We welcome everyone to attend! </p>
-              </CardDescription>
+            <CardHeader className='pb-2'>
+              <CardTitle className='text-lg'>Town Hall Registration</CardTitle>
             </CardHeader>
             <CardContent className='flex flex-col gap-2'>
+            <p className='text-sm'>In early 2024, we will be hosting four virtual Town Hall meetings to hear from the community on what research areas are most exciting within our Bioeconomy Themes. These Town Halls will be highly interactive with lots of time in breakout rooms talking to other members of the community. Each Town Hall will have the same agenda, but are offered at different days and times to accommodate different schedules. We welcome everyone to attend! </p>
               <p className='text-sm'>Please complete the following two steps to register for a Town Hall!</p>
               <strong className='text-sm'><span className='underline'>Step 1:</span> Register for Your Chosen Date</strong>
-              <div>
+              <p className='text-sm'>
                 <div>January 30th, 2024 @ 12pm EST </div>
                 <div>January 31st, 2024 @ 5pm EST</div>
                 <div>February 12th, 2024 @ 7pm EST</div>
                 <div>February 15th, 2024 @ 9am EST</div>
-              </div>
-            </CardContent>
-            <CardFooter className='flex flex-col w-full items-start gap-2 justify-start'>
-            <strong className='text-sm'><span className='underline'>Step 2:</span> Complete the Pre-Town Hall Survey</strong>
+              </p>
+              <p className='flex flex-col w-full items-start gap-2 pt-2 justify-start'>
+              <strong className='text-sm'><span className='underline'>Step 2:</span> Complete the Pre-Town Hall Survey</strong>
               <Link target='_blank' href="/">
-                <Button className='flex items-center gap-2 font-semibold'>
+                <Button className='flex items-center h-8 gap-2 font-semibold'>
                 <Link2Icon />
                   Survey
                 </Button>
               </Link>
+              </p>
+            </CardContent>
+            <CardFooter className='flex flex-col w-full items-start gap-2 justify-start'>
+            
               
             </CardFooter>
           </Card>
