@@ -27,25 +27,25 @@ export default function Home() {
             <CardHeader className='pb-2'>
               <CardTitle className='text-lg'>Town Hall Registration</CardTitle>
             </CardHeader>
-            <CardContent className='flex flex-col gap-2'>
-            <p className='text-sm'>In early 2024, we will be hosting four virtual Town Hall meetings to hear from the community on what research areas are most exciting within our <Link className='underline' href={'#bioeconomy-themes'}>Bioeconomy Themes</Link>. These Town Halls will be highly interactive with lots of time in breakout rooms talking to other members of the community. Each Town Hall will have the same agenda, but are offered at different days and times to accommodate different schedules. We welcome everyone to attend! </p>
-              <p className='text-sm'>Please complete the following two steps to register for a Town Hall!</p>
-              <strong className='text-sm'><span className='underline'>Step 1:</span> Register for Your Chosen Date</strong>
-              <p className='text-sm'>
+            <CardContent className='flex flex-col gap-2 text-sm'>
+            <div className=''>In early 2024, we will be hosting four virtual Town Hall meetings to hear from the community on what research areas are most exciting within our <Link className='underline' href={'#bioeconomy-themes'}>Bioeconomy Themes</Link>. These Town Halls will be highly interactive with lots of time in breakout rooms talking to other members of the community. Each Town Hall will have the same agenda, but are offered at different days and times to accommodate different schedules. We welcome everyone to attend! </div>
+              <div className=''>Please complete the following two steps to register for a Town Hall!</div>
+              <strong className=''><span className='underline'>Step 1:</span> Register for Your Chosen Date</strong>
+              <div className=''>
                 <div>January 30th, 2024 @ 12pm EST </div>
                 <div>January 31st, 2024 @ 5pm EST</div>
                 <div>February 12th, 2024 @ 7pm EST</div>
                 <div>February 15th, 2024 @ 9am EST</div>
-              </p>
-              <p className='flex flex-col w-full items-start gap-2 pt-2 justify-start'>
-              <strong className='text-sm'><span className='underline'>Step 2:</span> Complete the Pre-Town Hall Survey</strong>
+              </div>
+              <div className='flex flex-col w-full items-start gap-2 pt-2 justify-start'>
+              <strong className=''><span className='underline'>Step 2:</span> Complete the Pre-Town Hall Survey</strong>
               <Link target='_blank' href="/">
                 <Button className='flex items-center h-8 gap-2 font-semibold'>
                 <Link2Icon />
                   Survey
                 </Button>
               </Link>
-              </p>
+              </div>
             </CardContent>
             <CardFooter className='flex flex-col w-full items-start gap-2 justify-start'>
             
