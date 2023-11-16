@@ -104,7 +104,6 @@ export default function Home() {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id faucibus turpis, quis gravida nisi. Curabitur nulla tortor, rhoncus sed luctus id, interdum pulvinar ipsum. Vestibulum finibus lobortis dictum. In lobortis et risus laoreet facilisis. Mauris sed suscipit justo. Integer porta luctus nibh, eget lacinia massa scelerisque eu</p>
         <Link target='_blank' href="https://www.nist.gov/bioscience/nist-bioeconomy-lexicon">
                 <Button className='flex items-center gap-2 font-semibold'>
-                <Link2Icon />
                   View the Glossary
                 </Button>
               </Link>
