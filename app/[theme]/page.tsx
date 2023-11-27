@@ -5,6 +5,7 @@ import React from 'react'
 import Markdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { ChevronLeftIcon } from '@radix-ui/react-icons'
+import { Icon } from '@/data/icons'
 
 export async function generateStaticParams() { 
     return themes.map((theme) => ({
@@ -22,7 +23,8 @@ export default function ThemePage({params}:{params:{theme:string}}) {
         </Link>
       <div className='w-full grid grid-cols-12'>
       <Markdown className={'prose col-span-12 md:col-span-10 min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.tagline}</Markdown>
-      <img className='hidden md:block md:col-span-2 max-h-32 place-self-end' src={themeData?.promptImage} alt={themeData?.title} />
+      <Icon className={`fill-current hidden md:block md:col-span-2 max-h-36 place-self-end ${'theme'+themeData?.id}`} id={themeData?.id as number} />
+      {/* <img className='hidden md:block md:col-span-2 max-h-32 place-self-end' src={themeData?.promptImage} alt={themeData?.title} /> */}
       </div>
       </div> 
         <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.introduction}</Markdown>

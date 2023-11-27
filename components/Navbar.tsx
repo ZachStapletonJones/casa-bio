@@ -6,12 +6,14 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel,
 import { Button } from './ui/button'
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, navigationMenuTriggerStyle } from './ui/navigation-menu'
 import { cn } from '@/lib/utils'
-import { FileTextIcon, Link2Icon } from '@radix-ui/react-icons'
+import { CaretDownIcon, FileTextIcon, Link2Icon } from '@radix-ui/react-icons'
+import { ChevronDown } from 'lucide-react'
+import { Icon } from '@/data/icons'
 
 function Navbar() {
   return (
     <nav className='w-full flex justify-center bg-slate-100 border border-b-1  m-0 top-0 sticky py-2'>
-        <div className='max-w-7xl w-full flex justify-between items-center'>
+        <div className='max-w-7xl w-full flex justify-between items-center px-3'>
         {/* Logo */}
         <Link href={'/'} className='flex items-center justify-start sm:gap-4'>
             <img className='sm:h-10 h-10 pl-2 2xl:pl-0' src='casa-bio-v3.png' alt='Casa Bio' />
@@ -23,9 +25,30 @@ function Navbar() {
             </div>
         </Link>
         {/* Menu */}
-        <NavigationMenu>
+        <DropdownMenu>
+        <DropdownMenuTrigger asChild><Button className='flex items-center gap-2 font-semibold'>Themes <CaretDownIcon /></Button></DropdownMenuTrigger>
+        <DropdownMenuContent className='divide-y-2 w-[320px] max-w-[320px] absolute top-0 -right-14'>
+        {themes.map((theme) => (
+          <Link href={theme.slug} key={theme.title}>
+          <DropdownMenuItem
+            
+            className={`flex items-center gap-2 w-full cursor-pointer`}
+          >
+            <Icon className={`${'theme'+theme.id} fill-current h-10 `} id={theme.id} />
+            <div className='flex flex-col'>
+            <div className="text-sm font-semibold leading-none">{theme.title}</div>
+            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+              {theme.description}
+            </p>
+            </div>
+          </DropdownMenuItem></Link>
+        )
+        )}
+        </DropdownMenuContent>
+      </DropdownMenu>
+        {/* <NavigationMenu>
         <NavigationMenuList className='gap lg:gap-2'>
-        {/* <NavigationMenuItem >
+        <NavigationMenuItem >
           <Link href="https://drive.google.com/file/d/1m-fzN0zkaEZ14X04BsodCkF96IajJuld/view?usp=sharing" legacyBehavior passHref>
             <NavigationMenuLink target='_blank' className={`${navigationMenuTriggerStyle()} bg-white text-blue-950 border border-1 border-slate-300/[.55] hover:bg-slate-200 hover:text-blue-950 active:bg-slate-200 active:text-blue-950 focus:bg-slate-200 focus:text-blue-950`}>
             <div className='text-blue-950 flex items-center gap-2'>
@@ -42,7 +65,7 @@ function Navbar() {
               Apply</div>
             </NavigationMenuLink>
           </Link>
-        </NavigationMenuItem> */}
+        </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuTrigger className='h-10'>Themes</NavigationMenuTrigger>
           <NavigationMenuContent className=''>
@@ -62,7 +85,7 @@ function Navbar() {
         </NavigationMenuItem>
         
         </NavigationMenuList>
-        </NavigationMenu>
+        </NavigationMenu> */}
 
         </div>
     </nav>

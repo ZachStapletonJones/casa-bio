@@ -3,6 +3,7 @@ import ThemeGrid from '@/components/ThemeGrid'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
 import { Link2Icon } from '@radix-ui/react-icons'
+import { FileText } from 'lucide-react'
 import Link from 'next/link'
 
 
@@ -18,7 +19,7 @@ export default function Home() {
               <p>Recognizing that the world is on the cusp of an industrial revolution fueled by biotechnology and biomanufacturing, in September 2022, President Biden signed an <a className='text-primary font-semibold underline' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">Executive Order (EO) on Advancing Biotechnology and Biomanufacturing Innovation for a Sustainable, Safe, and Secure American Bioeconomy</a>.  The EO laid out a vision for a whole-of-government approach to advance biotechnology and biomanufacturing by creating a research agenda outlining foundational and use-inspired R&D needs for innovations in areas such as climate change, food and agriculture, supply chain resilience, and human health, as well as the cross-cutting advances to enable all these areas. Achieving this vision will require significant prioritization and staging of R&D investments across the US Government, as well as actions from the private sector; state, local, and tribal governments; and international partners. </p>
             </div>
             <a className='w-fit' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">
-              <Button className='font-semibold'>View the Executive Order</Button>
+              <Button className='font-semibold flex items-center gap-2'><FileText className='h-4 w-4' />View the Executive Order</Button>
             </a>
             <p>The CASA Bio initiative was created to help implement the Executive Order. Th goal is to bring alignment between the various stakeholders – both funder stakeholders and research community stakeholders – to identify synergistic paths forward for our bioeconomy.</p>
           </div>

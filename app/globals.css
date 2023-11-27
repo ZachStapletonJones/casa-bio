@@ -17,6 +17,29 @@
   font-weight: 700 !important
 }
 
+.theme1 {
+  color: #c27100;
+  border-color:#c27100;
+}
+.theme2 {
+  color: #199400;
+  stroke:#00611d;
+  border-color:#199400;
+}
+.theme3 {
+  color:#4785ff;
+  stroke:#001494;
+  border-color:#4785ff;
+}
+.theme4 {
+
+  color:#940000;
+  border-color:#940000;
+}
+.theme5 {
+  color: #800094;
+  border-color:#800094;
+}
  
 
 @layer base {
