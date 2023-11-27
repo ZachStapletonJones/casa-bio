@@ -29,8 +29,8 @@ export default function ThemePage({params}:{params:{theme:string}}) {
       </div>
       </div> 
         <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.introduction}</Markdown>
-        <Card className={`border ${'theme'+themeData?.id} border grid grid-cols-1 place-items-center w-full h-32 border-slate-300`}>
-          <div className='flex items-center gap-2'>
+        <Card className={`border ${'theme'+themeData?.id} border grid grid-cols-1 place-items-center w-full h-32 px-12 border-slate-300`}>
+          <div className='flex items-center gap-4 md:gap-2'>
           <Icon className={`fill-current h-12 ${'theme'+themeData?.id}`} id={themeData?.id as number} />
           <p className='text-xl italic'>{themeData?.description}</p>
           </div>
