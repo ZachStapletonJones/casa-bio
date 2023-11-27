@@ -5,6 +5,8 @@ import React from 'react'
 import Markdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { ChevronLeftIcon } from '@radix-ui/react-icons'
+import { Icon } from '@/data/icons'
+import { Card } from '@/components/ui/card'
 
 export async function generateStaticParams() { 
     return themes.map((theme) => ({
@@ -20,13 +22,21 @@ export default function ThemePage({params}:{params:{theme:string}}) {
         <Link href={'/'}>
         <Button variant={'link'} className='p-0 m-0 flex items-center gap-2'><ChevronLeftIcon />Return</Button>
         </Link>
-      <div className='w-full grid grid-cols-12'>
+      <div className='w-full grid grid-cols-12 content-start'>
       <Markdown className={'prose col-span-12 md:col-span-10 min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.tagline}</Markdown>
-      <img className='hidden md:block md:col-span-2 max-h-32 place-self-end' src={themeData?.promptImage} alt={themeData?.title} />
+      <Icon className={`fill-current hidden md:block md:col-span-2 max-h-42  ${'theme'+themeData?.id}`} id={themeData?.id as number} />
+      {/* <img className='hidden md:block md:col-span-2 max-h-32 place-self-end' src={themeData?.promptImage} alt={themeData?.title} /> */}
       </div>
       </div> 
         <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.introduction}</Markdown>
-        <img className='bg-secondary w-full h-[200px]' src={themeData?.bannerImage} alt={themeData?.title} />
+        <Card className={`border ${'theme'+themeData?.id} border grid grid-cols-1 place-items-center w-full h-32 px-12 border-slate-300`}>
+          <div className='flex items-center gap-4 md:gap-2'>
+          <Icon className={`fill-current h-12 ${'theme'+themeData?.id}`} id={themeData?.id as number} />
+          <p className='text-xl italic'>{themeData?.description}</p>
+          </div>
+          
+        </Card>
+        {/* <img className='bg-secondary w-full h-[200px]' src={themeData?.bannerImage} alt={themeData?.title} /> */}
         <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.content}</Markdown>
         <div className='space-y-8'>
           <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Subthemes</h2>
