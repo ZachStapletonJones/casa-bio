@@ -9,60 +9,70 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-      <div className="flex flex-col gap-12 w-full grow items-start justify-center pt-4">
-
-        {/* Splash Content */}
-        <div className='flex w-full flex-col md:flex-row justify-between items-center gap-16 md:items-start'>
-          <div className='order-2 md:order-1 flex flex-col gap-4'>
-            <div className='w-full flex flex-col gap-8'>
-              <h1 className='scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0 text-primary w-fit'>Catalyzing Across Sectors to Advance the Bioeconomy</h1>
-              <p>Recognizing that the world is on the cusp of an industrial revolution fueled by biotechnology and biomanufacturing, in September 2022, President Biden signed an <a className='text-primary font-semibold underline' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">Executive Order (EO) on Advancing Biotechnology and Biomanufacturing Innovation for a Sustainable, Safe, and Secure American Bioeconomy</a>.  The EO laid out a vision for a whole-of-government approach to advance biotechnology and biomanufacturing by creating a research agenda outlining foundational and use-inspired R&D needs for innovations in areas such as climate change, food and agriculture, supply chain resilience, and human health, as well as the cross-cutting advances to enable all these areas. Achieving this vision will require significant prioritization and staging of R&D investments across the US Government, as well as actions from the private sector; state, local, and tribal governments; and international partners. </p>
-            </div>
-            <a className='w-fit' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">
-              <Button className='font-semibold flex items-center gap-2'><FileText className='h-4 w-4' />View the Executive Order</Button>
-            </a>
-            <p>The CASA Bio initiative was created to help implement the Executive Order. Th goal is to bring alignment between the various stakeholders – both funder stakeholders and research community stakeholders – to identify synergistic paths forward for our bioeconomy.</p>
-          </div>
-          
-          <Card className='order-1 md:order-2 w-full md:w-80 sm:max-w-[550px] md:min-w-[450px] bg-secondary'>
+      <div className="w-full space-y-8">
+        <Card className='md:float-right md:w-80 w-[90dvw] md:min-w-[450px] bg-secondary md:ml-4 md:mb-4'>
             <CardHeader className='pb-2'>
-              <CardTitle className='text-lg'>Town Hall Registration</CardTitle>
+              <CardTitle className='text-lg'>How to Participate:  </CardTitle>
             </CardHeader>
             <CardContent className='flex flex-col gap-2 text-sm'>
-            <div className=''>In early 2024, we will be hosting four virtual Town Hall meetings to hear from the community on what research areas are most exciting within our <Link className='underline' href={'#bioeconomy-themes'}>Bioeconomy Themes</Link>. These Town Halls will be highly interactive with lots of time in breakout rooms talking to other members of the community. Each Town Hall will have the same agenda, but are offered at different days and times to accommodate different schedules. We welcome everyone to attend! </div>
-              <div className=''>Please complete the following two steps to register for a Town Hall!</div>
-              <strong className=''><span className='underline'>Step 1:</span> Register for Your Chosen Date</strong>
+            <div>There are two ways to participate:  Share your ideas in a virtual Town Hall, or share your ideas online. </div>
+            <div>In early 2024, we will be hosting four virtual Town Hall meetings to hear from the research community about the ideas they view as having exciting potential to advance the bioeconomy.  These Town Halls will be highly interactive with lots of time for breakout discussions among community members. Each Town Hall will have the same agenda, but are offered at different days and times to accommodate different schedules. Everyone is welcome! </div>
+            <h3 className='text-primary font-semibold'>Option 1</h3>
+            <div className=''><span className='underline'>If you are able to attend</span>, please <strong>register</strong> for a Town Hall using the following two steps:</div>
+            <h4 className='text-primary font-semibold'>1) Select Your Best Date</h4>
               <div className=''>
                 <div>January 30th, 2024 @ 12pm EST </div>
                 <div>January 31st, 2024 @ 5pm EST</div>
                 <div>February 12th, 2024 @ 7pm EST</div>
                 <div>February 15th, 2024 @ 9am EST</div>
               </div>
-              <div className='flex flex-col w-full items-start gap-2 pt-2 justify-start'>
-              <strong className=''><span className='underline'>Step 2:</span> Complete the Pre-Town Hall Survey</strong>
+              <h4 className='text-primary font-semibold'>2) Share Your Exciting Research Idea About Your Favorite Theme!</h4>
               <Link target='_blank' href="/">
                 <Button className='flex items-center h-8 gap-2 font-semibold'>
                 <Link2Icon />
                   Survey
                 </Button>
               </Link>
-              </div>
+              <h3 className='text-primary font-semibold'>Option 2</h3>
+              <div><span className='underline'>If you are unable to attend any of the dates</span>, we would still love to hear your exciting research ideas. </div>
+              <div>To share, click here. </div>
             </CardContent>
             <CardFooter className='flex flex-col w-full items-start gap-2 justify-start'>
             
               
             </CardFooter>
           </Card>
+        {/* Splash Content */}
+   
+          <div className='space-y-4'>
 
-        </div>
-        <div className='flex flex-col gap-12'>
+              <h1 className='scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0 text-primary w-fit'>Catalyzing Across Sectors to Advance the Bioeconomy</h1>
+              <p className='pb-4'>Recognizing that the world is on the cusp of an industrial revolution fueled by biotechnology and biomanufacturing, in September 2022, President Biden signed an <a className='text-primary font-semibold underline' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">Executive Order (EO) on Advancing Biotechnology and Biomanufacturing Innovation for a Sustainable, Safe, and Secure American Bioeconomy</a>.  The EO laid out a vision for a government-wide research strategy to advance biotechnology and biomanufacturing through foundational and use-inspired research to drive innovations in five areas: climate change, food and agriculture, supply chain resilience, human health, and the cross-cutting advances to enable progress across all sectors. Achieving this vision will require significant prioritization and staging of R&D investments across the US Government, in partnership with industry and philanthropies. </p>
+
+            <a className='w-fit' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">
+              <Button className='font-semibold flex items-center gap-2'><FileText className='h-4 w-4' />View the Executive Order</Button>
+            </a>
+            <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary pt-4'>Call to action</h2>
+            <p>The CASA-Bio initiative was created to help implement the Executive Order. The first step of the plan is complete.  Reps from government funding agencies and the private sector have collaborated to identify themes of shared interest that we believe have high potential to advance the bioeconomy through innovative R&D. </p>
+            <p>Now, it’s time for step two.  We need input from you, the research community, to identify exciting, creative, cutting-edge research ideas and directions to drive innovative advances in these areas.  In short, <strong className='text-primary'>WE NEED YOU</strong> to help lead the way forward to advance the bioeconomy by sharing your research ideas!  </p>
+          </div>
           
-        <div className='w-full flex flex-col gap-4'>
-            <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Outcomes</h2>
-            <p>We imagine outcomes whereby: </p>
+          
+          <div className='space-y-6 pb-2'>
+          <h2 id="bioeconomy-themes" className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Bioeconomy Themes</h2>
+          <ThemeGrid />
+        </div>
+       
+        <div className='space-y-4'>
+          
+
+            <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>What we will do with your input</h2>
+            <p>As a next step in the CASA-Bio process, funding agency and private sector reps will collaborate once again to evaluate your ideas in context of our shared goals to identify priority areas that are the most exciting and innovative and that have high potential for cross-agency synergy. </p>
+            <p>Then, we will use those ideas as topics for a series of Workshops to be held in spring and summer 2024.  The goals of the workshops will be to engage researchers in producing detailed plans/roadmaps/white papers to lay out plans for how research in these priority areas could advance the bioeconomy.</p>
+            <h4 className='font-semibold text-lg text-primary'>We imagine outcomes whereby: </h4>
             <ul className='list-disc pl-6'>
               <li>
-              Stakeholders from industry liberate R&D areas where early discovery and use-inspired research could be more responsive to market pull and where de-risking early-stage research could speed realization of facets of the bioeconomy. 
+              Stakeholders from industry liberate R&D areas where early discovery and use-inspired research could be more responsive to market pull and where de-risking early-stage research could speed realization of facets of the bioeconomy.
               </li>
               <li>
               Funder stakeholders work together to define their mutual interests within the framework of the EO and elicit, from their respective research communities, creative roadmaps to realize those mutual interests. Such roadmaps would both link government, industry, and philanthropic interests in synergistic ways and emphasize the economic potential at the interfaces of complementary R&D interests.
@@ -71,7 +81,7 @@ export default function Home() {
             <p>NSF wants to join forces and coordinate with funder stakeholder forces to leverage the power of our collective resources and respective research communities to identify those roadmaps and help define and stage paths forward.</p>
         </div>
 
-        <div className='w-full flex flex-col gap-4'>
+        <div className='space-y-4 pb-2'>
             <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Timeline</h2>
             <p>As a step towards such prioritization and using the EO as a framework, NSF will organize a series of meetings to align interests and capabilities of funder stakeholders (government, industry, philanthropy), engage research stakeholder communities broadly to propose priority research paths forward, and create an environment where input from funder and research stakeholders can be used in concert to prioritize, stage, and map the efficient operationalization of identified pathways.</p>
             <p>We envision a two phased approach for this project, where each step is professionally facilitated and produces actionable products that inform subsequent steps.</p>
@@ -96,23 +106,20 @@ export default function Home() {
         </div>
 
        
+ 
 
-        </div>
-        
-        <div className='flex flex-col gap-4 '>
-          <h2 id="bioeconomy-themes" className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Bioeconomy Themes</h2>
-          <ThemeGrid />
-        </div>
+    
+       
 
-        <div className='w-full flex flex-col gap-4'>
+        {/* <div className='space-y-4 pb-2'>
         <h2 className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Glossary</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id faucibus turpis, quis gravida nisi. Curabitur nulla tortor, rhoncus sed luctus id, interdum pulvinar ipsum. Vestibulum finibus lobortis dictum. In lobortis et risus laoreet facilisis. Mauris sed suscipit justo. Integer porta luctus nibh, eget lacinia massa scelerisque eu</p>
+        <p className='pb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id faucibus turpis, quis gravida nisi. Curabitur nulla tortor, rhoncus sed luctus id, interdum pulvinar ipsum. Vestibulum finibus lobortis dictum. In lobortis et risus laoreet facilisis. Mauris sed suscipit justo. Integer porta luctus nibh, eget lacinia massa scelerisque eu</p>
         <Link target='_blank' href="https://www.nist.gov/bioscience/nist-bioeconomy-lexicon">
                 <Button className='flex items-center gap-2 font-semibold'>
                   View the Glossary
                 </Button>
               </Link>
-        </div>
+        </div> */}
 
         <div className='flex flex-col gap-4'>
           <h2 className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Collaborators</h2>

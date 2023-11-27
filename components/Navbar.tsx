@@ -27,15 +27,15 @@ function Navbar() {
         {/* Menu */}
         <DropdownMenu>
         <DropdownMenuTrigger asChild><Button className='flex items-center gap-2 font-semibold'>Themes <CaretDownIcon /></Button></DropdownMenuTrigger>
-        <DropdownMenuContent className='divide-y-2 w-[320px] max-w-[320px] absolute top-0 -right-14'>
+        <DropdownMenuContent className='divide-y-2 w-[320px] max-w-[350px] absolute top-0 -right-14'>
         {themes.map((theme) => (
           <Link href={theme.slug} key={theme.title}>
           <DropdownMenuItem
             
             className={`flex items-center gap-2 w-full cursor-pointer`}
           >
-            <Icon className={`${'theme'+theme.id} fill-current h-10 `} id={theme.id} />
-            <div className='flex flex-col'>
+            <Icon className={`${'theme'+theme.id} fill-current w-[10%]`} id={theme.id} />
+            <div className='flex flex-col w-[90%]'>
             <div className="text-sm font-semibold leading-none">{theme.title}</div>
             <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
               {theme.description}
