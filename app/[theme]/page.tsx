@@ -7,6 +7,7 @@ import remarkGfm from 'remark-gfm'
 import { ChevronLeftIcon } from '@radix-ui/react-icons'
 import { Icon } from '@/data/icons'
 import { Card } from '@/components/ui/card'
+import SubthemeGrid from '@/components/SubthemeGrid'
 
 export async function generateStaticParams() { 
     return themes.map((theme) => ({
@@ -22,9 +23,10 @@ export default function ThemePage({params}:{params:{theme:string}}) {
         <Link href={'/'}>
         <Button variant={'link'} className='p-0 m-0 flex items-center gap-2'><ChevronLeftIcon />Return</Button>
         </Link>
-      <div className='w-full grid grid-cols-12 content-start'>
-      <Markdown className={'prose col-span-12 md:col-span-10 min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.tagline}</Markdown>
-      <Icon className={`fill-current hidden md:block md:col-span-2 max-h-42  ${'theme'+themeData?.id}`} id={themeData?.id as number} />
+      <div className='w-full'>
+      <Icon className={`fill-current float-right hidden md:inline-block max-h-24 max-w-sm  ${'theme'+themeData?.id}`} id={themeData?.id as number} />
+      <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.tagline}</Markdown>
+      
       {/* <img className='hidden md:block md:col-span-2 max-h-32 place-self-end' src={themeData?.promptImage} alt={themeData?.title} /> */}
       </div>
       </div> 
@@ -40,12 +42,12 @@ export default function ThemePage({params}:{params:{theme:string}}) {
         <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.content}</Markdown>
         <div className='space-y-8'>
           <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Subthemes</h2>
-          <div>Coming soon...</div>
+          <SubthemeGrid theme={themeData?.id as number} />
         </div>
-        <div className='space-y-8'>
+        {/* <div className='space-y-8'>
           <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Footnotes</h2>
           <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.footnotes}</Markdown>
-        </div>
+        </div> */}
       
     </div>
     
