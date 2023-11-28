@@ -7,6 +7,9 @@
 * {
   font-family: 'Open Sans', sans-serif !important;
 }
+div{
+  scrollbar-gutter: stable both-edges;
+}
 
 .openSans {
   font-family: 'Open Sans', sans-serif !important;
