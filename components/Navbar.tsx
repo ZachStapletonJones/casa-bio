@@ -18,7 +18,7 @@ function Navbar() {
         <Link href={'/'} className='flex items-center justify-start sm:gap-4'>
             <img className='sm:h-10 h-10 pl-2 2xl:pl-0' src='https://res.cloudinary.com/dbhtzyztg/image/upload/v1701189629/casa-bio-v3_ozpmoz.png' alt='Casa Bio' />
             <div className=' flex flex-col items-start p-0 m-0 text-blue-950'>
-                <div className='scroll-m-20 merriweather text-xl font-bold lg:text-2xl '>CASA Bio</div>
+                <div className='scroll-m-20 merriweather text-xl font-bold lg:text-2xl '>CASA-Bio</div>
                 <p className='text-sm font-normal align-middle leading-4 italic hidden sm:block'>
                     Catalyzing Across Sectors to Advance the Bioeconomy
                 </p>
@@ -27,9 +27,9 @@ function Navbar() {
         {/* Menu */}
         <DropdownMenu>
         <DropdownMenuTrigger asChild><Button className='flex items-center gap-2 font-semibold'>Themes <CaretDownIcon /></Button></DropdownMenuTrigger>
-        <DropdownMenuContent className='divide-y-2 w-[320px] max-w-[350px] absolute top-0 -right-14'>
+        <DropdownMenuContent className='divide-y-2 w-[350px] max-w-[350px] px-0 mx-0 absolute top-0 -right-14'>
         {themes.map((theme) => (
-          <Link href={theme.slug} key={theme.title}>
+          <Link className='w-full p-0 m-0' href={theme.slug} key={theme.title}>
           <DropdownMenuItem
             
             className={`flex items-center gap-2 w-full cursor-pointer`}
@@ -92,32 +92,32 @@ function Navbar() {
   )
 }
 
-const ListItem = React.forwardRef<
-  React.ElementRef<"a">,
-  React.ComponentPropsWithoutRef<"a">
->(({ className, about, title, children, ...props }, ref) => {
-  return (
-    <li>
-      <NavigationMenuLink asChild>
-        <a
-          ref={ref}
-          className={cn(
-            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground grid grid-cols-12 gap-2 items-center",
-            className
-          )}
-          {...props}
-        >
-            <img className='object-contain col-span-2' src={about} alt='' />
-        <div className='col-span-10'>
-          <div className="text-sm font-semibold leading-none">{title}</div>
-          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-            {children}
-          </p>
-          </div>
-        </a>
-      </NavigationMenuLink>
-    </li>
-  )
-})
-ListItem.displayName = "ListItem"
+// const ListItem = React.forwardRef<
+//   React.ElementRef<"a">,
+//   React.ComponentPropsWithoutRef<"a">
+// >(({ className, about, title, children, ...props }, ref) => {
+//   return (
+//     <li>
+//       <NavigationMenuLink asChild>
+//         <a
+//           ref={ref}
+//           className={cn(
+//             " select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground grid grid-cols-12 gap-2 items-center",
+//             className
+//           )}
+//           {...props}
+//         >
+//             <img className='object-contain col-span-2' src={about} alt='' />
+//         <div className='col-span-10'>
+//           <div className="text-sm font-semibold leading-none">{title}</div>
+//           <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+//             {children}
+//           </p>
+//           </div>
+//         </a>
+//       </NavigationMenuLink>
+//     </li>
+//   )
+// })
+// ListItem.displayName = "ListItem"
 export default Navbar

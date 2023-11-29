@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Casa Bio',
+  title: 'CASA-Bio',
   description: 'Designed by Knowinnovation',
 }
 

@@ -15,10 +15,10 @@ export type SubthemeData = {
 export const subthemes: Subtheme[] = [
     {1: [
     {
-        title: 'Climate resilience and Adaptation Strategies',
+        title: 'Example: Climate resilience and Adaptation Strategies',
         slug: 'climate-resilience-adaptation-strategies',
         description: ``,
-        pageTitle: '# Climate resilience and Adaptation Strategies',
+        pageTitle: '# *Example:* Climate resilience and Adaptation Strategies',
         questions: `
 - **What challenge within the sub-theme keeps you up at night?**
     - [x] *EXAMPLE: Balancing rapid clean energy development with environmental impact and resource sustainability* 
@@ -33,10 +33,10 @@ export const subthemes: Subtheme[] = [
 ]},
 {2: [
     {
-        title: 'Sustainable Agriculture and Food Security',
+        title: 'Example: Sustainable Agriculture and Food Security',
         slug: 'sustainable-agriculture-food-security',
         description: ``,
-        pageTitle: '# Sustainable Agriculture and Food Security',
+        pageTitle: '# *Example:* Sustainable Agriculture and Food Security',
         questions: `
 - **What challenge within the sub-theme keeps you up at night? (250 Characters)**
     - [x] *EXAMPLE: Ensuring nutritional value is not compromised in sustainable, high-yield crops.* 
@@ -51,10 +51,10 @@ export const subthemes: Subtheme[] = [
 ]},
 {3: [
     {
-        title: 'Advanced Analytics and AI in Supply Chain Optimization',
+        title: 'Example: Advanced Analytics and AI in Supply Chain Optimization',
         slug: 'advanced-analytics-ai-in-supply-chain-optimization',
         description: ``,
-        pageTitle: '# Advanced Analytics and AI in Supply Chain Optimization',
+        pageTitle: '# *Example:* Advanced Analytics and AI in Supply Chain Optimization',
         questions: `
 - **What challenge within the sub-theme keeps you up at night? (250 Characters)**
     - [x] *EXAMPLE: Integrating bioeconomy products into supply chains without disrupting efficiency or sustainability.* 
@@ -69,10 +69,10 @@ export const subthemes: Subtheme[] = [
 ]},
 {4: [
     {
-        title: 'Precision Medicine',
+        title: 'Example: Precision Medicine',
         slug: 'precision-medicine',
         description: ``,
-        pageTitle: '# Precision Medicine',
+        pageTitle: '# *Example:* Precision Medicine',
         questions: `
 - **What challenge within the sub-theme keeps you up at night? (250 Characters)**
     - [x] *EXAMPLE: In precision medicine, there's significant individual variability in cell responses to (drug) therapies, even in those with matching genetic markers.* 
@@ -87,10 +87,10 @@ export const subthemes: Subtheme[] = [
 ]},
 {5: [
     {
-        title: 'Synthetic Biology for Environmental Remediation',
+        title: 'Example: Synthetic Biology for Environmental Remediation',
         slug: 'synthetic-biology-environmental-remediation',
         description: ``,
-        pageTitle: '# Synthetic Biology for Environmental Remediation',
+        pageTitle: '# *Example:* Synthetic Biology for Environmental Remediation',
         questions: `
 - **What challenge within the sub-theme keeps you up at night? (250 Characters)**
     - [x] *EXAMPLE: Implementing cost-effective soil health improvement using synthetic biology without harming small farm ecosystems.* 
