@@ -12,7 +12,7 @@ export default function Home() {
       <div className="w-full space-y-8">
         <Card className='md:float-right md:w-80 w-[90dvw] md:min-w-[450px] bg-secondary md:ml-4 md:mb-4'>
             <CardHeader className='pb-2'>
-              <CardTitle className='text-lg'>How to Participate:  </CardTitle>
+              <CardTitle className='text-lg text-primary'>How to Participate:  </CardTitle>
             </CardHeader>
             <CardContent className='flex flex-col gap-2 text-sm'>
             <div>There are two ways to participate:  Share your ideas in a virtual Town Hall, or share your ideas online. </div>
