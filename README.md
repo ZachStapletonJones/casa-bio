@@ -1,4 +1,4 @@
-# Casa Bio
+# CASA-Bio
 A Next.js build of the Casa Bio website
 
 ## Environment Instructions
