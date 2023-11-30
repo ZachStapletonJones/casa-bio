@@ -69,7 +69,8 @@ export default function Home() {
             <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>What we will do with your input</h2>
             <p>As a next step in the CASA-Bio process, funding agency and private sector reps will collaborate once again to evaluate your ideas in context of our shared goals to identify priority areas that are the most exciting and innovative and that have high potential for cross-agency synergy. </p>
             <p>Then, we will use those ideas as topics for a series of Workshops to be held in spring and summer 2024.  The goals of the workshops will be to engage researchers in producing detailed plans/roadmaps/white papers to lay out plans for how research in these priority areas could advance the bioeconomy.</p>
-            <h4 className='font-semibold text-lg text-primary'>We imagine outcomes whereby: </h4>
+         </div>  
+            {/* <h4 className='font-semibold text-lg text-primary'>We imagine outcomes whereby: </h4>
             <ul className='list-disc pl-6'>
               <li>
               Stakeholders from industry liberate R&D areas where early discovery and use-inspired research could be more responsive to market pull and where de-risking early-stage research could speed realization of facets of the bioeconomy.
@@ -103,7 +104,7 @@ export default function Home() {
                 Engage research communities with funders’ priorities and solicit <strong>roadmaps</strong> with staged, actionable outcomes that could lead to implementation in FY25-FY26. 
               </li>
             </ul>
-        </div>
+        </div> */}
 
        
  
@@ -122,8 +123,9 @@ export default function Home() {
         </div> */}
 
         <div className='flex flex-col gap-4'>
-          <h2 className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Collaborators</h2>
-          <ProfileGrid />
+          <h2 className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Organizations</h2>
+          <div className='italic'>Details coming soon...</div>
+          {/* <ProfileGrid /> */}
         </div>
       </div>
   )
