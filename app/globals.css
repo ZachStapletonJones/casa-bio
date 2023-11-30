@@ -30,7 +30,8 @@ div{
   border-color:#199400;
 }
 .theme3 {
-  color:#4785ff;
+  /* color:#4785ff; */
+  color:#001494;
   stroke:#001494;
   border-color:#4785ff;
 }
@@ -41,6 +42,7 @@ div{
 }
 .theme5 {
   color: #800094;
+  stroke: #800094;
   border-color:#800094;
 }
  
