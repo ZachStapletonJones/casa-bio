@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import Markdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
-import { ChevronLeftIcon } from '@radix-ui/react-icons'
+import { ChevronLeftIcon, QuestionMarkCircledIcon } from '@radix-ui/react-icons'
 import { Icon } from '@/data/icons'
 import { Card } from '@/components/ui/card'
 import SubthemeGrid from '@/components/SubthemeGrid'
@@ -58,7 +58,7 @@ export default function SubthemePage({params}:{params:{theme:string, subtheme:st
       <Markdown className={'prose pb-8 min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{subthemeData?.pageTitle}</Markdown>
       {/* <img className='hidden md:block md:col-span-2 max-h-32 place-self-end' src={themeData?.promptImage} alt={themeData?.title} /> */}
       <div className='flex flex-col gap-4'>
-      <h4 className='font-semibold text-primary text-xl'>Questions (Limit 250 Characters each)</h4>
+      <h4 className='font-semibold text-primary text-xl flex items-center gap-2'><QuestionMarkCircledIcon className='h-5 w-5' />Questions (Limit 250 Characters each)</h4>
    
         <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{subthemeData?.questions}</Markdown>
     
