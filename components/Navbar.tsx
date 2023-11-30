@@ -27,7 +27,7 @@ function Navbar() {
         {/* Menu */}
         <DropdownMenu>
         <DropdownMenuTrigger asChild><Button className='flex items-center gap-2 font-semibold'>Themes <CaretDownIcon /></Button></DropdownMenuTrigger>
-        <DropdownMenuContent className='divide-y-2 w-[350px] max-w-[350px] px-0 mx-0 absolute top-0 -right-14'>
+        <DropdownMenuContent className='divide-y-2 w-[380px] max-w-[380px] px-0 mx-0 absolute top-0 -right-14'>
         {themes.map((theme) => (
           <Link className='w-full p-0 m-0' href={theme.slug} key={theme.title}>
           <DropdownMenuItem
