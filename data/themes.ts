@@ -52,7 +52,7 @@ Your work can drive us towards a more sustainable, resilient, and equitable worl
     bannerImage: "placeholder-banner.png",
     title: "Food and Agriculture Innovation",
     slug: "food-agriculture-innovation",
-    description: "Sustainable food and agriculture solutions for a growing population.",
+    description: "Enhancing sustainable food and agriculture solutions for a growing population.",
     tagline: `# Food and Agriculture Innovation
 #### Questions to consider:
 - **Within this theme, what is the goal?**
@@ -83,7 +83,7 @@ This is a call to action for the R&D community. The future of our food systems a
     bannerImage: "placeholder-banner.png",
     title: "Supply Chain Resilience",
     slug: "supply-chain-resilience",
-    description: "Enhancing global supply chain resilience through innovative R&D solutions.",
+    description: "Building global supply chain resilience through innovative R&D solutions.",
     tagline: `# Supply Chain Resilience
 #### Questions to consider:
 - **Within this theme, what is the goal?**
@@ -114,7 +114,7 @@ You have the opportunity to shape a new paradigm in supply chain management, one
     bannerImage: "placeholder-banner.png",
     title: "Human Health",
     slug: "human-health",
-    description: "Advancing human health through diverse, innovative R&D in healthcare.",
+    description: "Advancing human health outcomes through innovative R&D across the full health continuum.",
     tagline: `# Human Health
 #### Questions to consider:
 - **Within this theme, what is the goal?**
@@ -145,7 +145,7 @@ Now is the time to harness the power of innovation to drive forward advances in 
     bannerImage: "placeholder-banner.png",
     title: "Cross-Cutting Advances",
     slug: "cross-cutting-advances",
-    description: "Biotechnology revolution merging discovery with real-world applications.",
+    description: "Merging foundational discoveries, innovations, and infrastructure to power the bioeconomy.",
     tagline: `# Cross-Cutting Advances
 #### Questions to consider:
 - **Within this theme, what is the goal?**
