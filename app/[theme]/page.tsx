@@ -25,6 +25,7 @@ export default function ThemePage({params}:{params:{theme:string}}) {
         </Link>
       <div className='w-full'>
       <Icon className={`fill-current float-right hidden md:inline-block max-h-24 max-w-sm  ${'theme'+themeData?.id}`} id={themeData?.id as number} />
+      <div className='text-primary font-semibold'>Theme:</div>
       <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.tagline}</Markdown>
       
       {/* <img className='hidden md:block md:col-span-2 max-h-32 place-self-end' src={themeData?.promptImage} alt={themeData?.title} /> */}
