@@ -25,7 +25,7 @@ function Navbar() {
             </div>
         </Link>
         {/* Menu */}
-        <DropdownMenu>
+        {/* <DropdownMenu>
         <DropdownMenuTrigger asChild><Button className='flex items-center gap-2 font-semibold'>Themes <CaretDownIcon /></Button></DropdownMenuTrigger>
         <DropdownMenuContent className='divide-y-2 w-[400px] max-w-[400px] px-0 mx-0 absolute top-0 -right-14'>
         {themes.map((theme) => (
@@ -45,7 +45,9 @@ function Navbar() {
         )
         )}
         </DropdownMenuContent>
-      </DropdownMenu>
+      </DropdownMenu> */}
+      <div></div>
+
         {/* <NavigationMenu>
         <NavigationMenuList className='gap lg:gap-2'>
         <NavigationMenuItem >
