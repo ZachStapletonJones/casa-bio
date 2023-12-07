@@ -56,20 +56,23 @@ export default function Home() {
             <p>The CASA-Bio initiative was created to help implement the Executive Order. The first step of the plan is complete.  Reps from government funding agencies and the private sector have collaborated to identify themes of shared interest that we believe have high potential to advance the bioeconomy through innovative R&D. </p>
             <p>Now, it’s time for step two.  We need input from you, the research community, to identify exciting, creative, cutting-edge research ideas and directions to drive innovative advances in these areas.  In short, <strong className='text-primary'>WE NEED YOU</strong> to help lead the way forward to advance the bioeconomy by sharing your research ideas!  </p>
           </div>
-          
-          
-          <div className='space-y-6 pb-2'>
-          <h2 id="bioeconomy-themes" className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Bioeconomy Themes</h2>
-          <ThemeGrid />
-        </div>
-       
-        <div className='space-y-4'>
+          <div className='space-y-4'>
           
 
             <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>What we will do with your input</h2>
             <p>As a next step in the CASA-Bio process, funding agency and private sector reps will collaborate once again to evaluate your ideas in context of our shared goals to identify priority areas that are the most exciting and innovative and that have high potential for cross-agency synergy. </p>
             <p>Then, we will use those ideas as topics for a series of Workshops to be held in spring and summer 2024.  The goals of the workshops will be to engage researchers in producing detailed plans/roadmaps/white papers to lay out plans for how research in these priority areas could advance the bioeconomy.</p>
-         </div>  
+         </div>
+          
+          <div className='space-y-4 pb-2'>
+          <h2 id="bioeconomy-themes" className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Bioeconomy Themes</h2>
+          <div className='space-y-2'>
+          <div className='text-muted-foreground italic'>Stay tuned for more details...</div>
+          <ThemeGrid />
+          </div>
+        </div>
+       
+          
             {/* <h4 className='font-semibold text-lg text-primary'>We imagine outcomes whereby: </h4>
             <ul className='list-disc pl-6'>
               <li>
@@ -122,11 +125,11 @@ export default function Home() {
               </Link>
         </div> */}
 
-        <div className='flex flex-col gap-4'>
+        {/* <div className='flex flex-col gap-4'>
           <h2 className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Organizations</h2>
           <div className='italic'>Details coming soon...</div>
-          {/* <ProfileGrid /> */}
-        </div>
+          <ProfileGrid />
+        </div> */}
       </div>
   )
 }
