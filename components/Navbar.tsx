@@ -17,12 +17,12 @@ function Navbar() {
         {/* Logo */}
         <Link href={'/'} className='flex items-center justify-start sm:gap-4'>
             <img className='sm:h-10 h-10 pl-2 2xl:pl-0' src='https://res.cloudinary.com/dbhtzyztg/image/upload/v1701189629/casa-bio-v3_ozpmoz.png' alt='Casa Bio' />
-            <div className=' flex flex-col items-start p-0 m-0 text-blue-950'>
+            {/* <div className=' flex flex-col items-start p-0 m-0 text-blue-950'>
                 <div className='scroll-m-20 merriweather text-xl font-bold lg:text-2xl '>CASA-Bio</div>
                 <p className='text-sm font-normal align-middle leading-4 italic hidden sm:block'>
                     Catalyzing Across Sectors to Advance the Bioeconomy
                 </p>
-            </div>
+            </div> */}
         </Link>
         {/* Menu */}
         {/* <DropdownMenu>

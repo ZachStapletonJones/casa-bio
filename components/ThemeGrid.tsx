@@ -22,7 +22,7 @@ function Theme(theme:ThemeData){
 
 export default function ThemeGrid() {
     return (
-        <div className='flex grow gap-4 flex-wrap'>
+        <div className='flex grow gap-4 flex-wrap justify-center'>
             {themes.map((t, index)=><Theme key={index} {...t} />)}
         </div>
     )

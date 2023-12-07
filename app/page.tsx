@@ -10,7 +10,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
       <div className="w-full space-y-8">
-        <Card className='md:float-right md:w-80 w-[90dvw] md:min-w-[450px] bg-secondary md:ml-4 md:mb-4'>
+        {/* <Card className='md:float-right md:w-80 w-[90dvw] md:min-w-[450px] bg-secondary md:ml-4 md:mb-4'>
             <CardHeader className='pb-2'>
               <CardTitle className='text-lg text-primary'>How to Participate:  </CardTitle>
             </CardHeader>
@@ -41,33 +41,65 @@ export default function Home() {
             
               
             </CardFooter>
-          </Card>
+          </Card> */}
         {/* Splash Content */}
    
-          <div className='space-y-4'>
-
-              <h1 className='scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0 text-primary w-fit'>Catalyzing Across Sectors to Advance the Bioeconomy</h1>
-              <p className='pb-4'>Recognizing that the world is on the cusp of an industrial revolution fueled by biotechnology and biomanufacturing, in September 2022, President Biden signed an <a className='text-primary font-semibold underline' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">Executive Order (EO) on Advancing Biotechnology and Biomanufacturing Innovation for a Sustainable, Safe, and Secure American Bioeconomy</a>.  The EO laid out a vision for a government-wide research strategy to advance biotechnology and biomanufacturing through foundational and use-inspired research to drive innovations in five areas: climate change, food and agriculture, supply chain resilience, human health, and the cross-cutting advances to enable progress across all sectors. Achieving this vision will require significant prioritization and staging of R&D investments across the US Government, in partnership with industry and philanthropies. </p>
-
-            <a className='w-fit' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">
+          <div className='space-y-4 flex flex-col items-center'>
+            <div className='flex flex-col sm:flex-row items-center justify-center gap-4 pt-4'>
+              <img className='sm:h-32 h-24 pl-2 2xl:pl-0' src='https://res.cloudinary.com/dbhtzyztg/image/upload/v1701189629/casa-bio-v3_ozpmoz.png' alt='Casa Bio' />
+              <div>
+              <h1 className='scroll-m-20 w-full border-b text-2xl sm:text-4xl font-semibold tracking-tight first:mt-0 text-primary text-center sm:text-left'>CASA-Bio</h1>
+              <h2 className=' max-w-xs scroll-m-20 text-lg sm:text-2xl font-medium tracking-tight first:mt-0 text-primary text-center sm:text-left w-full'>Catalyzing Across Sectors to Advance the Bioeconomy</h2>
+              </div>
+              </div>
+              <h2 className='scroll-m-20 pb-2 text-lg sm:text-xl font-semibold tracking-tight first:mt-0 w-fit text-muted-foreground italic'>Stay tuned for more details...</h2>
+              <p className='pb-4 max-w-4xl text-center'>Recognizing that the world is on the cusp of an industrial revolution fueled by biotechnology and biomanufacturing, in September 2022, President Biden signed an <a className='text-primary font-semibold underline' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">Executive Order (EO) on Advancing Biotechnology and Biomanufacturing Innovation for a Sustainable, Safe, and Secure American Bioeconomy</a>.  The EO laid out a vision for a government-wide research strategy to advance biotechnology and biomanufacturing through foundational and use-inspired research to drive innovations in five areas: climate change, food and agriculture, supply chain resilience, human health, and the cross-cutting advances to enable progress across all sectors. Achieving this vision will require significant prioritization and staging of R&D investments across the US Government, in partnership with industry and philanthropies. </p>
+              
+            {/* <a className='w-fit' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">
               <Button className='font-semibold flex items-center gap-2'><FileText className='h-4 w-4' />View the Executive Order</Button>
-            </a>
-            <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary pt-4'>Call to action</h2>
+            </a> */}
+            {/* <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary pt-4'>Call to action</h2>
             <p>The CASA-Bio initiative was created to help implement the Executive Order. The first step of the plan is complete.  Reps from government funding agencies and the private sector have collaborated to identify themes of shared interest that we believe have high potential to advance the bioeconomy through innovative R&D. </p>
-            <p>Now, it’s time for step two.  We need input from you, the research community, to identify exciting, creative, cutting-edge research ideas and directions to drive innovative advances in these areas.  In short, <strong className='text-primary'>WE NEED YOU</strong> to help lead the way forward to advance the bioeconomy by sharing your research ideas!  </p>
+            <p>Now, it’s time for step two.  We need input from you, the research community, to identify exciting, creative, cutting-edge research ideas and directions to drive innovative advances in these areas.  In short, <strong className='text-primary'>WE NEED YOU</strong> to help lead the way forward to advance the bioeconomy by sharing your research ideas!  </p> */}
           </div>
-          <div className='space-y-4'>
+          {/* <div className='space-y-4'>
           
 
             <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>What we will do with your input</h2>
             <p>As a next step in the CASA-Bio process, funding agency and private sector reps will collaborate once again to evaluate your ideas in context of our shared goals to identify priority areas that are the most exciting and innovative and that have high potential for cross-agency synergy. </p>
             <p>Then, we will use those ideas as topics for a series of Workshops to be held in spring and summer 2024.  The goals of the workshops will be to engage researchers in producing detailed plans/roadmaps/white papers to lay out plans for how research in these priority areas could advance the bioeconomy.</p>
-         </div>
+         </div> */}
+          <div className='space-y-4 pb-2 flex flex-col items-center'>
+  
+          <Card className='max-w-xl flex flex-col items-center'>
+          <CardHeader className='pb-2'>
+              <CardTitle className='text-lg text-primary'>Town Hall Dates  </CardTitle>
+            </CardHeader>
+            <CardContent className='flex flex-col gap-2 text-sm'>
+            <div className='text-center'>In early 2024, we will be hosting four virtual Town Hall meetings to hear from the research community about the ideas they view as having exciting potential to advance the bioeconomy.  These Town Halls will be highly interactive with lots of time for breakout discussions among community members. Each Town Hall will have the same agenda, but are offered at different days and times to accommodate different schedules. Everyone is welcome!</div>
+            
+            <div className='flex pb-4 flex-col w-full items-center justify-center'>
+            <h3 className='text-primary font-semibold'>Dates:</h3>
+              <div className=''>
+                <div>January 30th, 2024 @ 12pm EST </div>
+                <div>January 31st, 2024 @ 5pm EST</div>
+                <div>February 12th, 2024 @ 7pm EST</div>
+                <div>February 15th, 2024 @ 9am EST</div>
+              </div>
+              </div>
+              <div className='text-center font-semibold text-lg text-primary'> Registration will be announced soon...</div>
+            </CardContent>
+            <CardFooter className='flex flex-col w-full items-start gap-2 justify-start'>
+            
+              
+            </CardFooter>
+          </Card>
+        </div>
           
-          <div className='space-y-4 pb-2'>
+          <div className='space-y-4 pb-2 flex flex-col items-center'>
           <h2 id="bioeconomy-themes" className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Bioeconomy Themes</h2>
           <div className='space-y-2'>
-          <div className='text-muted-foreground italic'>Stay tuned for more details...</div>
+          {/* <div className='text-muted-foreground italic w-full text-center'>Stay tuned for more details...</div> */}
           <ThemeGrid />
           </div>
         </div>
