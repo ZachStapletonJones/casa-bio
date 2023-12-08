@@ -52,8 +52,10 @@ export default function Home() {
               <h2 className=' max-w-xs scroll-m-20 text-lg sm:text-2xl font-medium tracking-tight first:mt-0 text-primary text-center sm:text-left w-full'>Catalyzing Across Sectors to Advance the Bioeconomy</h2>
               </div>
               </div>
-              <h2 className='scroll-m-20 pb-2 text-lg sm:text-xl font-semibold tracking-tight first:mt-0 w-fit text-muted-foreground italic'>Stay tuned for more details...</h2>
-              <p className='pb-4 max-w-4xl text-center'>Recognizing that the world is on the cusp of an industrial revolution fueled by biotechnology and biomanufacturing, in September 2022, President Biden signed an <a className='text-primary font-semibold underline' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">Executive Order (EO) on Advancing Biotechnology and Biomanufacturing Innovation for a Sustainable, Safe, and Secure American Bioeconomy</a>.  The EO laid out a vision for a government-wide research strategy to advance biotechnology and biomanufacturing through foundational and use-inspired research to drive innovations in five areas: climate change, food and agriculture, supply chain resilience, human health, and the cross-cutting advances to enable progress across all sectors. Achieving this vision will require significant prioritization and staging of R&D investments across the US Government, in partnership with industry and philanthropies. </p>
+              <h2 className='scroll-m-20 pb-2 text-lg sm:text-xl font-semibold tracking-tight first:mt-0 w-fit text-muted-foreground italic'>Overview below; stay tuned for more details...</h2>
+              <p className='max-w-4xl text-center'>Recognizing that the world is on the cusp of an industrial revolution fueled by biotechnology and biomanufacturing, in September 2022, President Biden signed an <a className='text-primary font-semibold underline' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">Executive Order (EO) on Advancing Biotechnology and Biomanufacturing Innovation for a Sustainable, Safe, and Secure American Bioeconomy</a>. The EO laid out a vision for a government-wide research strategy to advance biotechnology and biomanufacturing through foundational and use-inspired research to drive innovations in five thematic areas: climate change, food and agriculture, supply chain resilience, human health, and the cross-cutting advances to enable progress across all these areas.</p>
+              <p className='max-w-4xl text-center'>To work towards creating a unified, collaborative strategy to advance the U.S. bioeconomy, representatives from government, industry, and non-profit organizations met in early December to identify R&D areas of possible synergy.</p>
+              <p className='max-w-4xl text-center'>Now, we seek input from the research community!  </p>
               
             {/* <a className='w-fit' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">
               <Button className='font-semibold flex items-center gap-2'><FileText className='h-4 w-4' />View the Executive Order</Button>
@@ -76,15 +78,17 @@ export default function Home() {
               <CardTitle className='text-lg text-primary'>Town Hall Dates  </CardTitle>
             </CardHeader>
             <CardContent className='flex flex-col gap-2 text-sm'>
-            <div className='text-center'>In early 2024, we will be hosting four virtual Town Hall meetings to hear from the research community about the ideas they view as having exciting potential to advance the bioeconomy.  These Town Halls will be highly interactive with lots of time for breakout discussions among community members. Each Town Hall will have the same agenda, but are offered at different days and times to accommodate different schedules. Everyone is welcome!</div>
+            <div className='text-center'>In early 2024, we will host four virtual 90-minute Town Hall meetings to hear from the research community about the ideas they view as having exciting potential to advance the bioeconomy. These Town Halls will be highly interactive with lots of time for breakout discussions among community members. </div>
+            <div className='text-center'>Each Town Hall will have the same agenda, but will be offered at different days and times to accommodate diverse schedules. Choose the day and time that works best for you.</div>
+            <div className='text-center'>Everyone is welcome!</div>
             
             <div className='flex pb-4 flex-col w-full items-center justify-center'>
-            <h3 className='text-primary font-semibold'>Dates:</h3>
+            <h3 className='text-primary font-semibold'>Mark your calendars!</h3>
               <div className=''>
-                <div>January 30th, 2024 @ 12pm EST </div>
-                <div>January 31st, 2024 @ 5pm EST</div>
-                <div>February 12th, 2024 @ 7pm EST</div>
-                <div>February 15th, 2024 @ 9am EST</div>
+                <div>January 30, 2024; 12:00 - 1:30 PM EST</div>
+                <div>January 31, 2024;   5:00 - 6:30 PM EST</div>
+                <div>February 12, 2024; 7:00 - 8:30 PM EST</div>
+                <div>February 15, 2024; 9:00 - 10:30 AM EST</div>
               </div>
               </div>
               <div className='text-center font-semibold text-lg text-primary'> Registration will be announced soon...</div>
