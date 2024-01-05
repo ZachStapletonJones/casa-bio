@@ -89,7 +89,7 @@ export default function Home() {
                 <div>February 12, 2024; 7:00 - 8:30 PM EST</div>
                 <div>February 15, 2024; 9:00 - 10:30 AM EST</div>
                 <div>February 21, 2024; 12:00 - 1:30 PM EST</div>
-                <div>February 21, 2024; 5:00 - 6:30 PM EST</div>
+                <div>February 22, 2024; 5:00 - 6:30 PM EST</div>
               </div>
               </div>
               <div className='text-center font-semibold text-lg text-primary'> Registration will be announced soon...</div>
