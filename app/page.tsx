@@ -85,10 +85,11 @@ export default function Home() {
             <div className='flex pb-4 flex-col w-full items-center justify-center'>
             <h3 className='text-primary font-semibold'>Mark your calendars!</h3>
               <div className=''>
-                <div>January 30, 2024; 12:00 - 1:30 PM EST</div>
-                <div>January 31, 2024;   5:00 - 6:30 PM EST</div>
+                
                 <div>February 12, 2024; 7:00 - 8:30 PM EST</div>
                 <div>February 15, 2024; 9:00 - 10:30 AM EST</div>
+                <div>February 21, 2024; 12:00 - 1:30 PM EST</div>
+                <div>February 21, 2024; 5:00 - 6:30 PM EST</div>
               </div>
               </div>
               <div className='text-center font-semibold text-lg text-primary'> Registration will be announced soon...</div>
