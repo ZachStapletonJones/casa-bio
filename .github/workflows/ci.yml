@@ -1,0 +1,21 @@
+name: Node.js CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: Build & Lint
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: TypeScript type-check
+      run: npx tsc --noEmit
+
+    - name: Lint
+      run: npm run lint # Assuming you have a "lint" script defined in your package.json
