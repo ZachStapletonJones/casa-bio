@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import Markdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
-import { ChevronLeftIcon } from '@radix-ui/react-icons'
+import { ChevronLeftIcon, Link2Icon } from '@radix-ui/react-icons'
 import { Icon } from '@/data/icons'
 import { Card } from '@/components/ui/card'
 import SubthemeGrid from '@/components/SubthemeGrid'
@@ -24,8 +24,8 @@ export default function ThemePage({params}:{params:{theme:string}}) {
         <Button variant={'link'} className='p-0 m-0 flex items-center gap-2'><ChevronLeftIcon />Return</Button>
         </Link>
       <div className='w-full'>
-      <Icon className={`fill-current float-right hidden md:inline-block max-h-24 max-w-sm  ${'theme'+themeData?.id}`} id={themeData?.id as number} />
-      <div className='text-primary font-semibold'>Theme:</div>
+      <Icon className={`fill-current float-right hidden md:inline-block max-h-16 max-w-sm  ${'theme'+themeData?.id}`} id={themeData?.id as number} />
+      <div className='text-primary font-semibold'>EO Bioeconomy Theme:</div>
       <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.tagline}</Markdown>
       
       {/* <img className='hidden md:block md:col-span-2 max-h-32 place-self-end' src={themeData?.promptImage} alt={themeData?.title} /> */}
@@ -43,8 +43,7 @@ export default function ThemePage({params}:{params:{theme:string}}) {
         <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.content}</Markdown>
         <div className='space-y-8'>
           <div className='space-y-2'>
-          <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Subthemes</h2>
-          <h4 className='text-primary italic font-medium'>To be developed...</h4>
+          <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Representative Subtheme Challenges:</h2>
           </div>
           <SubthemeGrid theme={themeData?.id as number} />
         </div>
@@ -52,7 +51,12 @@ export default function ThemePage({params}:{params:{theme:string}}) {
           <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Footnotes</h2>
           <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.footnotes}</Markdown>
         </div> */}
-      
+      <Link target='_blank' href="/">
+                  <Button className='flex items-center h-8 gap-2 font-semibold'>
+                  <Link2Icon />
+                    Submit your ideas
+                  </Button>
+                </Link>
     </div>
     
   )

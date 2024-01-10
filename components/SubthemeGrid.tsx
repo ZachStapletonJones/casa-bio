@@ -8,14 +8,20 @@ import Link from 'next/link'
 import React from 'react'
 
 
-function Subtheme({theme, themeId}:{theme:SubthemeData, themeId:number}){
+function Subtheme({theme, themeId, iconId}:{theme:SubthemeData, themeId:number, iconId:number}){
     const themeData = themes.find(t=>t.id === themeId)
     return(
-        <Link className={` border ${'theme'+themeId} border-1 border-slate-300  hover:bg-slate-100 rounded flex items-center justify-between gap-4 h-fit max-w-[95dvw] w-[500px] py-4 px-4`} href={themeData?.slug+'/'+theme.slug}>
-
-                <div className='font-semibold px-2'>{theme.title}</div>
-                <ExternalLinkIcon className='w-4 h-4' />
+        <div>
+        <Link className={'flex items-center gap-2 h-fit hover:underline'} href={themeData?.slug+'/'+theme.slug}>
+            <div className={`${'theme'+themeId}`}>
+            <Icon className={`fill-current h-5`} id={themeId} />
+            </div>
+                <div className='flex items-center gap-2 text-lg text-primary'>{theme.title}</div>
+                
         </Link>
+        <div className='pl-7'>{theme?.description}</div>
+        </div>
+   
     )
 }
 
@@ -23,8 +29,9 @@ export default function SubthemeGrid({theme}:{theme:number}) {
     const themeObject = subthemes.find(obj => obj.hasOwnProperty(theme));
     const subthemeData = themeObject ? themeObject[theme] : [];
     return (
-        <div className='flex grow gap-4 flex-wrap'>
-            {subthemeData && subthemeData.map((t, index)=><Subtheme key={index} theme={t} themeId={theme} />)}
+        <div className='grid grid-cols-1 gap-4 pl-4'>
+            
+            {subthemeData && subthemeData.map((t, index)=><Subtheme key={index} theme={t} iconId={theme} themeId={theme} />)}
         </div>
     )
 }

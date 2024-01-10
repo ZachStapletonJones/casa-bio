@@ -2,7 +2,7 @@ import ProfileGrid from '@/components/ProfileGrid'
 import ThemeGrid from '@/components/ThemeGrid'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
-import { Link2Icon } from '@radix-ui/react-icons'
+import { InfoCircledIcon, Link2Icon } from '@radix-ui/react-icons'
 import { FileText } from 'lucide-react'
 import Link from 'next/link'
 
@@ -10,48 +10,59 @@ import Link from 'next/link'
 export default function Home() {
   return (
       <div className="w-full space-y-8">
-        <Card className='md:float-right md:w-80 w-[90dvw] md:min-w-[450px] bg-secondary md:ml-4 md:mb-4'>
+        {/* md:float-right md:w-80 w-[90dvw] md:min-w-[450px] md:ml-4 md:mb-4 */}
+       
+        {/* Splash Content */}
+   
+          <div className='space-y-4'>
+
+              <h1 className='scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-2 text-primary w-fit'>Catalyzing Across Sectors to Advance the Bioeconomy</h1>
+              <p className='pb-4'>Recognizing that the world is on the cusp of an industrial revolution fueled by biotechnology and biomanufacturing, in September 2022, President Biden signed an <a className='text-primary font-semibold underline' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">Executive Order (EO) on Advancing Biotechnology and Biomanufacturing Innovation for a Sustainable, Safe, and Secure American Bioeconomy</a>.  The EO laid out a vision for a government-wide research strategy to advance biotechnology and biomanufacturing through foundational and use-inspired research to drive innovations in five areas: climate change, food and agriculture, supply chain resilience, human health, and the cross-cutting advances to enable progress across all sectors. Achieving this vision will require significant prioritization and staging of R&D investments across the US Government, in partnership with industry and philanthropies. </p>
+
+            <a className='w-fit' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">
+              <Button className='font-semibold flex items-center gap-2'><FileText className='h-4 w-4' />View the Executive Order</Button>
+            </a>
+            </div>
+            <Card className=' bg-secondary '>
             <CardHeader className='pb-2'>
-              <CardTitle className='text-lg text-primary'>How to Participate:  </CardTitle>
+              <CardTitle className='flex gap-2 items-center scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'><InfoCircledIcon className='h-6 w-6' /> How to Participate: </CardTitle>
             </CardHeader>
-            <CardContent className='flex flex-col gap-2 text-sm'>
+            <CardContent className='flex flex-col gap-2 text-md'>
             <div>There are two ways to participate:  Share your ideas in a virtual Town Hall, or share your ideas online. </div>
             <div>In early 2024, we will be hosting four virtual Town Hall meetings to hear from the research community about the ideas they view as having exciting potential to advance the bioeconomy.  These Town Halls will be highly interactive with lots of time for breakout discussions among community members. Each Town Hall will have the same agenda, but are offered at different days and times to accommodate different schedules. Everyone is welcome! </div>
-            <h3 className='text-primary font-semibold'>Option 1</h3>
-            <div className=''><span className='underline'>If you are able to attend</span>, please <strong>register</strong> for a Town Hall using the following two steps:</div>
-            <h4 className='text-primary font-semibold'>1) Select Your Best Date</h4>
-              <div className=''>
-                <div>January 30th, 2024 @ 12pm EST </div>
-                <div>January 31st, 2024 @ 5pm EST</div>
-                <div>February 12th, 2024 @ 7pm EST</div>
-                <div>February 15th, 2024 @ 9am EST</div>
+            <div className='grid grid-cols-2 gap-4 md:gap-2 pt-2'>
+              <div className='md:col-span-1 col-span-2 flex flex-col gap-2'>
+              <h3 className='text-primary font-semibold text-lg'>Option 1</h3>
+              <div className=''><span className='underline'>If you are able to attend</span>, please <strong>register</strong> for a Town Hall using the following two steps:</div>
+              <h4 className='text-primary font-semibold'>1) Select Your Best Date</h4>
+                <div className='grid grid-cols-1'>
+                  <Link className='hover:underline w-fit' href={'/'}>January 30th, 2024 @ 12pm EST </Link>
+                  <Link className='hover:underline w-fit' href={'/'}>January 31st, 2024 @ 5pm EST</Link>
+                  <Link className='hover:underline w-fit' href={'/'}>February 12th, 2024 @ 7pm EST</Link>
+                  <Link className='hover:underline w-fit' href={'/'}>February 15th, 2024 @ 9am EST</Link>
+                </div>
+                <h4 className='text-primary font-semibold'>2) Share Your Exciting Research Idea About Your Favorite Theme!</h4>
+                <Link target='_blank' href="/">
+                  <Button className='flex items-center h-8 gap-2 font-semibold'>
+                  <Link2Icon />
+                    Survey
+                  </Button>
+                </Link>
+                </div>
+                
+                <div className='md:col-span-1 col-span-2 flex flex-col gap-2'>
+                <h3 className='text-primary font-semibold  text-lg'>Option 2</h3>
+                <div><span className='underline'>If you are unable to attend any of the dates</span>, we would still love to hear your exciting research ideas. </div>
+                <div>To share, click here. </div>
+                </div>
               </div>
-              <h4 className='text-primary font-semibold'>2) Share Your Exciting Research Idea About Your Favorite Theme!</h4>
-              <Link target='_blank' href="/">
-                <Button className='flex items-center h-8 gap-2 font-semibold'>
-                <Link2Icon />
-                  Survey
-                </Button>
-              </Link>
-              <h3 className='text-primary font-semibold'>Option 2</h3>
-              <div><span className='underline'>If you are unable to attend any of the dates</span>, we would still love to hear your exciting research ideas. </div>
-              <div>To share, click here. </div>
             </CardContent>
             <CardFooter className='flex flex-col w-full items-start gap-2 justify-start'>
             
               
             </CardFooter>
           </Card>
-        {/* Splash Content */}
-   
-          <div className='space-y-4'>
-
-              <h1 className='scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0 text-primary w-fit'>Catalyzing Across Sectors to Advance the Bioeconomy</h1>
-              <p className='pb-4'>Recognizing that the world is on the cusp of an industrial revolution fueled by biotechnology and biomanufacturing, in September 2022, President Biden signed an <a className='text-primary font-semibold underline' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">Executive Order (EO) on Advancing Biotechnology and Biomanufacturing Innovation for a Sustainable, Safe, and Secure American Bioeconomy</a>.  The EO laid out a vision for a government-wide research strategy to advance biotechnology and biomanufacturing through foundational and use-inspired research to drive innovations in five areas: climate change, food and agriculture, supply chain resilience, human health, and the cross-cutting advances to enable progress across all sectors. Achieving this vision will require significant prioritization and staging of R&D investments across the US Government, in partnership with industry and philanthropies. </p>
-
-            <a className='w-fit' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">
-              <Button className='font-semibold flex items-center gap-2'><FileText className='h-4 w-4' />View the Executive Order</Button>
-            </a>
+          <div className='flex flex-col gap-4'>
             <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary pt-4'>Call to action</h2>
             <p>The CASA-Bio initiative was created to help implement the Executive Order. The first step of the plan is complete.  Reps from government funding agencies and the private sector have collaborated to identify themes of shared interest that we believe have high potential to advance the bioeconomy through innovative R&D. </p>
             <p>Now, it’s time for step two.  We need input from you, the research community, to identify exciting, creative, cutting-edge research ideas and directions to drive innovative advances in these areas.  In short, <strong className='text-primary'>WE NEED YOU</strong> to help lead the way forward to advance the bioeconomy by sharing your research ideas!  </p>
@@ -59,7 +70,7 @@ export default function Home() {
           
           
           <div className='space-y-6 pb-2'>
-          <h2 id="bioeconomy-themes" className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Bioeconomy Themes</h2>
+          <h2 id="bioeconomy-themes" className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">EO Bioeconomy Themes</h2>
           <ThemeGrid />
         </div>
        
@@ -122,11 +133,11 @@ export default function Home() {
               </Link>
         </div> */}
 
-        <div className='flex flex-col gap-4'>
+        {/* <div className='flex flex-col gap-4'>
           <h2 className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Organizations</h2>
           <div className='italic'>Details coming soon...</div>
-          {/* <ProfileGrid /> */}
-        </div>
+          <ProfileGrid />
+        </div> */}
       </div>
   )
 }
