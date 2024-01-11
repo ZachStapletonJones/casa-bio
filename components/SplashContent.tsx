@@ -3,7 +3,7 @@
 import { FileText } from "lucide-react";
 import { Button } from "./ui/button";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
-import { ChevronUpIcon, PersonIcon } from "@radix-ui/react-icons";
+import { ChevronUpIcon, PersonIcon, QuestionMarkCircledIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
 
 export default function SplashContent() {
@@ -67,6 +67,9 @@ our <a className="cursor-pointer font-semibold text-primary" href="https://fireb
 <Link className='w-fit' href="/alignment-participants">
   <Button variant={'default'} className='font-semibold flex items-center gap-2 w-fit'><PersonIcon className='h-4 w-4' />View the Alignment Participants</Button>
 </Link> 
+<Link className='w-fit' href="/how-we-will-use-your-input">
+  <Button variant={'default'} className='font-semibold flex items-center gap-2 w-fit'><QuestionMarkCircledIcon className='h-4 w-4' />View How We Will Use Your Input</Button>
+</Link>
 </div> 
         </div>
     );
