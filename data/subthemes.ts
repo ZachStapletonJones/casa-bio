@@ -20,11 +20,16 @@ export const subthemes: Subtheme[] = [
         description: `We need to make use of all available carbon, including waste carbon resources, to meet current demands and overcome bottlenecks that prevent or slow a transition away from fossil inputs.`,
         pageTitle: '# CCS-01: Creating Value from Waste Carbon for a Circular Bioeconomy',
         questions: `
-- **What's the challenge or opportunity space?**
-- **What is the urgency?**
-- **How do you envision working cross agency (in parallel vs sequentially)?**  
-- **What is the potential for impact -- societal and economic -- in 5-7 years?** 
-- **What are the key R&D needs or opportunities that we want to hear from the community?**      
+Imagine a day where your morning coffee comes in a cup made from materials that are harvested sustainably and processed through revolutionary bio-manufacturing techniques. Your commute is powered by clean, bio-based fuels, significantly reducing environmental impact. This future seamlessly integrates advances in biotechnology, recycling carbon waste, and sustainable agriculture. It's a world where innovation has not just created eco-friendly products but also spurred economic growth and solidified global environmental leadership through sustained R&D marrying environmental sustainability with technological innovation.
+
+In an era marked by environmental challenges and the imperative to transition towards sustainable practices, the concept of deriving value from waste carbon has emerged as a pivotal paradigm for fostering a Circular Bioeconomy. This holistic approach envisions a transformative cycle where waste carbon becomes a valuable resource. The integration of innovative technologies and sustainable methodologies opens up avenues for generating fuels, producing food, and creating sustainable materials, thereby forging a path towards a more resilient and regenerative future. This exploration into the realms of circular bioeconomy promises not only to address pressing environmental concerns but also to redefine the way we perceive and utilize carbon, turning it into a cornerstone for a more sustainable and interconnected world.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas.  Research should include improvements in sustainability of carbon sources, new methods for carbon capture, better transportation logistics, and new technologies for bioconversion platforms and scaling for desirable materials, food, and fuel. Cost-effectiveness must be an overarching consideration, especially via optimizing feedstock cost by identifying high-value renewable end products and scaling these solutions from pre-commercial to commercial levels. R&D efforts should also include specific areas like microbial engineering for waste gas conversion, biomass deconstruction, and biological upgrading.  We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.   
+
+Give us your ideas here:
+            
 ` 
     },
     {
@@ -33,11 +38,16 @@ export const subthemes: Subtheme[] = [
         description: `Although food and agriculture are major contributors to greenhouse gas emissions, both at the field level and in downstream production, food and agriculture can be used to create climate solutions.`,
         pageTitle: '# CCS-02: Climate-Smart Food and Agriculture',
         questions: `
-- **What's the challenge or opportunity space?**
-- **What is the urgency?**
-- **How do you envision working cross agency (in parallel vs sequentially)?**  
-- **What is the potential for impact -- societal and economic -- in 5-7 years?** 
-- **What are the key R&D needs or opportunities that we want to hear from the community?**      
+Imagine a transformed landscape of rice paddies, once a significant source of methane and nitrous oxide emissions, now exemplars of sustainable agriculture. Advanced biotechnologies and precision farming have revolutionized rice production. New rice varieties, engineered for resilience, thrive in alternating wet and dry cycles, effectively reducing methane emissions traditionally associated with constant flooding. Alongside, innovative slow-release fertilizers provide plant nutrition, while minimizing nitrous oxide release. This agricultural shift preserves environmental health and at the same time bolsters global food security, especially for parts of the world where rice is a staple crop. This scenario symbolizes a bioeconomy triumph, where responsible innovation in rice cultivation harmonizes the dual goals of environmental stewardship and feeding a growing population, turning what was once an ecological challenge into a sustainable, economically beneficial reality.
+
+Food and agriculture are significant contributors to greenhouse gas emissions, yet they also hold the key to creating climate solutions. Innovations in crop engineering can foster climate resilience and adaptability, enhance soil health, and reduce soil erosion. Addressing the proximity of bioenergy feedstock fields to biorefineries is crucial for aligning supply chain logistics with product demand. This approach is necessary to support a sustainable agricultural system that effectively tackles climate change challenges.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas. Key research areas include developing climate-smart feedstocks, engineering climate-resilient crops, and enhancing soil microbiomes for climate resilience. Focus should also include reducing greenhouse gas emissions and improving nitrogen use efficiency in agriculture. Research is needed to advance precision agriculture and circular solutions, to breed crops for efficient water and nutrient use, and to engineer crops for increased soil carbon sequestration. Addressing these R&D needs is critical for transforming agricultural practices to be more sustainable and environmentally friendly. We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+        
 ` 
     },
     {
@@ -46,11 +56,16 @@ export const subthemes: Subtheme[] = [
         description: `Although food and agriculture are major contributors to greenhouse gas emissions, both at the field level and in downstream production, food and agriculture can be used to create climate solutions.`,
         pageTitle: '# CCS-03: Reducing CO2 and Other Harmful Gasses',
         questions: `
-- **What's the challenge or opportunity space?**
-- **What is the urgency?**
-- **How do you envision working cross agency (in parallel vs sequentially)?**  
-- **What is the potential for impact -- societal and economic -- in 5-7 years?** 
-- **What are the key R&D needs or opportunities that we want to hear from the community?**      
+Imagine a future where our daily urban landscapes are interspersed with micro-forests and community gardens, utilizing plants genetically optimized to sequester carbon more efficiently. These green havens, thriving in previously underutilized spaces, are a direct result of breakthroughs in plant biotechnology, targeting both CO2 and methane reduction. Additionally, urban structures are constructed using advanced, carbon-absorbing building materials, developed through bio-manufacturing processes that repurpose atmospheric gasses. This innovative approach to city planning, combining biological carbon capture with practical urban development, not only combats climate change but also fosters sustainable community growth. This scenario demonstrates how the bioeconomy can transform environmental challenges into opportunities for a healthier, greener world. 
+
+A pressing challenge in addressing climate change is the diverse and widespread nature of harmful gas emissions, including CO2, methane, and nitrous oxide. To meet global goals for net zero emissions by 2050 and limit global temperature rise, it will not be sufficient to only reduce emissions. In addition, we must implement a multi-pronged strategy for removing harmful atmospheric gasses that includes natural solutions (forests, soils and wetlands), engineered methods (such as direct air capture), and hybrid approaches (such as biomass carbon removal and storage).  Biological systems, such as plants, algae, and microbes, offer promising solutions both for removing harmful gasses and for generating value through the potential cyclic reuse of these gasses into useful products.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas. R&D could focus on use of biological systems for various modes of carbon removal, including direct air capture, point source collection, or sequestration of CO2 from the atmosphere and storage underground or in long-lived products. Biological engineering could produce organisms more able to take up carbon and convert it to short- and medium-chain compounds for chemical production. Further, engineering organisms for enhanced carbon fixation, methane reduction in animal ruminants, and efficient biological systems for gas separation will be crucial. Community-driven roadmaps, such as from [Engineering Biology Research Consortium](https://roadmap.ebrc.org/engineering-biology-for-climate-sustainability/) and the [American Society for Microbiology](https://asm.org/reports/role-of-microbes-in-mediating-methane-emissions), emphasize the importance of interdisciplinary collaboration and innovation in such carbon management strategies. We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+        
 ` 
     }
 ]},
@@ -61,11 +76,16 @@ export const subthemes: Subtheme[] = [
         description: `Powered by AI/ML and engineering biology, revolutionary advances are needed to produce high-yield crops adapted to changing climates and livestock with greater environmental sustainability. `,
         pageTitle: '# FAI-01: Accelerated Breeding of Plants and Animals',
         questions: `
-- **What's the challenge or opportunity space?**
-- **What is the urgency?**
-- **How do you envision working cross agency (in parallel vs sequentially)?**  
-- **What is the potential for impact -- societal and economic -- in 5-7 years?** 
-- **What are the key R&D needs or opportunities that we want to hear from the community?**                   
+Imagine a future where your visit to a local farm reveals fields of crops tailored to thrive in changing climates, a direct result of AI and engineering biology-driven breeding. These crops, resilient to extreme weather and pests, yield abundant, nutrient-rich produce, meeting local food demands sustainably. Livestock bred with similar precision exhibit enhanced health and reduced environmental impact. This scenario, a blend of AI-driven genomics and innovative bioengineering, has transformed agricultural practices, bolstering food security, stimulating economic growth, and solidifying U.S.  position in global agricultural innovation. Continuous investment in these technologies has turned sustainability and efficient resource use from lofty goals into practical realities, showcasing the pivotal role of the bioeconomy to shape a resilient, nourishing future.
+
+Advancements in AI-powered tools are revolutionizing plant and animal breeding, offering unprecedented capabilities to improve target traits for consumer, producer, and environmental benefits. The merging of breeding and bioengineering, enhanced by AI, is poised to meet the rising demand for safe, sustainable food, feed, fiber, and energy. With the global population projected to reach 9.3 billion by 2050, the urgency for increased food production, coupled with challenges like climate change, invasive pests, and disease outbreaks, underscores the need for rapid, efficient breeding techniques. This innovative convergence is vital for optimizing resource use, enhancing food security, and reducing greenhouse gas emissions.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas.  Critical R&D areas include adapting centralized agriculturally relevant databases for machine learning and application of AI for functional genomics and discovery in plant, animal, and microbial systems.  Expansion of automated phenotyping systems and application of engineering biology could help associate beneficial traits with underlying genetic mechanisms. Extending understanding of traditional agricultural models to non-conventional plants and animals could diversify the food supply by development of new food sources, and the discovery potential for AI/ML-enabled protein/enzyme pathways is substantial. There is also a pressing need for tools that accelerate experimentation processes, like tissue culture and cell-free transformation, to keep pace with evolving agricultural demands. We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+                       
 ` 
     },
     {
@@ -74,11 +94,16 @@ export const subthemes: Subtheme[] = [
         description: `Plant-based agriculture needs more resilient, systems-level approaches to meet growing demands for efficient land use and production of food and bioenergy feedstocks.`,
         pageTitle: '# FAI-02: Climate Resilience and Environmental Sustainability',
         questions: `
-- **What's the challenge or opportunity space?**
-- **What is the urgency?**
-- **How do you envision working cross agency (in parallel vs sequentially)?**  
-- **What is the potential for impact -- societal and economic -- in 5-7 years?** 
-- **What are the key R&D needs or opportunities that we want to hear from the community?**                   
+Imagine a future where a visit to a local farm reveals fields of perennial crops flourishing on what was once considered marginal land. These crops, resilient to climate extremes, are a result of advanced biotechnological research, integrated precision agriculture, and robust plant breeding. They not only provide sustainable bioenergy feedstocks but also enhance soil health and biodiversity. This transformation, driven by interdisciplinary collaboration, signifies a major shift towards environmentally sustainable agriculture, contributing significantly to job creation and economic growth. Continuous investment in this innovative field has redefined agricultural practices, turning ideals of sustainability into tangible realities. It's a world where advanced biotech and ecological mindfulness synergize, making sustainable agriculture a cornerstone of the bioeconomy.
+
+There is a critical need for resilient, systems-level approaches in diversifying agricultural production to withstand environmental stress. Challenges include efficient land use for biomass for bioenergy, growth of perennials as bioenergy feedstocks, improved use of so-called ‘marginal’ land for agriculture and establishing universal definitions and standards for 'marginal land' and sustainability. There's an urgent need to automate agricultural sectors using robotics and precision agriculture to buffer agricultural systems against climate-related extremes and to enhance sustainability. Environmental opportunities lie in utilizing marginal lands, improving soil health, and integrating clean energy and water conservation practices in agriculture.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas.  Research should focus on measuring carbon intensity for growers, better predicting crop yields, and reducing carbon footprints of farming.  Improving soils and crop yield by incorporating use of microbes into farming practices should be explored. Growing strategies should explore and incorporate nitrogen-fixing oilseed crops, and new crops for controlled environments. Advancements in feedstock-agnostic processing and conversion technologies are also needed. Emphasis should also be placed on applied automation in agriculture, including for production, management, harvest, and non-chemical pest and disease control and leveraging technological advancements from other sectors like aerospace and defense. We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+                        
 ` 
     },
     {
@@ -87,11 +112,16 @@ export const subthemes: Subtheme[] = [
         description: `There is a pressing need to improve agricultural vaccines, diagnostics, and therapeutics to enhance food security, lower costs, and increase agricultural sustainability.`,
         pageTitle: '# FAI-03: Protecting Plants and Animals to Sustain the Planet',
         questions: `
-- **What's the challenge or opportunity space?**
-- **What is the urgency?**
-- **How do you envision working cross agency (in parallel vs sequentially)?**  
-- **What is the potential for impact -- societal and economic -- in 5-7 years?** 
-- **What are the key R&D needs or opportunities that we want to hear from the community?**                   
+Imagine a future where a visit to a farm or orchard unveils a revolution in agriculture. This change is propelled by breakthroughs in plant and animal health, such as advanced  genomic editing, creating robust, disease-resistant species.   Remote delivery of vaccines for wildlife has substantially decreased disease spill over into human and animal populations.  AI-driven disease prediction models coupled with new diagnostics have allowed for early detection of diseases and timely application of appropriate preventives or therapeutics in plants and animals. These developments, emerging from collaborative biotechnological and computational research, have fortified global food security and bolstered ecosystems. This advancement has substantial economic impacts, and affirms the U.S. as a worldwide leader in agricultural technology. This future, once an ambitious goal, is now a reality, demonstrating the impact of persistent research and innovation.
+
+There is a pressing need to enhance agricultural vaccines, diagnostics and therapeutics through innovative tools and approaches. Challenges in this area are numerous, including the need for low cost, problems with cold-chain logistics, and reluctance from producers.  As in human vaccine production, predicting which pathogens will be circulating in any one season can present production challenges. The application of AI/ML to vaccine design for agriculture is ripe for innovation.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas.  Key research and development needs include, greater input from academic, industry, and federal sectors to bolster basic research and applied research, development of AI/ML technologies tailored to agriculture, and improved modeling in the agricultural vaccine industry. There's a need for expanded studies of pathogen genomes and a better understanding of pathogen biology and target species immunity. Technologies aimed at reducing the cost of goods should be prioritized, as well as new, improved diagnostic, preventive and therapeutic technologies that allow for the lack of cold chain or hands-free delivery.  Additionally, there is a critical need for R&D of new vaccine technologies for animal health. Workforce education is crucial to drive these technologies forward. Additionally, educational outreach and socio-economic research is needed to promote producer buy-in and acceptance of these advances. We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+                     
 ` 
     },
     {
@@ -100,57 +130,331 @@ export const subthemes: Subtheme[] = [
         description: `Innovations are needed to meet growing global demands for nutritious food, new bioproducts with novel properties, and replacements for products that depend on non-renewable resources.`,
         pageTitle: '# FAI-04: Biomanufacturing Alternative Proteins and Other Agriculturally-derived Bioproducts',
         questions: `
-- **What's the challenge or opportunity space?**
-- **What is the urgency?**
-- **How do you envision working cross agency (in parallel vs sequentially)?**  
-- **What is the potential for impact -- societal and economic -- in 5-7 years?** 
-- **What are the key R&D needs or opportunities that we want to hear from the community?**                   
+Imagine a bustling urban farmers' market, where agricultural engineers showcase their latest marvels: nutritionally enhanced plant-based proteins and lab-cultivated meats, packaged in sustainable materials. These sustainable food innovations, born from a synergy of agricultural engineering and biotech, have reshaped our diets and food systems. The market buzzes with activity, reflecting a world where the engineering of food has not only brought diverse, nutritious options to our tables but has also sparked a green revolution in agriculture. Here, the blend of technology and nature offers a promising future, illustrating how targeted engineering and biotech efforts have shifted the course of our food industry towards sustainability and abundance.
+
+The increasing global demand for nutritious food and novel materials amidst growing environmental concerns opens the door for a shift towards biomanufactured, alternative proteins and ingredients. Animal stem cell lines are being explored to produce cell-cultured meat, seafood, and proteins while engineering biology principles are being tested to fabricate micronutrients, amino acids, vitamins, additives, and other high value food and feed ingredients. Challenges include adapting to diverse consumer demands for taste, texture, and nutritional value, scaling production, and navigating regulatory landscapes. Advances in this field promise healthier protein sources, contributing significantly to nutrition security. In the same way, novel biomanufacturing approaches can deliver new biomaterials with novel properties, or replace existing processes that depend on non-renewable resources. This transformation is crucial, as traditional agricultural practices face escalating pressures from climate change, resource scarcity, and a growing population.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas.  Research is needed across the three production platforms of plant-based, fermentation-derived and cultivated meat proteins as well as the development of hybrid products to meet nutritional, taste and texture needs at scale. Critical research areas include enhancing the nutritional quality, efficiency, and yield of plant-based proteins, as well as industrial products and materials. Understanding the sensory properties critical to consumer acceptance, developing cost-effective production technologies, and improving protein extraction processes are vital. Further, expanding protein sources beyond traditional crops and animals to algae and microorganisms, coupled with biotechnological innovations, can unlock new possibilities in food production. Likewise, research on use of abundant biomass resources such as lignocellulose from woody biomass can unlock the ability to create novel materials that could be used in construction, packaging, and medical products. Collaboration between academia, industry, and regulatory bodies is essential for translating these advancements into market-ready solutions for diverse global needs. We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+                    
 ` 
     }
 ]},
 {3: [
     {
-        title: 'Example: Advanced Analytics and AI in Supply Chain Optimization',
-        slug: 'advanced-analytics-ai-in-supply-chain-optimization',
-        description: ``,
-        pageTitle: '# *Example:* Advanced Analytics and AI in Supply Chain Optimization',
+        title: 'SCR-01: Resilient Domestic Supply Chains for Biofuels, Bioproducts, and Biochemicals',
+        slug: 'resilient-domestic-supply-chains-for-biofuels-bioproducts-and-biochemicals',
+        description: `There is an urgent need for research to enhance creation of domestic supplement chains for
+        natural sources of critical raw materials for biofuels or biologically-derived chemicals.`,
+        pageTitle: '# SCR-01: Resilient Domestic Supply Chains for Biofuels, Bioproducts, and Biochemicals',
         questions: `
-- **What's the challenge or opportunity space?**
-- **What is the urgency?**
-- **How do you envision working cross agency (in parallel vs sequentially)?**  
-- **What is the potential for impact -- societal and economic -- in 5-7 years?** 
-- **What are the key R&D needs or opportunities that we want to hear from the community?**                   
+Imagine a future where critical medical supplies reliant on natural rubber are secure within the U.S. instead of overseas. Supply chain security using a resilient crop, like guayule, thriving in America's arid lands, coupled with biotechnological advances, not only diversifies our rubber and fuel sources but also strengthens local economies. The focus on resilient plants, native to the US, which require only minimal water resources, echoes a sustainable ethos, transforming arid regions into hubs of eco-friendly innovation. This paradigm shift, underpinned by collaborative research, has reshaped the global economic landscape, positioning the US as a leader in sustainable biomanufacturing. Such strides in the bioeconomy, where once-dormant lands now fuel industries, reflect our commitment to environmental stewardship and technological innovation. It's a world where strategic investments in plant-based technologies have realized the dream of a balanced, sustainable bioeconomy.
+
+There is an urgent need to create domestic supply chains for plants, cell lines or strains (microbial, insect, or mammalian) capable of producing or serving as sources of chemicals that provide critical raw materials for biofuels, polymers, and materials or chemicals.  Current reliance on sources outside the US poses a supply chain risk due to multiple factors, including genetic, climate, social, economic, and political. Thus, alternate sources that can serve as sustainable, domestic sources of biofuels or biochemicals must be identified.  Promising plant candidates would ideally offer drought resistance, regenerative growth (as perennials rather than annuals), and compatibility with existing farming equipment. However, development of alternate plant sources into a viable industry faces many challenges across all steps in the pipeline–including cultivation, processing, and market adaptation–and would require significant innovations.  Promising candidates manufactured through biofermentation could utilize new high-tier strains that are tolerant to a variety of fermentation conditions, utilize non-traditional feedstocks, and outcompete contaminants in biofermentation systems.  
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas.  Advancing the use of domestic  plants as natural sources of biofuels and biochemicals demands a focus on enhanced crop yield, processing technologies, and market development. Innovations in direct seeding and transplanting methods, improving derived bioproduct yield, and developing water-saving technologies are crucial. Advancing fermentation-based bioproduction of chemicals requires enzyme, pathway and strain development unique to each chemical, feedstock, and fermentation system scenario. Investing in commercial processing facilities and expanding market opportunities for new bioproducts are key steps toward a resilient, diversified supply chain. Public research investment is vital to address these challenges and capitalize on the potential of natural plant sources for desirable biochemicals. We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+                  
+` 
+    },
+    {
+        title: 'SCR-02: Economics and Value Chain in the Bioeconomy',
+        slug: 'economics-and-value-chain-in-the-bioeconomy',
+        description: `Research is needed to improve sustainable economic models that integrate investment
+        strategies and shared services, address supply-demand balance, and ensure economic viability.`,
+        pageTitle: '# SCR-02: Economics and Value Chain in the Bioeconomy',
+        questions: `
+Imagine a world where your shopping experience is transformed by the bioeconomy's innovations. As you pick up a biodegradable package of plant-based protein, you're not just choosing a sustainable food option, you're participating in a revolutionary economic model. This product, emerging from a collaborative effort among researchers, industry leaders, and policymakers, is a testament to the transformative power of biotechnology. It represents a sustainable value chain, one that prioritizes environmental stewardship while fostering economic growth and job creation. Behind this product is a story of strategic investment in research and development, bringing together diverse expertise to redefine production and consumption. This scenario isn't just about a sustainable choice; it's about realizing a future where the bioeconomy's innovations drive societal progress, economic resilience, and global leadership in sustainable practices. A future where once idealistic concepts of environmental sustainability and equitable access have become tangible, everyday realities, reshaping the way we interact with our planet and its resources.
+
+The evolution of the bioeconomy's economic models and value chains is pivotal. This evolution involves creating sustainable economic models that integrate novel investment strategies and shared services. Key challenges include scaling bioenergy feedstocks and addressing supply-demand balance. Opportunities emerge in developing products that ensure equitable access and considering distributed production versus economies of scale. Urgent adaptation of these economic models is essential to foster a more inclusive and sustainable bioeconomy, particularly as the world faces pressing environmental challenges.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas.  There is a need to focus on advancing sustainable economic models and supply chain optimization. Research could emphasize developing predictive analytics for efficient supply chain management, factoring in regional resource/biomass availability and market demands to help producers, forest landowners, and manufacturers make business decisions. Additionally, the exploration of sustainable economic models tailored to the bioeconomy's needs, including investment in renewable resources and adherence to circular economy principles, is essential. To improve efficiencies, research is needed on the optimization of preprocessing of biomass feedstocks at farms, depots, and manufacturing facilities. Innovating bioprocessing technologies for seamless integration into existing manufacturing networks, alongside comprehensive environmental and economic impact evaluations through life cycle assessments, is critical. These efforts necessitate a multidisciplinary approach, combining economics, engineering, biology, and data science, to ensure scalability, economic viability, and sustainability in the bioeconomy. We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+                   
 ` 
     }
 ]},
 {4: [
     {
-        title: 'Example: Precision Medicine',
-        slug: 'precision-medicine',
-        description: ``,
-        pageTitle: '# *Example:* Precision Medicine',
+        title: 'HH-01: Vaccines and Biologics',
+        slug: 'vaccines-and-biologics',
+        description: `New approaches are needed to design vaccines and biologics with features that offer broader protection, greater supply chain resilience, simpler routes of administration, and lower costs.`,
+        pageTitle: '# HH-01: Vaccines and Biologics',
         questions: `
-- **What's the challenge or opportunity space?**
-- **What is the urgency?**
-- **How do you envision working cross agency (in parallel vs sequentially)?**  
-- **What is the potential for impact -- societal and economic -- in 5-7 years?** 
-- **What are the key R&D needs or opportunities that we want to hear from the community?**                
+In a future where vaccines and biologics have transformed public health, imagine receiving a customized vaccine, seamlessly integrated into a routine medical check-up. This vaccine, developed using breakthrough techniques, offers tailored protection against multiple viruses predicted to be circulating this season, ensuring robust defense against projected outbreaks. Its creation stems from a world where the role of biologics has been transformed to serve as pan-protective vaccines or immunomodulators, thereby revolutionizing the way we address both common and emerging health threats. These advances have significant societal and economic impacts, contributing to global health resilience, reduced healthcare costs, enhanced wellbeing, and increased longevity. This future underscores the critical importance of investing now in research and development in vaccines and biologics, affirming their vital role in sustaining and enriching lives globally.
+
+Biologics--such as vaccines, blood and blood components, and recombinant proteins—are poised to overtake small molecules as the pharmaceutical industry's primary therapeutic products. Thus, they are likely to become significant drivers of the bioeconomy. Challenges in this domain involve designing vaccines and biologics that offer not only broader protection, but also supply chain resilience, such as avoidance of cold storage requirements, thus leading to longer shelf life, and simpler routes of administration. To advance the development and application of vaccines and biologics, there are pressing needs in multiple areas, such as computational prediction for pandemic prevention, development of mRNA and other vaccines for pathogens with pandemic potential, and innovative technologies for immune regulation and personalized immune protection. The urgency to lower costs and improve accessibility nationwide is critical, as is robust public education to boost acceptance of vaccination for public health.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas.  Research should focus on major scientific advances in vaccine and biologics technology, for example, exploring new methods for extending shelf life, non-injectable delivery methods, distributed manufacturing technologies, or pathogen-specific studies.  Technology advances need to be accompanied by considerations of infrastructure to identify gaps in manufacturing pipelines and strategies for commercialization, especially for products targeting sporadic pathogens. Also important are factors related to sustainability and market viability, including public education, workforce generation, and biosecurity. We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+             
+` 
+    },
+    {
+        title: 'HH-02: Advanced Computing for Human Health',
+        slug: 'advanced-computing-for-human-health',
+        description: `Advances in computing technologies and accessibility are needed to help integrate different types of health data for diagnosis and treatment planning, while preserving patient privacy.`,
+        pageTitle: '# HH-02: Advanced Computing for Human Health',
+        questions: `
+Imagine a future where advanced computing has revolutionized not just your doctor's appointment, but the entire healthcare landscape. In this future, during your routine check-up, an AI system analyzes a wealth of data – your genetic profile, biometric readings, lifestyle factors, and comprehensive medical history. Your provider can use this analysis to create a personalized health plan, optimizing treatments specifically for you. Beyond individual care, this technology offers a user-friendly interface with easy-to-understand information, accelerates medical research, streamlines healthcare delivery, and improves public health outcomes on a vast scale. It's a transformative shift, where rapid, data-driven medical advancements enhance healthcare efficiency, reduce costs, and position the U.S. as a pioneer in global health innovation.
+
+The healthcare and biotechnology sectors are increasingly reliant on advanced computing, a field that is significantly impacting the bioeconomy. Using advanced computing in the health field faces myriad challenges, such as integrating different types of health data while ensuring patient accessibility and privacy and navigating the legal implications of using technological tools in diagnosis and treatment planning. Recent AI success stories--like development of AlphaFold by DeepMind for predicting protein structures from amino acid sequence information--demonstrate the profound impact of marrying foundational sciences with cutting-edge technology like AI and highlight the immense potential in this realm.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas.  Future R&D directions include developing computing technologies for biomedical applications, enhancing data sharing mechanisms and training the bioeconomy workforce to use them, creating automated manufacturing workflows and analytical tools (including AI), and developing digital twins plus integration of sensors to predict outcomes. These areas, while addressing patient safety, security, and privacy, have the potential to revolutionize human health research and treatment. We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+      
+` 
+    },
+    {
+        title: 'HH-03: Human Nutrition',
+        slug: 'human-nutrition',
+        description: `New research and infrastructure, spanning from traditional farming and food production to sustainable biotechnologies, are needed to improve human nutrition and enhanced well-being.`,
+        pageTitle: '# HH-03: Human Nutrition',
+        questions: `
+Imagine a future where your grocery shopping includes a diverse array of sustainably sourced, nutritionally optimized foods, all thanks to breakthroughs in biotechnology. You purchase bread enriched with plant-based proteins engineered for higher nutritional value, and a variety of vitamin-enhanced fruits and vegetables grown with minimal water and land use. This world is one where biomanufacturing and advanced agricultural techniques have revolutionized our food systems, with enhanced small-scale production using new plant varieties bringing nutritious food closer to home, thus promoting healthy diets.  Thanks to collaborative efforts across disciplines, including genetic engineering and precision agriculture, we've dramatically reduced the carbon footprint of food production while ensuring abundant, nutritious options for all. This shift not only boosts global health and reduces healthcare costs but also establishes the U.S. as a leader in sustainable food production. It's a world where our robust investment in bioeconomy R&D has turned the ideals of environmental stewardship and universal health through nutrition into a living reality, profoundly impacting society at every level.
+
+The field of human nutrition is at a pivotal juncture, with opportunities ranging from refining traditional farming and food production to embracing cutting-edge technologies for alternative proteins and bioengineered nutrition sources. Challenges include not only investing in infrastructure and research, but also educating the public on the importance of change and the opportunities afforded by innovative nutrition solutions. Addressing nutrition is crucial for enhancing health and reducing healthcare burdens, offering significant economic and quality-of-life improvements.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas. Focus areas include developing sustainable food systems that integrate better nutrition and efficiency. This involves a multi-pronged strategy incorporating use of biotechnology for improved animal health and aquaculture, enhanced plant-based diets for sustainability, and exploration of alternative nutrition sources. Research is also needed to better understand human nutritional requirements and how they can be met with healthy, sustainably produced food.  Additional research might consider regulatory challenges associated with the use of biotechnology for food systems and enhancing public awareness about the benefits of technologically improved nutrition systems. We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+             
+` 
+    },
+    {
+        title: 'HH-04: Public Health Outcomes in the Bioeconomy',
+        slug: 'public-health-outcomes-in-the-bioeconomy',
+        description: `A more expansive view of public health is needed to ensure that biotechnology innovations broadly benefit humans, animals and plants that serve as food, and the environment. `,
+        pageTitle: '# HH-04: Public Health Outcomes in the Bioeconomy',
+        questions: `
+Imagine a future where public parks and community centers become hubs for promoting public health, equipped with advanced bio-monitoring systems. These systems, discreetly integrated into the environment, might assess air quality and detect potential health hazards, actively contributing to disease prevention. As you enjoy a morning walk, the air you breathe is continuously analyzed, ensuring you know in real-time the local levels of pollutants and allergens. In this proactive health landscape, local clinics utilize biotech advances for early disease detection, offering personalized health assessments and interventions. This transformative approach not only enhances individual wellness but also reduces healthcare costs and strengthens community resilience. The U.S., leading this transformation, experiences economic growth and job creation through new product development and improved worker health, solidifying its position as a global leader in innovative public health solutions.
+
+The impact of the bioeconomy on public health is multifaceted, addressing not just human health but also the well-being of animals and plants (that serve as food) and the broader environmental context. This expansive view requires a shift in how we view and assess population health with an eye towards enhanced quality of life, decreased healthcare expenditures, and increased economic productivity. To accommodate this new view requires rethinking our approach to health, giving equal focus to reactive (treatment) and proactive (prevention) strategies. 
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas.  Focused research is needed to evaluate how bioeconomy products influence public health. This includes comprehensive data collection to establish clear correlations between biotechnologically enhanced inputs and health outcomes. Research could prioritize understanding—from a systems perspective — the effects of biotechnology products on human health, particularly their impact on disease prevention, immune system enhancement, and nutritional improvements. Additionally, there is an opportunity to study how human performance-- especially in challenging environments like military operations or space exploration--might be enhanced by biotechnological products.  We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+               
+` 
+    },
+    {
+        title: 'HH-05: Cell Therapies',
+        slug: 'cell-therapies',
+        description: `Both basic and applied research investments are needed to improve many aspects of cell therapy, including cell sourcing, manufacturing, reproducibility, and costs.`,
+        pageTitle: '# HH-05: Cell Therapies',
+        questions: `
+Imagine a future where routine visits to the doctor include a quick, non-invasive cell therapy treatment that rejuvenates your body's own natural defenses against age-related ailments or treats a diagnosed chronic disease. This future, driven by breakthroughs in cell therapy, harnesses the power of modified cells to enhance organ function, slow aging processes, boost overall vitality, or treat disease. The development of these therapies, born from a blend of cellular biology and advanced biomanufacturing, has radically transformed public health. Economically, it has spurred job growth in new biotech fields, positioning the U.S. at the forefront of medical innovation. This reality, once a distant dream, is now an integral part of healthcare, thanks to sustained investment in biotechnological research, demonstrating the profound capabilities of the bioeconomy in enhancing and prolonging human life.
+
+Cell therapies, especially in cancer treatment like CAR-T cell therapies, present a vast untapped potential but face significant challenges in basic science, cell sourcing, manufacturing, and in vivo performance control. The sector grapples with high costs for autologous (personalized) therapies, challenges in reproducibility of treatments, and stringent requirements for robust, scalable manufacturing platforms. Addressing these challenges could improve the range of conditions for which cell therapies could be routinely applied.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas.  Focus areas include developing new manufacturing paradigms, enhancing diagnostics for patient selection, exploring new cell therapy avenues (like microbiome/edible therapies), and overcoming immunological and cell sourcing challenges. Regulatory science advancement and standardization are also critical to encourage innovation. We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+            
+` 
+    },
+    {
+        title: 'HH-06: Intelligent Medical Assistance/Smart Health Care',
+        slug: 'intelligent-medical-assistance-smart-health-care',
+        description: `New technologies like at-home diagnostic tools and smart wearables for disease detection hold great promise, but additional research into these tools is needed to evaluate effectiveness. `,
+        pageTitle: '# HH-06: Intelligent Medical Assistance/Smart Health Care',
+        questions: `
+Imagine a world where your morning walk or jog is not just a fitness routine, but a comprehensive health check. As you run, your smartwatch and clothing, embedded with advanced biosensors, quietly analyze your vitals, detecting any early signs of health issues like respiratory or heart anomalies. This seamless integration of biotechnology into everyday items revolutionizes healthcare, making early detection and prevention a part of daily life. The broader impact is immense - these innovations have led to a significant reduction in healthcare costs, democratized access to health monitoring, and drastically reduced emergency medical cases. Economically, this tech boom has spurred job creation and positioned the U.S. at the forefront of global healthcare innovation. Continuous investment in such transformative technologies is reshaping the landscape of public health, turning the ideals of preventative care and personalized health monitoring into an affordable reality for everyone.
+
+Intelligent Medical Assistance represents a groundbreaking shift in healthcare, leveraging technology to enable individuals to assess their need for medical attention. This paradigm involves at-home diagnostic tools, using smart wearables and smartphones integrated with AI/ML for early disease detection. Key challenges include ensuring data privacy, public trust, and integrating these technologies with existing healthcare systems. The urgency stems from the potential to alleviate healthcare system burdens, especially in managing disease, for example flu and COVID-19.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas.  Research could revisit previously unscalable biosensors, focusing on public trust, bio-data security, and integrating digital diagnostics with smartphones and wearables. New research is needed to explore ways to repurpose past investments in biosensors and consider how to make these tools accessible and trustworthy for widespread new uses. Regulatory guidelines for personal health monitoring tools, actionable data interpretation, and ensuring equitable technology distribution are also crucial.  We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+            
 ` 
     }
 ]},
 {5: [
     {
-        title: 'Example: Synthetic Biology for Environmental Remediation',
-        slug: 'synthetic-biology-environmental-remediation',
-        description: ``,
-        pageTitle: '# *Example:* Synthetic Biology for Environmental Remediation',
+        title: 'CCA-01: Workforce Development for the Bioeconomy',
+        slug: 'workforce-development-for-the-bioeconomy',
+        description: `Meeting the growing needs of the bioeconomy across all sections will require a diverse, skilled workforce spanning fundamental science to manufacturing. `,
+        pageTitle: '# CCA-01: Workforce Development for the Bioeconomy',
         questions: `
-- **What's the challenge or opportunity space?**
-- **What is the urgency?**
-- **How do you envision working cross agency (in parallel vs sequentially)?**  
-- **What is the potential for impact -- societal and economic -- in 5-7 years?** 
-- **What are the key R&D needs or opportunities that we want to hear from the community?**                 
+Imagine a bustling bioeconomy hub where people from diverse backgrounds, equipped with specialized skills, collaborate on groundbreaking projects. In this scenario, a former petroleum engineer now applies her expertise to optimize biofuel production, thanks to a targeted retraining program. Nearby, a young bioinformatics specialist, who began his journey in a community college, analyzes data from sustainable agriculture projects, his education having seamlessly integrated AI and quantum computing into bioeconomy applications. This community exemplifies the new workforce dynamic, where interdisciplinary collaboration drives innovation, creating numerous job opportunities and economic growth. Sustained investment in education and training programs has fostered this diverse, skilled workforce, propelling the U.S. to the forefront of global bioeconomy leadership. This transformation highlights the realization of a sustainable, inclusive bioeconomy where every individual's potential is harnessed for collective progress.
+
+Meeting the growing needs of the bioeconomy across all sectors requires a diverse, skilled workforce spanning fundamental science to manufacturing. Regional workforce needs vary across the U.S., reflecting the distributed nature of bioeconomic resources. Education and training in emerging fields like AI and quantum computing and non-technical skills in communication and business are crucial. Additional challenges lie in transitioning existing workers from fossil fuel industries and developing education and training programs at all levels.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas.  Research to support workforce development should focus on creating innovative educational models and training methods tailored to the bioeconomy's needs. This includes multidisciplinary learning programs that connect fundamental sciences for the bioeconomy with practical industry applications, for example by developing AI and quantum computing courses specific to bioeconomy challenges. Additional efforts might involve research into effective workforce transition strategies, particularly for workers shifting from fossil fuel industries to bioeconomy sectors. Collaborative efforts with community colleges might aim to establish industry-aligned certifications and programs. Priority should include emphasis on diversity, equity, inclusion, and accessibility in education and training, exploring new methods for career mapping and transition, and integrating bioeconomy concepts into early education to build a foundation for a diverse and skilled future. We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+      
 ` 
-    }
+    },
+    {
+        title: 'CCA-02: Foundational Discovery Driving the Bioeconomy',
+        slug: 'foundational-discovery-driving-the-bioeconomy',
+        description: `Continued investments in foundational science and engineering research are needed to catalyze new breakthrough tools, technologies, and innovations to fuel the bioeconomy. `,
+        pageTitle: '# CCA-02: Foundational Discovery Driving the Bioeconomy',
+        questions: `
+Imagine if, a few years from now, your morning routine includes a breakfast with superfoods, engineered through advanced protein manufacturing, tailored to your health needs. The packaging, a product of groundbreaking materials research, is completely biodegradable, disintegrating harmlessly within days. These innovations stem from a world where foundational discoveries that support the bioeconomy have been actualized - a world where interdisciplinary teams, merging AI, living systems, and biotechnology, have revolutionized how we produce and consume, making sustainability and personalized healthy living not just ideals, but everyday realities.
+
+Foundational discovery in science and engineering plays a critical role in driving the bioeconomy through advances in both structured innovation and serendipitous discoveries. Success stories–like DeepMind’s AlphaFold, which integrated protein structure, DNA sequencing, and AI for predicting protein structures, or CRISPR, which allows for specific modification of DNA to treat disease –highlight the profound impact and potential of foundational sciences to drive innovation. There are substantial challenges that cut across many bioeconomy sectors, especially in manufacturing and workforce development.  Continued investment in basic science and engineering is vital to prevent stagnation in the evolution of next-generation bioeconomy solutions.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas. The focus is on fostering interdisciplinary R&D and developing advanced discovery tools, including: high-throughput sequence and function analysis platforms; novel biomolecules, metabolic pathways and circuits, innovative cellular and cell-free systems, and much more. The [EBRC Technical Roadmaps](https://roadmap.ebrc.org) offer initial ideas, outlining areas ripe for exploration and growth in foundational research. Also, the opportunity exists for seeding ideas from established industry back into the foundational discovery pipeline as an important catalyst for continued growth of the bioeconomy. We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+      
+` 
+    },
+    {
+        title: 'CCA-03: Biomanufacturing, Bioreactors, and Scale-up',
+        slug: 'biomanufacturing-bioreactors-and-scale-up',
+        description: `Traditional methods for engineering and manufacturing need to evolve to permit faster progression of foundational knowledge to bioproduct commercialization, e.g., lab to market.`,
+        pageTitle: '# CCA-03: Biomanufacturing, Bioreactors, and Scale-up',
+        questions: `
+Imagine a local community garden where lush greenery coexists with integrated bioreactors. These innovative units use gaseous feedstocks from a subterranean waste site to produce eco-friendly materials and novel proteins, showcasing the latest in biomanufacturing. This fusion of advanced computing, biology, and engineering has transformed small-scale discoveries into scalable, sustainable solutions. The garden is now a hub of local production, demonstrating the practical application of biomanufacturing linked with waste disposal. This transformation, driven by continuous R&D, illustrates the U.S.'s role as a leader in global innovation, marrying technological advancement with environmental stewardship.
+
+A key challenge for the bioeconomy lies in efficiently scaling innovations for economic feasibility and consistent quality. There is a pressing need to evolve from traditional "build and test" methods to digital laboratories for enhanced discovery and scalability. This transition is vital for overcoming current manufacturing limitations and embracing a 'fail fast' approach. The U.S. currently lags behind Europe in transitioning new potential products from bench to marketplace; consequently, startup companies opt for piloting their projects abroad due to better facilities and workforce. This trend must be reversed to bolster the U.S. bioeconomy.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas. There is a need for both fundamental research and more applied research to advance the middle ground – between discovery and commercialization. At the foundational level, this could include mining diversity of biological systems for new ‘parts’ to use in bioengineering and new chemistries that plug into existing supply chains and developing robust toolboxes for biomanufacturing integration. There is also a need for a data repository on manufacturing and scale-up challenges, and a shift from a purely R&D ecosystem to an engineering-focused approach. Other areas include exploring distributed biomanufacturing, developing agnostic feedstocks, strain competitiveness, and a comprehensive understanding of scale-up challenges, including efficient downstream processing. We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+            
+` 
+    },
+    {
+        title: 'CCA-04: Future of Advanced Bioeconomy Computing',
+        slug: 'future-of-advanced-bioeconomy-computing',
+        description: `New computational approaches are needed to integrate the vast multimodal biological datasets to enhance discovery, scalability, and sustainability of biotechnology science and engineering. `,
+        pageTitle: '# CCA-04: Future of Advanced Bioeconomy Computing',
+        questions: `
+Imagine a world where a young researcher, working from a remote village, contributes to groundbreaking discoveries in biotechnology, thanks to the Future of Advanced Bioeconomy Computing. She uses a modest laptop to access powerful cloud-based AI systems, crunching complex biological data that once required supercomputers. Her work, part of a global collaborative effort, leverages quantum computing and AI to create sustainable agricultural practices, massively improving crop yields while preserving her own local ecosystems. This interconnected web of innovation not only democratizes science, allowing talent from anywhere to contribute in a significant way, but also drives economic growth, creating new jobs and industries. The continuous investment in foundational research in advanced computing has turned what was once a distant dream of global scientific collaboration and sustainable living into a daily reality, showcasing the power of computing to drive the bioeconomy.
+
+The integration of classical computing, quantum computing, and artificial intelligence opens transformative prospects for the bioeconomy. The challenge lies in harnessing this convergence to expedite discovery, scale engineering solutions, and reinforce bioeconomic sectors, while ensuring robust data security. The urgency arises from the need to integrate across a growing amount of multimodal biological datasets generated from ‘omics studies, high throughput phenotyping, biosensors, and outputs from digital labs, digital diagnostics, and self-driving labs. Advances in computing technology now make it practical, not just aspirational, to gain understanding from this diversity of data. New work in this area is crucial for enhancing discovery, scalability, and sustainability.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas.  Advances in this area hinge on identifying technical gaps in current computing capabilities for complex biological systems modeling. Access to diverse, bioeconomy-relevant datasets is critical, as is the tailoring of AI and machine learning for specific biotechnological challenges. Research should focus on leveraging advanced computing for hypothesis generation and discovery at scale, particularly in healthcare and life sciences, where traditional computing falls short. Collaborative 'moonshot' initiatives, such as training large language models for AI in biological sciences, present opportunities for breakthroughs in understanding and applying biological data across multiple domains. These endeavors require interdisciplinary collaboration and a blend of expertise from various agency and industry partners. We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+           
+` 
+    },
+    {
+        title: 'CCA-05: Data Sharing and Infrastructure',
+        slug: 'data-sharing-and-infrastructure',
+        description: `Unified and scalable data infrastructure is needed to leverage available data from multiple sources across different sectors to support application of new technologies for the bioeconomy.`,
+        pageTitle: '# CCA-05: Data Sharing and Infrastructure',
+        questions: `
+Imagine a scenario where during a visit to a new city, your smartwatch seamlessly taps into a shared global data network, providing you with tailored health alerts and recommendations. This watch, leveraging vast pools of shared biometric and environmental data, notifies you of areas with high pollen levels due to your known allergies, suggests restaurants catering to your specific nutritional needs, and even guides you to locations with optimal air quality for your afternoon jog. This innovation, born from the fusion of cross-organization data collaboration and advanced infrastructure, represents a leap in personalized public health management. Such advancements, fueled by global data sharing, not only enhance individual health and wellbeing but also drive economic growth and foster a more informed, health-conscious society. Here, technology becomes a personal health guardian, making proactive health management an integral part of daily life.
+
+The [Global Data Coalition](https://globalbiodata.org) estimates that there are over 3,000 disjointed digital repositories for biological data, compromising the ability to find, access, interoperate, and reuse data across these important resources. This situation points to a critical need for a strategic approach to identify and prioritize essential datasets and to ensure they can be integrated for generating new knowledge. We need a unified and scalable data infrastructure that is poised both to leverage available data from multiple sources across different sectors and to support application of AI technology for solving biological problems that will drive the bioeconomy.  Addressing such challenges is crucial not only for keeping pace with global data management and innovation, but also for the U.S. to continue its leadership role.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas.  In addition to establishing standards for data and metadata, there's a need for in-depth exploration of how different sectors (industry versus academia) utilize and process all sorts of biological data. Furthermore, enhancing the interoperability and integration of biological data across domains such as agriculture, health, and environmental management is important. Collaborative efforts should focus on training new large language models for AI in biological sciences to gain new knowledge about biological systems and their functions. These efforts must address the distinct needs of various stakeholders to ensure the effective utilization of biological data for transformative advancements in the bioeconomy. We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+          
+` 
+    },
+    {
+        title: 'CCA-06: Responsible Innovation',
+        slug: 'responsible-innovation',
+        description: `Biotechnology-associated research and the resulting products need to be developed proactively to ensure best practices for security, safety, equity, accessibility, and sustainability. `,
+        pageTitle: '# CCA-06: Responsible Innovation',
+        questions: `
+Imagine a community-centered biotech hub, pioneering sustainable agricultural innovations like drought-resistant crops and eco-friendly soil treatments. This facility champions transparent operations and ethical practices, actively engaging with locals through open forums. These discussions ensure that technological advancements align with environmental ethics and community needs. Here, biotechnological progress is a collaborative journey, deeply rooted in sustainability and social responsibility, creating a model where innovation goes hand in hand with worker health and safety, community well-being, and ecological balance.
+
+A challenge lies in ensuring that biotechnology-associated research and resulting products are developed with a proactive approach to best practices that include security (bio, cyber, and IP); technology, consumer, and worker health and safety; equity; accessibility; and sustainability. Addressing such goals will benefit from risk assessment, cross-agency and international collaboration, and public-private partnerships, ideally incorporating strategic attention and action from the outset.  Urgency arises because of the rapid pace at which biotechnology advancements are evolving, which could potentially outpace our ability to adequately evaluate and mitigate risks.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas.  Research and development should focus on inclusive best practices and new approaches for assessing the health and safety risks associated with new biotechnologies and biomanufacturing processes, products, and by-products. This includes understanding the impact on the environment, including food, water, and waste management systems, and in applications that impact the health and well-being of workers in the bioeconomy, consumers, and the general population. Cross-disciplinary collaborations will be essential, combining insights from social sciences, economics, and human resource development. Key areas also include improving communication and making data sharing more open among academic, industry, and international partners to enable appropriate risk assessment for foundational and translational biotechnologies.  We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+        
+` 
+    },
+    {
+        title: 'CCA-07: Risk Communication',
+        slug: 'risk-communication',
+        description: `To ensure societal acceptance and adoption of the products of biotechnology, there is an urgent need for effective communication of risks associated with biotechnological advancements. `,
+        pageTitle: '# CCA-07: Risk Communication',
+        questions: `
+In the heart of a bustling town, a community gathers at a local park for a weekly "Tech Talk," where cutting-edge biotech advances and their implications are demystified. Here, AI-powered interactive displays and VR simulations provide an immersive experience, transforming complex scientific concepts into tangible, everyday understanding. This new tradition, fueled by accessible and engaging technology, bridges the gap between groundbreaking research and public knowledge, fostering a community deeply informed about biotech innovations, from self-healing materials to environmental biosensors. The ripple effect is profound – driving local job creation in tech and education sectors, bolstering the town's reputation as a hub of innovation, and reinforcing the national stance in global biotech leadership. This scenario underscores the transformative role of sustained investment in both technology and education, ensuring that the ideals of informed, responsible, and inclusive innovation are not just aspirations but the cornerstones of a thriving bioeconomy.
+
+The effective communication of risks associated with biotechnological advancements poses a significant challenge. Misinformation can lead to public pushback and decreased adoption of beneficial technologies. The complexity of conveying technical science in layman's terms, coupled with evolving information channels like social media versus traditional news, requires a nuanced approach. There is urgency in managing societal acceptance.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas.  Research is needed on strategies for effectively communicating complex scientific advances to the public, utilizing various media, and targeting diverse communities. Such research might include developing AI-enhanced tools, such as algorithms for real-time sentiment analysis on social media, identifying misinformation trends, and customizable digital platforms for adaptive, audience-specific information dissemination. Interactive educational tools using VR/AR technologies to explain complex concepts and research into diverse media strategies for accurate information dissemination are also key. Exploring successful mechanisms---like those used in the pharma industry for advertising new products—and applying to biotech advances could be beneficial for bridging the gap between scientific complexity and public comprehension, thereby fostering informed decision-making and trust in biotechnological progress. We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+          
+` 
+    },
+    {
+        title: 'CCA-08: Biosecurity in the Bioeconomy',
+        slug: 'biosecurity-in-the-bioeconomy',
+        description: `To safeguard public health and the environment, research is needed to understand and preemptively address potential biosecurity risks in the bioeconomy. `,
+        pageTitle: '# CCA-08: Biosecurity in the Bioeconomy',
+        questions: `
+Imagine a bioengineered community garden where plants not only thrive but also serve as sentinels for biosecurity. These specially designed flora, equipped with biotechnological features, signal the presence of environmental toxins or invasive species, ensuring the safety of the local ecosystem. This integration of biosecurity into urban green spaces exemplifies proactive environmental protection, where bioengineered products are responsibly developed and monitored for ecological impact. Such innovations, emerging from collaborative research and sustained investment, symbolize a bioeconomy where the creation and release of biotechnologies are closely aligned with safeguarding environmental and public health.
+
+As the bioeconomy grows, a significant challenge arises in ensuring that processes and products are safe and secure.  Biosafety and biosecurity measures should be incorporated from the ideation stage through the entire innovation lifecycle. This includes preventing accidents that could harm workers or the public, understanding the environmental and health impacts of engineered bioproducts, and safeguarding against the accidental release or theft of sensitive materials and data. A key goal is to protect ecosystems, food supplies, and public health from harmful bioproducts. Multiple reports exist on such topics that can serve as starting points for future discussion and action.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas. Research is crucial for both understanding and preemptively addressing potential biosecurity risks in the bioeconomy.  Key needs include developing empirical data on the effectiveness of current and intended biosafety practices, designing microbes and processes with built-in biosecurity features (such as self-reporting or surveillance sensors), and establishing best practices for secure data and technology sharing. Additionally, there is a need to improve capacity to detect and mitigate current and emerging pathogens or pests with potential to cause disease in humans, animals, and plants.  We emphasize that this list is not comprehensive; we need you to help us think deeper within this subtheme!
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+        
+` 
+    },
+    {
+        title: 'CCA-09: Advancing Regulatory Science for Products of Biotechnology and Biomanufacturing',
+        slug: 'advancing-regulatory-science-for-products-of-biotechnology-and-biomanufacturing',
+        description: `NEEDED `,
+        pageTitle: '# CCA-09: Advancing Regulatory Science for Products of Biotechnology and Biomanufacturing',
+        questions: `
+Imagine a world where advances in regulatory science keep abreast with the rapid advances in biotechnology so that regulators continue to have the information and data necessary to support regulatory decision-making to ensure that consumers can have ready access to safe, and effective products of biotechnology. Regulatory decision-making driven by shared tools, standards, approaches, and data from regulatory authorities, scientists, and industries enables innovation to reach the market more efficiently. The impact of such a collaborative approach could be vast, bolstering a bioeconomy  that fosters global leadership in sustainable and efficient innovation and enabling products of biotechnologies to be accessible, available, and beneficial to all. 
+
+The United States has employed a science-and-risk-based regulatory system for the products of biotechnology for over 40 years. These risk-based regulatory systems rely on the review of scientific data that demonstrate that regulatory requirements have been met. To continue to further the development and availability of safe products of biotechnology, it is also essential to promote research to advance the development of the tools, standards, and approaches that support regulatory decision-making – known as regulatory science. As biotechnology innovation rapidly advances, regulatory science must also advance so that regulatory authorities have the data and information necessary to continue to enable science-based regulatory decision-making.
+
+CASA-Bio stakeholders representing government, industry, and non-profit sectors, identified areas of mutual interest where concerted effort among them may lead more quickly to the realization of the envisioned future.  These are a few of their ideas. Advancing regulatory science to continue to support science-based and risk-based regulatory assessments of products of biotechnologies is needed with a focus on environmental, animal, and human health impacts. Such efforts should aim to support adaptive and informed regulatory frameworks that not only protect public health and the environment but also foster innovation and technological progress in the bioeconomy. Multidisciplinary research efforts can be undertaken to support biotechnology risk analysis across multiple classes of products, including development of new paradigms for assessing, managing and mitigating risk. Finally, research and development can produce new tools and strategies for engaging the public in biotechnology regulation.
+
+As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
+
+Give us your ideas here:
+           
+` 
+    },
 ]}
 ]

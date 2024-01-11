@@ -12,6 +12,7 @@ function Subtheme({theme, themeId, iconId}:{theme:SubthemeData, themeId:number, 
     const themeData = themes.find(t=>t.id === themeId)
     return(
         <div>
+            <div className='w-fit'>
         <Link className={'flex items-center gap-2 h-fit hover:underline'} href={themeData?.slug+'/'+theme.slug}>
             <div className={`${'theme'+themeId}`}>
             <Icon className={`fill-current h-5`} id={themeId} />
@@ -19,6 +20,7 @@ function Subtheme({theme, themeId, iconId}:{theme:SubthemeData, themeId:number, 
                 <div className='flex items-center gap-2 text-lg text-primary'>{theme.title}</div>
                 
         </Link>
+        </div>
         <div className='pl-7'>{theme?.description}</div>
         </div>
    

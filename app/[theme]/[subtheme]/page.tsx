@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import Markdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
-import { ChevronLeftIcon, QuestionMarkCircledIcon } from '@radix-ui/react-icons'
+import { ChevronLeftIcon, Link2Icon, QuestionMarkCircledIcon } from '@radix-ui/react-icons'
 import { Icon } from '@/data/icons'
 import { Card } from '@/components/ui/card'
 import SubthemeGrid from '@/components/SubthemeGrid'
@@ -51,20 +51,32 @@ export default function SubthemePage({params}:{params:{theme:string, subtheme:st
         <Link className='flex flex-row items-center gap-2' href={'/'+themeData?.slug}>
         <Button variant={'link'} className='p-0 m-0 flex items-center gap-2'><ChevronLeftIcon />Return | {themeData?.title}</Button>
         </Link>
-      <div className='w-full'>
+      <div className='w-full pb-2'>
       
-      <Icon className={`fill-current float-right hidden md:inline-block max-h-24 max-w-sm  ${'theme'+themeData?.id}`} id={themeData?.id as number} />
+      <Icon className={`fill-current float-right hidden md:inline-block max-h-16 max-w-sm  ${'theme'+themeData?.id}`} id={themeData?.id as number} />
       <div className='text-primary font-semibold'>Subtheme:</div>
       <Markdown className={'prose pb-8 min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{subthemeData?.pageTitle}</Markdown>
       {/* <img className='hidden md:block md:col-span-2 max-h-32 place-self-end' src={themeData?.promptImage} alt={themeData?.title} /> */}
       <div className='flex flex-col gap-4'>
-      <h4 className='font-semibold text-primary text-xl flex items-center gap-2'><QuestionMarkCircledIcon className='h-5 w-5' />Questions (Limit 250 Characters each)</h4>
    
         <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{subthemeData?.questions}</Markdown>
     
     </div>
       </div>
-
+      <Link target='_blank' href="https://forms.gle/vpP5HgMrYBwCnSXJA">
+                  <Button className='flex items-center h-8 gap-2 font-semibold'>
+                  <Link2Icon />
+                    Share your ideas
+                  </Button>
+                </Link>
+      <div className='flex flex-col pt-4'>
+      <Link className='flex flex-row items-center gap-2' href={'/'+themeData?.slug}>
+        <Button variant={'link'} className='p-0 m-0 flex items-center gap-2'><ChevronLeftIcon />Return | {themeData?.title}</Button>
+        </Link>
+        <Link className='flex flex-row items-center gap-2' href={'/'}>
+        <Button variant={'link'} className='p-0 m-0 flex items-center gap-2'><ChevronLeftIcon />Return | Home</Button>
+        </Link>
+      </div>
       </div>
         
         {/* <Card className={`border ${'theme'+themeData?.id} border grid grid-cols-1 place-items-center w-full h-32 px-12 border-slate-300`}>
