@@ -56,7 +56,7 @@ export default function SubthemePage({params}:{params:{theme:string, subtheme:st
       <div className='w-full pb-2'>
       
       <Icon className={`fill-current float-right hidden md:inline-block max-h-16 max-w-sm  ${'theme'+themeData?.id}`} id={themeData?.id as number} />
-      <div className='text-primary font-semibold'>Subtheme:</div>
+      <div className='text-primary font-semibold'>Representative Subtheme Challenge:</div>
       <Markdown className={'prose pb-8 min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{subthemeData?.pageTitle}</Markdown>
       {/* <img className='hidden md:block md:col-span-2 max-h-32 place-self-end' src={themeData?.promptImage} alt={themeData?.title} /> */}
       <div className='flex flex-col gap-4'>
