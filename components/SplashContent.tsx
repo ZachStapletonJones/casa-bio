@@ -65,7 +65,7 @@ our <a className="cursor-pointer font-semibold text-primary" href="https://fireb
   <Button className='font-semibold flex items-center gap-2 w-fit'><FileText className='h-4 w-4' />View the Executive Order</Button>
 </a> 
 <Link className='w-fit' href="/alignment-participants">
-  <Button variant={'outline'} className='font-semibold flex items-center gap-2 w-fit'><PersonIcon className='h-4 w-4' />View the Alignment Participants</Button>
+  <Button variant={'default'} className='font-semibold flex items-center gap-2 w-fit'><PersonIcon className='h-4 w-4' />View the Alignment Participants</Button>
 </Link> 
 </div> 
         </div>

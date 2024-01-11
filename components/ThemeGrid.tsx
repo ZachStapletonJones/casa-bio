@@ -43,7 +43,7 @@ function Theme(theme:ThemeData){
         <div className='flex flex-col gap-2 border border-1 rounded w-fit p-4 bg-secondary'>
             <div>Want to contribute to <span className='font-semibold text-primary'>{theme.title}</span>?</div>
             <div className='w-fit'>
-        <Link target='_blank' href="/">
+        <Link target='_blank' href="https://forms.gle/vpP5HgMrYBwCnSXJA">
                   <Button className='flex items-center h-8 gap-2 font-semibold'>
                   <Link2Icon />
                     Share your ideas
