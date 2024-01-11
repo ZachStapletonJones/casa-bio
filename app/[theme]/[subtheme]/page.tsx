@@ -9,6 +9,7 @@ import { Icon } from '@/data/icons'
 import { Card } from '@/components/ui/card'
 import SubthemeGrid from '@/components/SubthemeGrid'
 import { SubthemeData, subthemes } from '@/data/subthemes'
+import Error from '@/components/Error'
 
 export async function generateStaticParams() {
     let params: { theme: string; subtheme: string }[] = [];
@@ -45,6 +46,7 @@ export default function SubthemePage({params}:{params:{theme:string, subtheme:st
     // Access the array using the theme ID and then filter for the correct subtheme
     const subthemeDataArray = subthemeDataObject ? subthemeDataObject[themeData?.id as number] : [];
     const subthemeData = subthemeDataArray.find(st => st.slug === params.subtheme);
+    if (!subthemeData) return <Error />
   return (
     <div className='flex flex-col gap-12 w-full grow items-start justify-start'>
       <div className='flex flex-col w-full items-start'>

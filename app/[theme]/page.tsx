@@ -8,6 +8,7 @@ import { ChevronLeftIcon, Link2Icon } from '@radix-ui/react-icons'
 import { Icon } from '@/data/icons'
 import { Card } from '@/components/ui/card'
 import SubthemeGrid from '@/components/SubthemeGrid'
+import Error from '@/components/Error'
 
 export async function generateStaticParams() { 
     return themes.map((theme) => ({
@@ -17,6 +18,7 @@ export async function generateStaticParams() {
 
 export default function ThemePage({params}:{params:{theme:string}}) {
     const themeData = themes.find(t=>t.slug === params.theme)
+    if (!themeData) return <Error />
   return (
     <div className='flex flex-col gap-12 w-full grow items-start justify-start'>
       <div className='flex flex-col w-full items-start'>
