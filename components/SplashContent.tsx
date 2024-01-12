@@ -17,7 +17,7 @@ export default function SplashContent() {
         </TooltipTrigger>
         <TooltipContent>
           <p className="max-w-[250px] text-center">Technology that applies to and/or is enabled by life science innovation or product
-development</p>
+development*</p>
         </TooltipContent>
       </Tooltip>
     </TooltipProvider> and <TooltipProvider>
@@ -26,7 +26,7 @@ development</p>
           <span className="text-primary font-semibold cursor-help">Biomanufacturing </span>
         </TooltipTrigger>
         <TooltipContent>
-          <p className="max-w-[250px] text-center">Use of biological systems to produce goods and services at commercial scale</p>
+          <p className="max-w-[250px] text-center">Use of biological systems to produce goods and services at commercial scale*</p>
         </TooltipContent>
       </Tooltip>
     </TooltipProvider> Innovation for a Sustainable, Safe, and Secure
@@ -36,7 +36,7 @@ American <TooltipProvider>
           <span className="text-primary font-semibold cursor-help">Bioeconomy</span>
         </TooltipTrigger>
         <TooltipContent>
-          <p className="max-w-[250px] text-center">Economic activity derived from Biotechnology and Biomanufacturing</p>
+          <p className="max-w-[250px] text-center">Economic activity derived from Biotechnology and Biomanufacturing*</p>
         </TooltipContent>
       </Tooltip>
     </TooltipProvider>. Released by the White House in September of 2022, the EO laid out a grand

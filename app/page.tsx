@@ -106,7 +106,7 @@ the bioeconomy. Your input will be critical for moving CASA-Bio forward to advan
          </div>  
          
          <div className='text-xs'>
-          *Source: <a className='text-primary hover:underline' href="https://www.nist.gov/bioscience/nist-bioeconomy-lexicon" target='_blank'>National Institute of Science and Technology (NIST) Bioeconomy Lexicon</a>
+          *Source for Definitions: <a className='text-primary hover:underline' href="https://www.nist.gov/bioscience/nist-bioeconomy-lexicon" target='_blank'>National Institute of Science and Technology (NIST) Bioeconomy Lexicon</a>
          </div>
             {/* <h4 className='font-semibold text-lg text-primary'>We imagine outcomes whereby: </h4>
             <ul className='list-disc pl-6'>
