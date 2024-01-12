@@ -94,7 +94,9 @@ export default function ThemeGrid() {
             {themes.map((t, index)=><ThemeNav key={index} {...t} />)}
             </div>
             <div className='w-full flex justify-start'><ReturnTop /></div>
+            <div className='flex flex-col gap-8'>
             {themes.map((t, index)=><Theme key={index} {...t} />)}
+            </div>
         </div>
     )
 }
