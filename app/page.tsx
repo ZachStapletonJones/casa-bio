@@ -43,12 +43,13 @@ the bioeconomy. Your input will be critical for moving CASA-Bio forward to advan
               <CardTitle className='flex gap-2 items-center scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'><InfoCircledIcon className='h-6 w-6' /> How to Participate: </CardTitle>
             </CardHeader>
             <CardContent className='flex flex-col gap-2 text-md'>
-            <div>There are two ways to participate:  Share your ideas in a virtual Town Hall, or share your ideas online. </div>
-            <div>In early 2024, we will be hosting four virtual Town Hall meetings to hear from the research community about the ideas they view as having exciting potential to advance the bioeconomy.  These Town Halls will be highly interactive with lots of time for breakout discussions among community members. Each Town Hall will have the same agenda, but are offered at different days and times to accommodate different schedules. Everyone is welcome! </div>
+            <div>There are multiple ways to participate: Share your ideas in a virtual Town Hall and/or share your ideas online.  </div>
+            <div>In February, we will host four virtual Town Hall meetings to hear from the research community about the ideas they view as having exciting potential to advance the bioeconomy. These Town Halls will be highly interactive with lots of time for breakout discussions among community members. The Town Halls will all have the same agenda but are offered at different days and times to accommodate different schedules. Everyone is welcome to attend the Town Halls and to share research ideas!   </div>
+            <div>We suggest you view the EO Themes and Representative Subtheme Challenges, as you consider the challenges and ideas you would like to share. </div>
             <div className='grid grid-cols-2 gap-4 md:gap-2 pt-2'>
               <div className='md:col-span-1 col-span-2 flex flex-col gap-2'>
               <h3 className='text-primary font-semibold text-lg'>Option 1</h3>
-              <div className=''><span className='underline'>If you are able to attend</span>, please <strong>register</strong> for a Town Hall using the following two steps:</div>
+              <div className=''>If you are able to attend, register for a Town Hall to collaborate with others on developing research ideas, and share your individual ideas ahead of the Town Hall.</div>
               <h4 className='text-primary font-semibold'>1) Select Your Best Date</h4>
                 <div className='grid grid-cols-1 gap-1 w-fit pb-2'>
     
@@ -70,8 +71,8 @@ the bioeconomy. Your input will be critical for moving CASA-Bio forward to advan
                 
                 <div className='md:col-span-1 col-span-2 flex flex-col gap-2'>
                 <h3 className='text-primary font-semibold  text-lg'>Option 2</h3>
-                <div><span className='underline'>If you are unable to attend any of the dates</span>, we would still love to hear your exciting research ideas. </div>
-                <div>To share, submit the following form: </div>
+                <div>If you are unable to attend a Town Hall, we would still love to hear our research ideas, so please share online. </div>
+                {/* <div>To share, submit the following form: </div> */}
                 <div className='w-fit'>
                 <Link target='_blank' href="https://forms.gle/vpP5HgMrYBwCnSXJA">
                   <Button className='flex items-center h-8 gap-2 font-semibold'>
