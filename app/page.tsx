@@ -46,7 +46,7 @@ the bioeconomy. Your input will be critical for moving CASA-Bio forward to advan
             <div>There are multiple ways to participate: Share your ideas in a virtual Town Hall and/or share your ideas online.  </div>
             <div>In February, we will host four virtual Town Hall meetings to hear from the research community about the ideas they view as having exciting potential to advance the bioeconomy. These Town Halls will be highly interactive with lots of time for breakout discussions among community members. The Town Halls will all have the same agenda but are offered at different days and times to accommodate different schedules. Everyone is welcome to attend the Town Halls and to share research ideas!   </div>
             <div>We suggest you view the EO Themes and Representative Subtheme Challenges, as you consider the challenges and ideas you would like to share. </div>
-            <div className='grid grid-cols-2 gap-4 md:gap-2 pt-2'>
+            <div className='grid grid-cols-2 gap-4 md:gap-6 pt-2'>
               <div className='md:col-span-1 col-span-2 flex flex-col gap-2'>
               <h3 className='text-primary font-semibold text-lg'>Option 1</h3>
               <div className=''>If you are able to attend, register for a Town Hall to collaborate with others on developing research ideas, and share your individual ideas ahead of the Town Hall.</div>

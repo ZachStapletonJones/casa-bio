@@ -10,7 +10,7 @@ function IconData({id, className}:{id:number, className:string}) {
         </svg>
         )
         case 2: return(
-<svg className={className} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<svg className={className} fillOpacity={0} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 <desc>Food and Agriculture Innovation Logo</desc>
 <path d="M12 21V15M12 15L10 13M12 15L15 12M20 11C20 15.4183 16.4183 19 12 19C7.58172 19 4 15.4183 4 11C4 6.58172 7.58172 3 12 3C16.4183 3 20 6.58172 20 11Z" stroke={className} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
