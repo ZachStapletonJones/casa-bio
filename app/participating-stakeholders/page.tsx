@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ChevronLeftIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
 
-export default function AlignmentParticipants() {
+export default function ParticipatingStakeholders() {
   return (
     <div className="w-full space-y-8">
       <div>
@@ -13,7 +13,7 @@ export default function AlignmentParticipants() {
           </Button>
         </Link>
         <h1 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-2 text-primary w-fit">
-          Alignment Participants
+        Participating Stakeholders
         </h1>
       </div>
       <div className="flex flex-col gap-2">
@@ -44,13 +44,13 @@ Institute for Occupational Safety &amp; Health (NIOSH)</li>
 <li>National Aeronautics and Space Administration (NASA)</li>
 <li>National Institute of Standards and Technology (NIST), U.S. Department of Commerce</li>
 <li>National Institutes of Health (NIH)</li>
-<li>National Science Foundation (NSF)</li>
 <li>Novozymes</li>
 <li>Schmidt Futures</li>
 <li>The Good Food Institute</li>
 <li>U.S. Department of Energy&#39;s (DOE&#39;s) Office of Science, Biological and Environmental Research</li>
 <li>U.S. Department of Energy&#39;s (DOE&#39;s) Bioenergy Technologies Office (BETO)</li>
 <li>U.S. Environmental Protection Agency (EPA)</li>
+<li>U.S. National Science Foundation (NSF)</li>
 <li>United States Department of Agriculture (USDA) </li>
       </ol>
       <div className="pt-4">*An organization’s participation in CASA-Bio does not constitute endorsement, obligation, or support for
