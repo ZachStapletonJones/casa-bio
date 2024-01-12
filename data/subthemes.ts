@@ -441,7 +441,7 @@ Give us your ideas here:
     {
         title: 'CCA-09: Advancing Regulatory Science for Products of Biotechnology and Biomanufacturing',
         slug: 'advancing-regulatory-science-for-products-of-biotechnology-and-biomanufacturing',
-        description: `NEEDED `,
+        description: `Regulatory science research is needed to advance development of tools, standards, and approaches that support regulatory decision-making. `,
         pageTitle: '# CCA-09: Advancing Regulatory Science for Products of Biotechnology and Biomanufacturing',
         questions: `
 Imagine a world where advances in regulatory science keep abreast with the rapid advances in biotechnology so that regulators continue to have the information and data necessary to support regulatory decision-making to ensure that consumers can have ready access to safe, and effective products of biotechnology. Regulatory decision-making driven by shared tools, standards, approaches, and data from regulatory authorities, scientists, and industries enables innovation to reach the market more efficiently. The impact of such a collaborative approach could be vast, bolstering a bioeconomy  that fosters global leadership in sustainable and efficient innovation and enabling products of biotechnologies to be accessible, available, and beneficial to all. 
