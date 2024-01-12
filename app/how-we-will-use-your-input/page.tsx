@@ -29,12 +29,7 @@ export default function InputExplanation() {
             Sharing Individual Ideas
           </div>
           <div>
-            When you submit your responses, you’re not just sending information
-            into the void. Your ideas have the potential to resonate with
-            others. As part of our commitment to a collaborative community, we
-            may share your individual ideas with other participants of CASA-Bio
-            or during subsequent meetings. This sharing aims to foster a sense
-            of connection and shared purpose among us all.
+          When you submit your responses, you’re not just sending information into the void.  Your ideas have the potential to resonate with others.  As part of our commitment to a collaborative community, we may share your individual ideas with other participants of CASA-Bio or during subsequent meetings.  This sharing aims to foster a sense of connection and shared purpose among us all. Patentable ideas, trade secrets, privileged or confidential commercial or financial information, disclosure of which may harm the submitter, should not be included in any submissions.
           </div>
         </li>
         <li>
@@ -56,7 +51,7 @@ this aggregate view, offering us insights that no single perspective can provide
           <div>
           While we’re eager to share and analyze ideas, we respect your privacy. Only non-personal, thematic
 content from your responses will be used in our analyses and shared with others. Your personal
-details will remain confidential and will not be part of the shared or analyzed data.
+details will remain confidential and will not be part of the shared or analyzed data. Please, do not submit sensitive personal information.
           </div>
         </li>
         <li>

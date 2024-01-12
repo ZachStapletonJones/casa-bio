@@ -23,7 +23,7 @@ export default function Home() {
             </div>
             <div className='flex flex-col gap-4'>
             <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Call to Action</h2>
-            <p>Stakeholders from Federal agencies, industry, and non-profits have identified a group of Subtheme
+            <p><Link className='w-fit text-primary font-semibold hover:underline' href="/alignment-participants">Stakeholders</Link> from Federal agencies, industry, and non-profits have identified a group of Subtheme
 Challenges that span the five Bioeconomy EO Themes. We now call on you, the research community, for
 input for the next step. Please explore the Subtheme Challenges, join us at one of our Virtual Town Hall
 Meetings, and share your ideas for research on these or other areas that have the potential to advance
@@ -36,7 +36,7 @@ the bioeconomy. Your input will be critical for moving CASA-Bio forward to advan
                   </Button>
                 </Link>
                 </div>
-            <p className='text-sm'>Here is <Link className='text-primary font-semibold hover:underline' href={'/how-we-will-use-your-input'}>how we will use your input.</Link></p>
+            <p className=''>Here is <Link className='text-primary font-semibold hover:underline' href={'/how-we-will-use-your-input'}>how we will use your input.</Link></p>
           </div>
             <Card className=' bg-secondary '>
             <CardHeader className='pb-2'>
