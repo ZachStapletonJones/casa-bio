@@ -7,6 +7,7 @@ import React from 'react'
 import SubthemeGrid from './SubthemeGrid'
 import { ChevronRightIcon, ChevronUpIcon, ExternalLinkIcon, Link2Icon } from '@radix-ui/react-icons'
 import { Button } from './ui/button'
+import ReturnTop from './ReturnTop'
 
 
 // function Theme(theme:ThemeData){
@@ -88,10 +89,11 @@ function ThemeNav(theme:ThemeData){
 
 export default function ThemeGrid() {
     return (
-        <div className='flex grow gap-12 flex-wrap'>
-            <div id={'grid'} className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2'>
+        <div className='flex grow flex-wrap'>
+            <div id={'grid'} className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2 pb-4'>
             {themes.map((t, index)=><ThemeNav key={index} {...t} />)}
             </div>
+            <div className='w-full flex justify-start'><ReturnTop /></div>
             {themes.map((t, index)=><Theme key={index} {...t} />)}
         </div>
     )

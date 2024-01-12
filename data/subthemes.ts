@@ -51,10 +51,10 @@ Give us your ideas here:
 ` 
     },
     {
-        title: 'CCS-03: Reducing CO2 and Other Harmful Gasses',
-        slug: 'reducing-co2-and-other-harmful-gasses',
-        description: `Although food and agriculture are major contributors to greenhouse gas emissions, both at the field level and in downstream production, food and agriculture can be used to create climate solutions.`,
-        pageTitle: '# CCS-03: Reducing CO2 and Other Harmful Gasses',
+        title: 'CCS-03: Reducing CO2 and Other Harmful Gases',
+        slug: 'reducing-co2-and-other-harmful-gases',
+        description: `Biotechnology can be utilized to reduce emissions and capture gases for potential utilization.`,
+        pageTitle: '# CCS-03: Reducing CO2 and Other Harmful Gases',
         questions: `
 Imagine a future where our daily urban landscapes are interspersed with micro-forests and community gardens, utilizing plants genetically optimized to sequester carbon more efficiently. These green havens, thriving in previously underutilized spaces, are a direct result of breakthroughs in plant biotechnology, targeting both CO2 and methane reduction. Additionally, urban structures are constructed using advanced, carbon-absorbing building materials, developed through bio-manufacturing processes that repurpose atmospheric gasses. This innovative approach to city planning, combining biological carbon capture with practical urban development, not only combats climate change but also fosters sustainable community growth. This scenario demonstrates how the bioeconomy can transform environmental challenges into opportunities for a healthier, greener world. 
 
