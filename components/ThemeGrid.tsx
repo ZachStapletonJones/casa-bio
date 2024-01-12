@@ -26,7 +26,7 @@ function Theme(theme:ThemeData){
     return(
         <div className='flex flex-col gap-4 w-full h-fit' id={theme.slug}>
             <div className='w-fit'>
-        <Link className={`${'theme'+theme.id} hover:underline`} href={theme.slug} id={theme.slug}>
+        <Link className={`${'theme'+theme.id} hover:underline`} href={theme.slug} id={theme.slug+"Link"}>
             <div className='h-fit w-full flex flex-row items-center justify-start'>
             <Icon className={`fill-current h-7`} id={theme.id} />
             {/* <img className='w-[120px] h-[120px] text-primary' src={theme.promptImage} alt={theme.title} /> */}
@@ -53,7 +53,7 @@ function Theme(theme:ThemeData){
                 </div>
                 </div>
         <div className='w-full justify-start text-xs text-primary'>
-        <button className={`flex items-center gap-2`} onClick={()=> {
+        <button className={`flex items-center gap-2`} tabIndex={0} onClick={()=> {
             const element = document.getElementById('grid');
             if ( !element ) return;
             window.scroll({

@@ -13,7 +13,7 @@ export default function SplashContent() {
  (EO) on Advancing <TooltipProvider>
       <Tooltip>
         <TooltipTrigger asChild>
-          <span className="text-primary font-semibold cursor-help">Biotechnology </span>
+          <span tabIndex={0} className="text-primary font-semibold cursor-help">Biotechnology </span>
         </TooltipTrigger>
         <TooltipContent>
           <p className="max-w-[250px] text-center">Technology that applies to and/or is enabled by life science innovation or product
@@ -23,7 +23,7 @@ development*</p>
     </TooltipProvider> and <TooltipProvider>
       <Tooltip>
         <TooltipTrigger asChild>
-          <span className="text-primary font-semibold cursor-help">Biomanufacturing </span>
+          <span tabIndex={0} className="text-primary font-semibold cursor-help">Biomanufacturing </span>
         </TooltipTrigger>
         <TooltipContent>
           <p className="max-w-[250px] text-center">Use of biological systems to produce goods and services at commercial scale*</p>
@@ -33,7 +33,7 @@ development*</p>
 American <TooltipProvider>
       <Tooltip>
         <TooltipTrigger asChild>
-          <span className="text-primary font-semibold cursor-help">Bioeconomy</span>
+          <span tabIndex={0} className="text-primary font-semibold cursor-help">Bioeconomy</span>
         </TooltipTrigger>
         <TooltipContent>
           <p className="max-w-[250px] text-center">Economic activity derived from Biotechnology and Biomanufacturing*</p>
@@ -41,7 +41,7 @@ American <TooltipProvider>
       </Tooltip>
     </TooltipProvider>. Released by the White House in September of 2022, the EO laid out a grand
 vision to advance biotechnology and biomanufacturing through foundational and use-inspired research
-and development in five thematic areas (<a className={`font-semibold text-primary cursor-pointer hover:underline`} onClick={()=> {
+and development in five thematic areas (<a className={`font-semibold text-primary cursor-pointer hover:underline`} tabIndex={0} onClick={()=> {
             const element = document.getElementById('grid');
             if ( !element ) return;
             window.scroll({

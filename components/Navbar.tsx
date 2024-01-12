@@ -16,7 +16,7 @@ function Navbar() {
         <div className='max-w-7xl w-full flex justify-between items-center px-3'>
         {/* Logo */}
         <Link href={'/'} className='flex items-center justify-start sm:gap-4'>
-            <img className='sm:h-10 h-10 pl-2 2xl:pl-0' src='https://res.cloudinary.com/dbhtzyztg/image/upload/v1701189629/casa-bio-v3_ozpmoz.png' alt='Casa Bio' />
+            <img className='sm:h-10 h-10 pl-2 2xl:pl-0' src='https://res.cloudinary.com/dbhtzyztg/image/upload/v1701189629/casa-bio-v3_ozpmoz.png' alt='CASA-Bio Logo' />
             <div className=' flex flex-col items-start p-0 m-0 text-blue-950'>
                 <div className='scroll-m-20 merriweather text-xl font-bold lg:text-2xl '>CASA-Bio</div>
                 <p className='text-sm font-normal align-middle leading-4 italic hidden sm:block'>
@@ -25,8 +25,8 @@ function Navbar() {
             </div>
         </Link>
         {/* Menu */}
-        <DropdownMenu>
-        <DropdownMenuTrigger asChild><Button className='flex items-center gap-2 font-semibold'>EO Bioeconomy Themes <CaretDownIcon /></Button></DropdownMenuTrigger>
+        <DropdownMenu >
+        <DropdownMenuTrigger asChild><Button className='flex items-center gap-2 font-semibold'>EO Bioeconomy Themes <CaretDownIcon aria-description='Dropdown Icon' /></Button></DropdownMenuTrigger>
         <DropdownMenuContent className='divide-y-2 w-[400px] max-w-[90dvw] md:max-w-[400px] px-0 mx-0 absolute top-0 -right-28 md:-right-28'>
         {themes.map((theme) => (
           <Link className='w-full p-0 m-0' href={theme.slug} key={theme.title}>

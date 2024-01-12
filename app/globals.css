@@ -21,13 +21,19 @@ div{
 }
 
 .theme1 {
-  color: #c27100;
-  border-color:#c27100;
+  /* color: #c27100;
+  border-color:#c27100; */
+  color: #c44601;
+  border-color:#c44601;
 }
 .theme2 {
-  color: #199400;
+  /* color: #199400;
   stroke:#00611d;
-  border-color:#199400;
+  border-color:#199400; */
+  color: #00611d;
+  stroke:#033e12;
+  border-color:#00611d;
+  
 }
 .theme3 {
   /* color:#4785ff; */
