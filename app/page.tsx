@@ -1,3 +1,4 @@
+import InputChart from '@/components/InputChart'
 import ProfileGrid from '@/components/ProfileGrid'
 import ReturnTop from '@/components/ReturnTop'
 import SplashContent from '@/components/SplashContent'
@@ -21,6 +22,7 @@ export default function Home() {
               <h1 className='scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-2 text-primary w-fit'>Catalyzing Across Sectors to Advance the Bioeconomy</h1>
               <SplashContent />
             </div>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
             <div className='flex flex-col gap-4'>
             <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Call to Action</h2>
             <p><Link className='w-fit text-primary font-semibold hover:underline' href="/participating-stakeholders">Stakeholders</Link> from Federal agencies, industry, and non-profits have identified a group of Subtheme
@@ -35,8 +37,11 @@ the bioeconomy. Your input will be critical for moving CASA-Bio forward to advan
                     Share your ideas
                   </Button>
                 </Link>
+               
                 </div>
-            <p className=''>Here is <Link className='text-primary font-semibold hover:underline' href={'/how-we-will-use-your-input'}>how we will use your input.</Link></p>
+                <p className=''>Here is <Link className='text-primary font-semibold hover:underline' href={'/how-we-will-use-your-input'}>how we will use your input.</Link></p>
+                </div>
+                <InputChart />
           </div>
             <Card className=' bg-secondary '>
             <CardHeader className='pb-2'>
