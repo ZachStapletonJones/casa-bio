@@ -44,7 +44,7 @@ the bioeconomy. Your input will be critical for moving CASA-Bio forward to advan
             </CardHeader>
             <CardContent className='flex flex-col gap-2 text-md'>
             <div>There are multiple ways to participate: Share your ideas in a virtual Town Hall and/or share your ideas online.  </div>
-            <div>In February, we will host four virtual Town Hall meetings to hear from the research community about the ideas they view as having exciting potential to advance the bioeconomy. These Town Halls will be highly interactive with lots of time for breakout discussions among community members. The Town Halls will all have the same agenda but are offered at different days and times to accommodate different schedules. Everyone is welcome to attend the Town Halls and to share research ideas!   </div>
+            <div>In February, we are hosting four virtual Town Hall meetings to hear from the research community about the ideas they view as having exciting potential to advance the bioeconomy. <strong className='text-primary'>These Town Halls will be highly interactive with lots of time for breakout discussions among community members</strong>. The Town Halls will all have the same agenda but are offered at different days and times to accommodate different schedules. Everyone is welcome to attend the Town Halls and to share research ideas!   </div>
             <div>We suggest you view the EO Themes and Representative Subtheme Challenges, as you consider the challenges and ideas you would like to share. </div>
             <div className='grid grid-cols-2 gap-4 md:gap-6 pt-2'>
               <div className='md:col-span-1 col-span-2 flex flex-col gap-2'>
@@ -53,7 +53,7 @@ the bioeconomy. Your input will be critical for moving CASA-Bio forward to advan
               <h4 className='text-primary font-semibold'>1) Select Your Best Date</h4>
                 <div className='grid grid-cols-1 gap-1 w-fit pb-2'>
     
-                <Link className='w-fit' target='_blank' href={'https://knowinnovation.zoom.us/meeting/register/tZwkfu2gqTMjHNVi26Cu8DcC42byYBnZYgzj'}><Button variant={'outline'} className='w-fit flex items-center gap-2'><CalendarIcon />February 12th, 2024 @ 7pm - 8:30pm EST</Button></Link>
+                <Button disabled variant={'outline'} className='w-fit flex items-center gap-2'><CalendarIcon />February 12th, 2024 @ 7pm - 8:30pm EST</Button>
                 <Link className='w-fit ' target='_blank' href={'https://knowinnovation.zoom.us/meeting/register/tZEqd-uoqD4pG9CpFexx4TF32fJCCtoBT1u5'}><Button variant={'outline'} className='w-fit flex items-center gap-2'><CalendarIcon />February 15th, 2024 @ 9am - 10:30am EST</Button></Link>
                 <Link className='w-fit' target='_blank' href={'https://knowinnovation.zoom.us/meeting/register/tZIqf-Ctqj8pHdZBmJVxQxAsmAGM2wcoH019'}><Button variant={'outline'} className='w-fit flex items-center gap-2'> <CalendarIcon />February 21st, 2024 @ 12pm - 1:30pm EST </Button></Link>
                 <Link className='w-fit' target='_blank' href={'https://knowinnovation.zoom.us/meeting/register/tZ0vce2spj4sGdGkfbJutOY8a3zmOr1Hj22H'}><Button variant={'outline'} className='w-fit flex items-center gap-2'> <CalendarIcon />February 22nd, 2024 @ 5pm - 6:30pm EST</Button></Link>
