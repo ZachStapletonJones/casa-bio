@@ -11,7 +11,7 @@ export const data = {
     datasets: [
       {
         label: '% of Submissions',
-        data: [21.3, 39.3, 3.3, 14.8, 21.3],
+        data: [19.5, 39, 3.9, 13, 24.7],
         backgroundColor: [
           'rgba(196, 70, 1, 0.4)',
           'rgba(0, 97, 29, 0.4)',

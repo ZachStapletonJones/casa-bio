@@ -5,7 +5,7 @@ import SplashContent from '@/components/SplashContent'
 import ThemeGrid from '@/components/ThemeGrid'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
-import { CalendarIcon, InfoCircledIcon, Link2Icon } from '@radix-ui/react-icons'
+import { CalendarIcon, ImageIcon, InfoCircledIcon, Link2Icon, PersonIcon, VideoIcon } from '@radix-ui/react-icons'
 import { FileText } from 'lucide-react'
 import Link from 'next/link'
 
@@ -95,7 +95,56 @@ the bioeconomy. Your input will be critical for moving CASA-Bio forward to advan
             </CardFooter>
           </Card>
           
-          
+          <Card className='pl-6 pr-6 pt-4 pb-4 w-fit'>
+          <h2 className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Town Hall Resources</h2>
+          <div className='flex w-full gap-8 items-start h-fit pt-4'>
+
+          <div className='flex flex-col'>
+          <div className='scroll-m-20 w-fit mb-1 text-primary font-[600] text-md'>Recordings</div>
+            <div className='flex gap-4'>
+              <Link target='_blank' href="https://knowinnovation.zoom.us/rec/play/zKaJIwfEssosyM4HFNay-t9alqs97hvZCN7baERc3LK9dB_1UsJ2dSHwa-iGgrKKky4J0KKl6qBZ0Vvd.0ubUi8osZ4JRaMtP?pwd=NtYH6ZpwGqbYvWjXNDXuEjZDSsc9WmqV">
+                <Button variant={'outline'} className='flex items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
+                <VideoIcon />
+                  Town Hall Recording
+                </Button>
+              </Link>
+            </div>
+          </div>
+
+          <div className='flex flex-col'>
+          <div className='scroll-m-20 w-fit mb-1 text-primary font-[600] text-md'>Documents</div>
+          <div className='flex gap-2'>
+            <Link target='_blank' href="https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Town%20Hall%20Slides.pdf?alt=media&token=4d83d8ce-61b2-4189-acb7-145d6f5d8fe1">
+              <Button variant={'outline'} className='flex items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
+              <ImageIcon />
+                Slide Deck
+              </Button>
+            </Link>
+          </div>
+          </div>
+
+          <div className='flex flex-col'>
+            <div className='scroll-m-20 w-fit mb-1 text-primary font-[600] text-md'>Participants</div>
+            <div className='flex gap-4'>
+              <Link target='_blank' href="https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Town%20Hall%201%20Participants.pdf?alt=media&token=b34ea209-9f21-448c-a814-f58398e0b97c">
+                <Button variant={'outline'} className='flex items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
+                <PersonIcon />
+                  Town Hall 1 Participants
+                </Button>
+              </Link>
+
+              <Link target='_blank' href="https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Town%20Hall%202%20Participants.pdf?alt=media&token=06896f75-b898-4d34-8f6c-78f730f889bb">
+                <Button variant={'outline'} className='flex items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
+                <PersonIcon />
+                  Town Hall 2 Participants
+                </Button>
+              </Link>
+            </div>
+          </div>
+
+
+          </div> 
+          </Card>
           
           <div className='space-y-6 pb-2'>
           <h2 id="bioeconomy-themes" className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">EO Bioeconomy Themes</h2>
