@@ -60,8 +60,8 @@ the bioeconomy. Your input will be critical for moving CASA-Bio forward to advan
     
                 <Button disabled variant={'outline'} className='w-fit flex items-center gap-2'><CalendarIcon />February 12th, 2024 @ 7pm - 8:30pm EST</Button>
                 <Button disabled variant={'outline'} className='w-fit flex items-center gap-2'><CalendarIcon />February 15th, 2024 @ 9am - 10:30am EST</Button>
-                <Link className='w-fit' target='_blank' href={'https://knowinnovation.zoom.us/meeting/register/tZIqf-Ctqj8pHdZBmJVxQxAsmAGM2wcoH019'}><Button variant={'outline'} className='w-fit flex items-center gap-2'> <CalendarIcon />February 21st, 2024 @ 12pm - 1:30pm EST </Button></Link>
-                <Link className='w-fit' target='_blank' href={'https://knowinnovation.zoom.us/meeting/register/tZ0vce2spj4sGdGkfbJutOY8a3zmOr1Hj22H'}><Button variant={'outline'} className='w-fit flex items-center gap-2'> <CalendarIcon />February 22nd, 2024 @ 5pm - 6:30pm EST</Button></Link>
+                <Button disabled variant={'outline'} className='w-fit flex items-center gap-2'><CalendarIcon />February 21st, 2024 @ 12pm - 1:30pm EST</Button>
+                <Link className='w-fit' target='_blank' href={'https://knowinnovation.zoom.us/meeting/register/tZ0vce2spj4sGdGkfbJutOY8a3zmOr1Hj22H'}><Button variant={'outline'} className='w-fit flex items-center gap-2'><CalendarIcon />February 22nd, 2024 @ 5pm - 6:30pm EST</Button></Link>
                 </div>
                 <h4 className='text-primary font-semibold'>2) Share Your Exciting Research Idea About Your Favorite Theme!</h4>
                 <div className='w-fit'>
@@ -137,6 +137,13 @@ the bioeconomy. Your input will be critical for moving CASA-Bio forward to advan
                 <Button variant={'outline'} className='flex items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
                 <PersonIcon />
                   Town Hall 2 Participants
+                </Button>
+              </Link>
+
+              <Link target='_blank' href="https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Town%20Hall%203%20Participants.pdf?alt=media&token=e1f4e7e2-d47e-4c9d-aa6f-6913f14e2181">
+                <Button variant={'outline'} className='flex items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
+                <PersonIcon />
+                  Town Hall 3 Participants
                 </Button>
               </Link>
             </div>
