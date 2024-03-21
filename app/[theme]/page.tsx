@@ -53,12 +53,13 @@ export default function ThemePage({params}:{params:{theme:string}}) {
           <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Footnotes</h2>
           <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.footnotes}</Markdown>
         </div> */}
-      <Link target='_blank' href="https://forms.gle/vpP5HgMrYBwCnSXJA">
+
+      {/* <Link target='_blank' href="https://forms.gle/vpP5HgMrYBwCnSXJA">
                   <Button className='flex items-center h-8 gap-2 font-semibold'>
                   <Link2Icon />
                     Submit your ideas
                   </Button>
-                </Link>
+                </Link> */}
     </div>
     
   )

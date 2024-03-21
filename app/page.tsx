@@ -31,12 +31,13 @@ input for the next step. Please explore the Subtheme Challenges, join us at one 
 Meetings, and share your ideas for research on these or other areas that have the potential to advance
 the bioeconomy. Your input will be critical for moving CASA-Bio forward to advance the bioeconomy.</p>
 <div className='w-fit'>
-<Link target='_blank' href="https://forms.gle/vpP5HgMrYBwCnSXJA">
+
+{/* <Link target='_blank' href="https://forms.gle/vpP5HgMrYBwCnSXJA">
                   <Button className='flex items-center h-8 gap-2 font-semibold'>
                   <Link2Icon />
                     Share your ideas
                   </Button>
-                </Link>
+                </Link> */}
                
                 </div>
                 <p className=''>Here is <Link className='text-primary font-semibold hover:underline' href={'/how-we-will-use-your-input'}>how we will use your input.</Link></p>

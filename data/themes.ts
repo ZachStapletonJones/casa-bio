@@ -43,7 +43,6 @@ Every research project, experiment, or new idea contributes to a larger collecti
 
 This is a call to action for the R&D community. Your work can drive us towards a more sustainable, resilient, and equitable world, ensuring a livable planet for future generations. Now is the time to rise to this challenge, to share your expertise and ingenuity toward identifying ways to address this existential threat that transcends borders and disciplines. 
 
-Please explore the following subthemes and share with us your most creative ideas about how to move R&D forward in these areas. Or, realizing that these subthemes only scratch the surface, feel free to suggest a new subtheme and accompanying R&D. Your input will help us identify synergies and collective next steps to advance the bioeconomy. All ideas are welcome!  
 `,
     footnotes: `- Footnote 1
 - Footnote 2
@@ -78,7 +77,7 @@ For scientists and engineers, the opportunities to contribute to this vital fiel
 
 This is a call to action for the R&D community. The future of our food systems and agricultural practices depends on the innovations we develop tomorrow. Your work can lead to more resilient cropping systems, sustainable farming practices, efficient resource use, and ultimately, a more secure and sustainable food future. By engaging in this field, you're not just contributing to scientific progress; you're playing a crucial role in shaping a sustainable future for our planet and its inhabitants, ensuring that we can feed our growing population in a way that respects the Earth and its resources.
 
-Please explore the following subthemes and share with us your most creative ideas about how to move R&D forward in these areas. Or, realizing that these subthemes only scratch the surface, feel free to suggest a new subtheme and accompanying R&D. Your input will help us identify synergies and collective next steps to advance the bioeconomy. All ideas are welcome! 
+
 `,
     footnotes: `- Footnote 1
 - Footnote 2
@@ -145,10 +144,6 @@ goods and services, underpinning economic growth, and supporting communities acr
 this crucial endeavor and be part of the movement that redefines resilience in the interconnected world
 of tomorrow.
 
-Please explore the following subthemes and share with us your most creative ideas about how to move
-R&amp;D forward in these areas. Or, realizing that these subthemes only scratch the surface, feel free to
-suggest a new subtheme and accompanying R&amp;D. Your input will help us identify synergies and
-collective next steps to advance the bioeconomy. All ideas are welcome!
 `,
     footnotes: `- Footnote 1
 - Footnote 2
@@ -215,10 +210,6 @@ collaborative efforts of the R&amp;D community can lead to transformative change
 to advance human health, where your contributions can make a profound difference in the lives of
 millions and shape a healthier future for all.
 
-Please explore the following subthemes and share with us your most creative ideas about how to move
-R&amp;D forward in these areas. Or, realizing that these subthemes only scratch the surface, feel free to
-suggest a new subtheme and accompanying R&amp;D. Your input will help us identify synergies and
-collective next steps to advance the bioeconomy. All ideas are welcome!
     
 `,
     footnotes: `- Footnote 1
@@ -302,10 +293,6 @@ application, offering numerous avenues for innovation. Join this endeavor to sha
 biotechnology bridges the gap between discovery and real-world solutions, creating a sustainable,
 healthier, and more prosperous global community.
 
-Please explore the following subthemes and share with us your most creative ideas about how to move
-R&amp;D forward in these areas. Or, realizing that these subthemes only scratch the surface, feel free to
-suggest a new subtheme and accompanying R&amp;D. Your input will help us identify synergies and
-collective next steps to advance the bioeconomy. All ideas are welcome!
 `,
     footnotes: `- Footnote 1
 - Footnote 2
