@@ -29,7 +29,7 @@ function Navbar() {
         <DropdownMenuTrigger asChild><Button className='flex items-center gap-2 font-semibold'>EO Bioeconomy Themes <CaretDownIcon aria-description='Dropdown Icon' /></Button></DropdownMenuTrigger>
         <DropdownMenuContent className='divide-y-2 w-[400px] max-w-[90dvw] md:max-w-[400px] px-0 mx-0 absolute top-0 -right-28 md:-right-28'>
         {themes.map((theme) => (
-          <Link className='w-full p-0 m-0' href={theme.slug} key={theme.title}>
+          <Link className='w-full p-0 m-0' href={"/"+theme.slug} key={theme.title}>
           <DropdownMenuItem
             
             className={`flex items-center gap-2 w-full cursor-pointer`}
