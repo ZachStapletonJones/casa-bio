@@ -45,7 +45,7 @@ the bioeconomy. Your input will be critical for moving CASA-Bio forward to advan
           </div>
             <Card className=' bg-secondary '>
             <CardHeader className='pb-2'>
-              <CardTitle className='flex gap-2 items-center scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'><StarIcon className='h-6 w-6' /> Thank Your for Participating!</CardTitle>
+              <CardTitle className='flex gap-2 items-center scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'><StarIcon className='h-6 w-6' /> Thank You for Participating!</CardTitle>
             </CardHeader>
             <CardContent className='flex flex-col gap-2 text-md'>
             <div>Thank you for all your input both synchronously at our four town hall meetings and asynchronously through our submission form. We are currently processing the data and hope to have some synthesis to share soon. Throughout April, we will be holding several Synthesis Meetings with funding agencies, NGOs, and industry representatives to identify possible priority research areas and next steps. We will share any upcoming community events here, on this website.</div>
