@@ -55,7 +55,7 @@ agriculture, supply chain resilience, human health, and cross cutting areas to a
 Moreover, the EO called for this vision to be enabled by collaboration among government, industry, the
 private sector, and public sector researchers. That sparked our thinking, and we initiated CASA-Bio.</p>
 <p>
-CASA-Bio is a collaborative, facilitated activity involving stakeholders from federal funding agencies,
+CASA-Bio is a collaborative, facilitated activity involving <Link className='w-fit text-primary font-semibold hover:underline' href="/participating-stakeholders">stakeholders</Link> from federal funding agencies,
 industries, non-profits, and the public sector research community. The overall goal is to give life to the
 vision of the Bioeconomy EO by seeking synergy through collaboration in areas of mutual interest. See
 our <a className="cursor-pointer font-semibold text-primary" href="https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Action%20Plan.pdf?alt=media&token=0e6b6388-545c-4c58-91f1-c426810a3988" target="_blank">Action Plan</a>.
