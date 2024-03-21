@@ -65,12 +65,15 @@ export default function SubthemePage({params}:{params:{theme:string, subtheme:st
     
     </div>
       </div>
-      <Link target='_blank' href="https://forms.gle/vpP5HgMrYBwCnSXJA">
+
+      {/* <Link target='_blank' href="https://forms.gle/vpP5HgMrYBwCnSXJA">
                   <Button className='flex items-center h-8 gap-2 font-semibold'>
                   <Link2Icon />
                     Share your ideas
                   </Button>
-                </Link>
+                </Link> */}
+
+                
       <div className='flex flex-col pt-4'>
       <Link className='flex flex-row items-center gap-2' href={'/'+themeData?.slug}>
         <Button variant={'link'} className='p-0 m-0 flex items-center gap-2'><ChevronLeftIcon />Return | {themeData?.title}</Button>
