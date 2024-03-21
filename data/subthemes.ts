@@ -28,7 +28,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.   
 
-Give us your ideas here:
+ 
             
 ` 
     },
@@ -46,7 +46,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
         
 ` 
     },
@@ -64,7 +64,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
         
 ` 
     }
@@ -84,7 +84,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
                        
 ` 
     },
@@ -102,7 +102,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
                         
 ` 
     },
@@ -120,7 +120,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
                      
 ` 
     },
@@ -138,7 +138,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
                     
 ` 
     }
@@ -159,7 +159,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
                   
 ` 
     },
@@ -178,7 +178,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
                    
 ` 
     }
@@ -198,7 +198,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
              
 ` 
     },
@@ -216,7 +216,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
       
 ` 
     },
@@ -234,7 +234,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
              
 ` 
     },
@@ -252,7 +252,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
                
 ` 
     },
@@ -270,7 +270,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
             
 ` 
     },
@@ -288,7 +288,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
             
 ` 
     }
@@ -308,7 +308,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
       
 ` 
     },
@@ -326,7 +326,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
       
 ` 
     },
@@ -344,7 +344,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
             
 ` 
     },
@@ -362,7 +362,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
            
 ` 
     },
@@ -380,7 +380,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
           
 ` 
     },
@@ -398,7 +398,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
         
 ` 
     },
@@ -416,7 +416,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
           
 ` 
     },
@@ -434,7 +434,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
         
 ` 
     },
@@ -452,7 +452,7 @@ CASA-Bio stakeholders representing government, industry, and non-profit sectors,
 
 As a member of the R&D community, you too are a CASA-Bio stakeholder, and providing your insight on R&D projects that undergird this sub-theme and lead to solutions is critical.  Your ideas will matter!  Your individual project ideas and those developed as part of the collaborative Town Hall process will be combined to produce an aggregate view.  This view will help us understand not only the interests of the R&D community, but also what they are willing to do to advance the bioeconomy. Topics among the R&D project ideas we receive will help government, industry, and non-profit stakeholders see the potential of the US R&D community to address critical future needs and help define topics for future exploration through workshops and roadmapping.
 
-Give us your ideas here:
+ 
            
 ` 
     },
