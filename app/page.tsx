@@ -5,7 +5,7 @@ import SplashContent from '@/components/SplashContent'
 import ThemeGrid from '@/components/ThemeGrid'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
-import { CalendarIcon, ImageIcon, InfoCircledIcon, Link2Icon, PersonIcon, VideoIcon } from '@radix-ui/react-icons'
+import { CalendarIcon, FileTextIcon, ImageIcon, InfoCircledIcon, Link2Icon, PersonIcon, StarIcon, VideoIcon } from '@radix-ui/react-icons'
 import { FileText } from 'lucide-react'
 import Link from 'next/link'
 
@@ -45,65 +45,21 @@ the bioeconomy. Your input will be critical for moving CASA-Bio forward to advan
           </div>
             <Card className=' bg-secondary '>
             <CardHeader className='pb-2'>
-              <CardTitle className='flex gap-2 items-center scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'><InfoCircledIcon className='h-6 w-6' /> How to Participate: </CardTitle>
+              <CardTitle className='flex gap-2 items-center scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'><StarIcon className='h-6 w-6' /> Thank You for Participating!</CardTitle>
             </CardHeader>
             <CardContent className='flex flex-col gap-2 text-md'>
-            <div>There are multiple ways to participate: Share your ideas in a virtual Town Hall and/or share your ideas online.  </div>
-            <div>In February, we are hosting four virtual Town Hall meetings to hear from the research community about the ideas they view as having exciting potential to advance the bioeconomy. <strong className='text-primary'>These Town Halls will be highly interactive with lots of time for breakout discussions among community members</strong>. The Town Halls will all have the same agenda but are offered at different days and times to accommodate different schedules. Everyone is welcome to attend the Town Halls and to share research ideas!   </div>
-            <div>We suggest you view the EO Themes and Representative Subtheme Challenges, as you consider the challenges and ideas you would like to share. </div>
-            <div className='grid grid-cols-2 gap-4 md:gap-6 pt-2'>
-              <div className='md:col-span-1 col-span-2 flex flex-col gap-2'>
-              <h3 className='text-primary font-semibold text-lg'>Option 1</h3>
-              <div className=''>If you are able to attend, register for a Town Hall to collaborate with others on developing research ideas, and share your individual ideas ahead of the Town Hall.</div>
-              <h4 className='text-primary font-semibold'>1) Select Your Best Date</h4>
-                <div className='grid grid-cols-1 gap-1 w-fit pb-2'>
-    
-                <Button disabled variant={'outline'} className='w-fit flex items-center gap-2'><CalendarIcon />February 12th, 2024 @ 7pm - 8:30pm EST</Button>
-                <Button disabled variant={'outline'} className='w-fit flex items-center gap-2'><CalendarIcon />February 15th, 2024 @ 9am - 10:30am EST</Button>
-                <Button disabled variant={'outline'} className='w-fit flex items-center gap-2'><CalendarIcon />February 21st, 2024 @ 12pm - 1:30pm EST</Button>
-                <Button disabled variant={'outline'} className='w-fit flex items-center gap-2'><CalendarIcon />February 22nd, 2024 @ 5pm - 6:30pm EST</Button>
-                </div>
-                <h4 className='text-primary font-semibold'>2) Share Your Exciting Research Idea About Your Favorite Theme!</h4>
-                <div className='w-fit'>
-                <Link target='_blank' href="https://forms.gle/vpP5HgMrYBwCnSXJA">
-                  <Button className='flex items-center h-8 gap-2 font-semibold'>
-                  <Link2Icon />
-                    Share your ideas
-                  </Button>
-                </Link>
-                </div>
-                </div>
-                
-                <div className='md:col-span-1 col-span-2 flex flex-col gap-2'>
-                <h3 className='text-primary font-semibold  text-lg'>Option 2</h3>
-                <div>If you are unable to attend a Town Hall, we would still love to hear our research ideas, so please share online. </div>
-                {/* <div>To share, submit the following form: </div> */}
-                <div className='w-fit'>
-                <Link target='_blank' href="https://forms.gle/vpP5HgMrYBwCnSXJA">
-                  <Button className='flex items-center h-8 gap-2 font-semibold'>
-                  <Link2Icon />
-                    Share your ideas
-                  </Button>
-                </Link>
-                </div>
-                </div>
-              </div>
+            <div>Thank you for all your input both synchronously at our four town hall meetings and asynchronously through our submission form. We are currently processing the data and hope to have some synthesis to share soon. Throughout April, we will be holding several Synthesis Meetings with funding agencies, NGOs, and industry representatives to identify possible priority research areas and next steps. We will share any upcoming community events here, on this website.</div>
+            
             </CardContent>
             <CardFooter className='flex flex-col w-full items-start gap-2 justify-start'>
-            
-              
-            </CardFooter>
-          </Card>
-          
-          <Card className='pl-6 pr-6 pt-4 pb-4 w-fit'>
-          <h2 className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Town Hall Resources</h2>
+            <h2 className="flex gap-2 items-center scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary"><FileTextIcon className='h-6 w-6' /> Town Hall Resources</h2>
           <div className='flex w-full gap-8 items-start h-fit pt-4'>
 
           <div className='flex flex-col'>
           <div className='scroll-m-20 w-fit mb-1 text-primary font-[600] text-md'>Recordings</div>
             <div className='flex gap-4'>
               <Link target='_blank' href="https://knowinnovation.zoom.us/rec/play/zKaJIwfEssosyM4HFNay-t9alqs97hvZCN7baERc3LK9dB_1UsJ2dSHwa-iGgrKKky4J0KKl6qBZ0Vvd.0ubUi8osZ4JRaMtP?pwd=NtYH6ZpwGqbYvWjXNDXuEjZDSsc9WmqV">
-                <Button variant={'outline'} className='flex items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
+                <Button variant={'outline'} className='flex items-center text-xs h-8 gap-2 font-semibold text-primary hover:text-primary'>
                 <VideoIcon />
                   Town Hall Recording
                 </Button>
@@ -115,7 +71,7 @@ the bioeconomy. Your input will be critical for moving CASA-Bio forward to advan
           <div className='scroll-m-20 w-fit mb-1 text-primary font-[600] text-md'>Documents</div>
           <div className='flex gap-2'>
             <Link target='_blank' href="https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Town%20Hall%20Slides.pdf?alt=media&token=4d83d8ce-61b2-4189-acb7-145d6f5d8fe1">
-              <Button variant={'outline'} className='flex items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
+              <Button variant={'outline'} className='flex text-xs items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
               <ImageIcon />
                 Slide Deck
               </Button>
@@ -127,28 +83,28 @@ the bioeconomy. Your input will be critical for moving CASA-Bio forward to advan
             <div className='scroll-m-20 w-fit mb-1 text-primary font-[600] text-md'>Participants</div>
             <div className='flex gap-4'>
               <Link target='_blank' href="https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Town%20Hall%201%20Participants.pdf?alt=media&token=b34ea209-9f21-448c-a814-f58398e0b97c">
-                <Button variant={'outline'} className='flex items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
+                <Button variant={'outline'} className='flex text-xs items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
                 <PersonIcon />
                   Town Hall 1 Participants
                 </Button>
               </Link>
 
               <Link target='_blank' href="https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Town%20Hall%202%20Participants.pdf?alt=media&token=06896f75-b898-4d34-8f6c-78f730f889bb">
-                <Button variant={'outline'} className='flex items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
+                <Button variant={'outline'} className='flex text-xs items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
                 <PersonIcon />
                   Town Hall 2 Participants
                 </Button>
               </Link>
 
               <Link target='_blank' href="https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Town%20Hall%203%20Participants.pdf?alt=media&token=e1f4e7e2-d47e-4c9d-aa6f-6913f14e2181">
-                <Button variant={'outline'} className='flex items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
+                <Button variant={'outline'} className='flex text-xs items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
                 <PersonIcon />
                   Town Hall 3 Participants
                 </Button>
               </Link>
 
               <Link target='_blank' href="https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Town%20Hall%204%20Participants.pdf?alt=media&token=de38805f-704d-4d08-98c5-0234e6859432">
-                <Button variant={'outline'} className='flex items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
+                <Button variant={'outline'} className='flex text-xs items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
                 <PersonIcon />
                   Town Hall 4 Participants
                 </Button>
@@ -158,7 +114,11 @@ the bioeconomy. Your input will be critical for moving CASA-Bio forward to advan
 
 
           </div> 
+              
+            </CardFooter>
           </Card>
+          
+         
           
           <div className='space-y-6 pb-2'>
           <h2 id="bioeconomy-themes" className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">EO Bioeconomy Themes</h2>

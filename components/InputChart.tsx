@@ -36,7 +36,7 @@ export default function InputChart() {
   
     return (
     <div className='max-w-sm space-y-6 pb-2'>
-    <h2 className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Submissions So Far...</h2>    
+    <h2 className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">Submission Distribution</h2>    
     <Pie data={data} />
     </div>
     );
