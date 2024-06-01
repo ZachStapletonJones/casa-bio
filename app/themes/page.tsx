@@ -12,7 +12,7 @@ export default function InputExplanation() {
         <Link href={"/"}>
           <Button variant={"link"} className="p-0 m-0 flex items-center gap-2">
             <ChevronLeftIcon />
-            Return
+            Return Home
           </Button>
         </Link>
         <h1 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-2 text-primary w-fit">

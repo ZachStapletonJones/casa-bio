@@ -22,8 +22,8 @@ export default function ThemePage({params}:{params:{theme:string}}) {
   return (
     <div className='flex flex-col gap-12 w-full grow items-start justify-start'>
       <div className='flex flex-col w-full items-start'>
-        <Link href={'/'}>
-        <Button variant={'link'} className='p-0 m-0 flex items-center gap-2'><ChevronLeftIcon />Return</Button>
+        <Link href={'/themes'}>
+        <Button variant={'link'} className='p-0 m-0 flex items-center gap-2'><ChevronLeftIcon />Return to Themes</Button>
         </Link>
       <div className='w-full'>
       <Icon className={`fill-current float-right hidden md:inline-block max-h-16 max-w-sm  ${'theme'+themeData?.id}`} id={themeData?.id as number} />

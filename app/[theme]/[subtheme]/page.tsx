@@ -78,6 +78,9 @@ export default function SubthemePage({params}:{params:{theme:string, subtheme:st
       <Link className='flex flex-row items-center gap-2' href={'/'+themeData?.slug}>
         <Button variant={'link'} className='p-0 m-0 flex items-center gap-2'><ChevronLeftIcon />Return | {themeData?.title}</Button>
         </Link>
+        <Link className='flex flex-row items-center gap-2' href={'/themes'}>
+        <Button variant={'link'} className='p-0 m-0 flex items-center gap-2'><ChevronLeftIcon />Return | Themes</Button>
+        </Link>
         <Link className='flex flex-row items-center gap-2' href={'/'}>
         <Button variant={'link'} className='p-0 m-0 flex items-center gap-2'><ChevronLeftIcon />Return | Home</Button>
         </Link>
