@@ -3,6 +3,7 @@ import ProfileGrid from '@/components/ProfileGrid'
 import ReturnTop from '@/components/ReturnTop'
 import SplashContent from '@/components/SplashContent'
 import ThemeGrid from '@/components/ThemeGrid'
+import WorkshopTopics from '@/components/WorkshopTopicsGrid'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
 import { CalendarIcon, FileTextIcon, ImageIcon, InfoCircledIcon, Link2Icon, PersonIcon, StarIcon, VideoIcon } from '@radix-ui/react-icons'
@@ -22,104 +23,38 @@ export default function Home() {
               <h1 className='scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-2 text-primary w-fit'>Catalyzing Across Sectors to Advance the Bioeconomy</h1>
               <SplashContent />
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
-            <div className='flex flex-col gap-4'>
-            <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Thank You for Participating!</h2>
-            <p>Thank you for all your input both synchronously at our four town hall meetings and asynchronously through our submission form. Here is <Link className='text-primary font-semibold hover:underline' href={'/how-we-will-use-your-input'}>how we will use your input.</Link> We are currently processing the data and hope to have some synthesis to share soon. Throughout April, we will be holding several Synthesis Meetings with funding agencies, NGOs, and industry representatives to identify possible priority research areas and next steps. We will share any upcoming community events here, on this website.</p>
-<div className=''>
-<Card className='w-full '>
-            <CardHeader className='pb-2'>
-              <CardTitle className='flex gap-2 items-center scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'><FileTextIcon className='h-6 w-6' /> Town Hall Resources</CardTitle>
-            </CardHeader>
-            <CardContent className='flex flex-col w-full gap-2 text-md'>
-            <div className='flex flex-wrap w-full gap-8 items-start h-fit pt-4'>
+            <div className="flex flex-col gap-4">
+            <h2 id="topics" className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Advancement Workshops</h2>
+            <p>
+            CASA-Bio is excited to announce our seven Advancement Workshops, designed to propel the bioeconomy forward. These interactive workshops will focus on specific research and development challenges and opportunities for the bioeconomy, bringing together experts from academia, industry, and government. The topics of these workshops have been pulled from the community Town Halls that were hosted earlier in the year as well as meetings with government agencies. 
+            </p>
+            <p>
+            Each workshop will include participants selected from open applications from the community and suggested by CASA-Bio organizations, ensuring a diverse range of perspectives and expertise. By working together, we can develop roadmaps and strategies that will drive innovation and advance the bioeconomy.
+            </p>
+            
+            
+            {/* <p>
+            Each workshop will be fully virtual and take place over two days in July or August. Explore the seven workshop topics below and apply to attend!
+            </p> */}
+            
+            <p>
+            Each workshop will be fully virtual and take place over two days in July or August. Explore the seven workshop topics below and check back soon to apply!
+            </p>
+            <p>
 
-<div className='flex flex-col'>
-<div className='scroll-m-20 w-fit mb-1 text-primary font-[600] text-md'>Recordings</div>
-  <div className='flex gap-4'>
-    <Link target='_blank' href="https://knowinnovation.zoom.us/rec/play/zKaJIwfEssosyM4HFNay-t9alqs97hvZCN7baERc3LK9dB_1UsJ2dSHwa-iGgrKKky4J0KKl6qBZ0Vvd.0ubUi8osZ4JRaMtP?pwd=NtYH6ZpwGqbYvWjXNDXuEjZDSsc9WmqV">
-      <Button variant={'outline'} className='flex items-center text-xs h-8 gap-2 font-semibold text-primary hover:text-primary'>
-      <VideoIcon />
-        Town Hall Recording
-      </Button>
-    </Link>
-  </div>
-</div>
-
-<div className='flex flex-col'>
-<div className='scroll-m-20 w-fit mb-1 text-primary font-[600] text-md'>Documents</div>
-<div className='flex gap-2'>
-  <Link target='_blank' href="https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Town%20Hall%20Slides.pdf?alt=media&token=4d83d8ce-61b2-4189-acb7-145d6f5d8fe1">
-    <Button variant={'outline'} className='flex text-xs items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
-    <ImageIcon />
-      Slide Deck
-    </Button>
-  </Link>
-</div>
-</div>
-
-<div className='flex flex-col'>
-  <div className='scroll-m-20 w-fit mb-1 text-primary font-[600] text-md'>Participants</div>
-  <div className='flex flex-wrap gap-4'>
-    <Link target='_blank' href="https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Town%20Hall%201%20Participants.pdf?alt=media&token=b34ea209-9f21-448c-a814-f58398e0b97c">
-      <Button variant={'outline'} className='flex text-xs items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
-      <PersonIcon />
-        Town Hall 1 Participants
-      </Button>
-    </Link>
-
-    <Link target='_blank' href="https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Town%20Hall%202%20Participants.pdf?alt=media&token=06896f75-b898-4d34-8f6c-78f730f889bb">
-      <Button variant={'outline'} className='flex text-xs items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
-      <PersonIcon />
-        Town Hall 2 Participants
-      </Button>
-    </Link>
-
-    <Link target='_blank' href="https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Town%20Hall%203%20Participants.pdf?alt=media&token=e1f4e7e2-d47e-4c9d-aa6f-6913f14e2181">
-      <Button variant={'outline'} className='flex text-xs items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
-      <PersonIcon />
-        Town Hall 3 Participants
-      </Button>
-    </Link>
-
-    <Link target='_blank' href="https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Town%20Hall%204%20Participants.pdf?alt=media&token=de38805f-704d-4d08-98c5-0234e6859432">
-      <Button variant={'outline'} className='flex text-xs items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
-      <PersonIcon />
-        Town Hall 4 Participants
-      </Button>
-    </Link>
-  </div>
-</div>
-
-
-</div> 
-            </CardContent>
-            <CardFooter className='flex flex-col w-full items-start gap-2 justify-start'>
-
-         
+            {/* <a className='w-fit text-primary font-semibold' href="https://docs.google.com/forms/d/e/1FAIpQLScx4vU7e7k1yurm5tqfqK_rf2r9Mh5mu5Fpx54CLZKLrntaaA/viewform?usp=sf_link" target="_blank"><Button>Apply Now</Button></a> */}
               
-            </CardFooter>
-          </Card>
-{/* <Link target='_blank' href="https://forms.gle/vpP5HgMrYBwCnSXJA">
-                  <Button className='flex items-center h-8 gap-2 font-semibold'>
-                  <Link2Icon />
-                    Share your ideas
-                  </Button>
-                </Link> */}
-               
-                </div>
-                <p className=''></p>
-                </div>
-                <InputChart />
+            </p>
           </div>
+          <div className="flex flex-col gap-4">
+            <h2  className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Advancement Workshop Topics</h2>
+            <WorkshopTopics />
+            </div>
             
           
          
           
-          <div className='space-y-6 pb-2'>
-          <h2 id="bioeconomy-themes" className="scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary">EO Bioeconomy Themes</h2>
-          <ThemeGrid />
-        </div>
+ 
        
         <div className='space-y-4'>
           
