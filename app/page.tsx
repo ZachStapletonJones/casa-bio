@@ -43,7 +43,7 @@ export default function Home() {
             <p>
 
             {/* <a className='w-fit text-primary font-semibold' href="https://docs.google.com/forms/d/e/1FAIpQLScx4vU7e7k1yurm5tqfqK_rf2r9Mh5mu5Fpx54CLZKLrntaaA/viewform?usp=sf_link" target="_blank"><Button>Apply Now</Button></a> */}
-              
+            <a className='w-fit text-primary font-semibold' href="https://forms.gle/qHcSunu5N2XZVap8A" target="_blank"><Button>Notify Me when Applications are Open</Button></a>
             </p>
           </div>
           <div className="flex flex-col gap-4">
