@@ -26,10 +26,10 @@ export default function Home() {
             <div className="flex flex-col gap-4">
             <h2 id="topics" className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Advancement Workshops</h2>
             <p>
-            CASA-Bio is excited to announce our seven Advancement Workshops, designed to propel the bioeconomy forward. These interactive workshops will focus on specific research and development challenges and opportunities for the bioeconomy, bringing together experts from academia, industry, and government. The topics of these workshops have been pulled from the community Town Halls that were hosted earlier in the year as well as meetings with government agencies. 
+            CASA-Bio is excited to announce our six Advancement Workshops, designed to propel the bioeconomy forward. These interactive workshops will focus on specific research and development challenges and opportunities for the bioeconomy, bringing together experts from academia, industry, and government. The topics of these workshops were selected based on input from the community Town Halls that were hosted earlier in the year and from discussions among the federal, industry, and non-profit stakeholders. 
             </p>
             <p>
-            Each workshop will include participants selected from open applications from the community and suggested by CASA-Bio organizations, ensuring a diverse range of perspectives and expertise. By working together, we can develop roadmaps and strategies that will drive innovation and advance the bioeconomy.
+            Each workshop will include participants selected from open applications from the R&D community and from suggestions by CASA-Bio organizations, ensuring a diverse range of perspectives and expertise. By working together we can develop strategies to leverage fundamental, use-inspired and translational research and development to drive innovation and advance the bioeconomy.
             </p>
             
             
@@ -38,7 +38,7 @@ export default function Home() {
             </p> */}
             
             <p>
-            Each workshop will be fully virtual and take place over two days in July or August. Explore the seven workshop topics below and check back soon to apply!
+            Each workshop will be fully virtual and take place over two days in July or August. Explore the six workshop topics below and check back soon to apply!
             </p>
             <p>
 
