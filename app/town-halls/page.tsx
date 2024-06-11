@@ -22,7 +22,7 @@ export default function InputExplanation() {
       <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
             <div className='flex flex-col gap-4'>
             <h2 className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Thank You for Participating!</h2>
-            <p>Thank you for all your input both synchronously at our four town hall meetings and asynchronously through our submission form. Here is <Link className='text-primary font-semibold hover:underline' href={'/how-we-will-use-your-input'}>how we will use your input.</Link> We are currently processing the data and hope to have some synthesis to share soon. Throughout April, we held several Synthesis Meetings with funding agencies, NGOs, and industry representatives to identify possible priority research areas and next steps.</p>
+            <p>Thank you for all your input both synchronously at our four town hall meetings and asynchronously through our submission form. Here is <Link className='text-primary font-semibold hover:underline' href={'/how-we-will-use-your-input'}>how we used your input.</Link> Throughout April, we held several Synthesis Meetings with funding agencies, NGOs, and industry representatives to identify possible priority research areas and next steps.</p>
 <div className=''>
 <Card className='w-full '>
             <CardHeader className='pb-2'>
@@ -46,12 +46,21 @@ export default function InputExplanation() {
 <div className='flex flex-col'>
 <div className='scroll-m-20 w-fit mb-1 text-primary font-[600] text-md'>Documents</div>
 <div className='flex gap-2'>
+<Link target='_blank' href="https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/Community%20Online%20and%20Town%20Hall%20Input.pdf?alt=media&token=bb9c6e4a-1c5c-4497-b523-5775c531a163">
+    <Button variant={'outline'} className='flex text-xs items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
+    <FileTextIcon />
+      Synthesis Outputs
+    </Button>
+  </Link>
+
   <Link target='_blank' href="https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Town%20Hall%20Slides.pdf?alt=media&token=4d83d8ce-61b2-4189-acb7-145d6f5d8fe1">
     <Button variant={'outline'} className='flex text-xs items-center h-8 gap-2 font-semibold text-primary hover:text-primary'>
     <ImageIcon />
       Slide Deck
     </Button>
   </Link>
+
+ 
 </div>
 </div>
 
