@@ -38,12 +38,12 @@ export default function Home() {
             </p> */}
             
             <p>
-            Each workshop will be fully virtual and take place over two days in July or August. Explore the six workshop topics below and check back soon to apply!
+            The workshops will be fully virtual and take place in August or September. Each workshop will consist of one 90-minute orientation meeting and two full-day sessions. Explore the six workshop topics and apply below!
             </p>
             <p>
 
             {/* <a className='w-fit text-primary font-semibold' href="https://docs.google.com/forms/d/e/1FAIpQLScx4vU7e7k1yurm5tqfqK_rf2r9Mh5mu5Fpx54CLZKLrntaaA/viewform?usp=sf_link" target="_blank"><Button>Apply Now</Button></a> */}
-            <a className='w-fit text-primary font-semibold' href="https://forms.gle/qHcSunu5N2XZVap8A" target="_blank"><Button>Notify Me when Applications are Open</Button></a>
+            <a className='w-fit text-primary font-semibold' href="https://forms.gle/77VHMB23tCdg8K2T9" target="_blank"><Button>Apply Now</Button></a>
             </p>
           </div>
           <div className="flex flex-col gap-4">

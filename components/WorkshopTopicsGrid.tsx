@@ -29,10 +29,17 @@ function WorkshopTopic(workshopTopic:WorkshopTopicData){
             <div>
             {workshopTopic.description}
             </div>
-            <div className='flex flex-row items-center w-full justify-start gap-2'>
-                <CalendarIcon className={`text-primary h-7`} /> 
-                <span><strong className='text-primary'>Workshop Dates:</strong></span>
-                <span>{workshopTopic.dates}</span>
+            <div className='flex flex-col gap-1'>
+                <div className='flex flex-row items-center w-full justify-start gap-2'>
+                    <CalendarIcon className={`text-primary h-7`} /> 
+                    <span><strong className='text-primary'>Orientation:</strong></span>
+                    <span>{workshopTopic.orientation}</span>
+                </div>
+                <div className='flex flex-row items-center w-full justify-start gap-2'>
+                    <CalendarIcon className={`text-primary h-7`} /> 
+                    <span><strong className='text-primary'>Workshop Days:</strong></span>
+                    <span>{workshopTopic.dates}</span>
+                </div>
             </div>
             {/* <ExternalLinkIcon className='w-4 h-4' /> */}
            
