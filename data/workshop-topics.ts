@@ -30,8 +30,8 @@ export const workshopTopic: WorkshopTopicObject = [
     id: "C",
     title: "Creating Value from Waste Carbon for a Circular Bioeconomy",
     description: "Transforming waste carbon into valuable downstream products is revolutionizing approaches to carbon management, offering significant potential for environmental and economic benefits. However, several barriers exist to the widespread adoption of these innovative strategies. These include, but are not limited to, the need for substantial investment in scalable technologies to close the loop on circularity, problems of integrating new biological methods with existing infrastructure, regulatory and market acceptance hurdles, and technical difficulties in efficiently isolating and converting diverse carbon streams. A forthcoming workshop will investigate some of these challenges, focusing on the importance and urgency of addressing them to achieve specific, near-term deliverables related to advanced carbon transformation.",
-    orientation: "August 2024",
-    dates: "August 2024"
+    orientation: "August 12th, 2024",
+    dates: "August 14th - 15th, 2024"
   },
   {
     //WorkshopTopic 4
