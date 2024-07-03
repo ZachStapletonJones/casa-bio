@@ -46,8 +46,8 @@ export const workshopTopic: WorkshopTopicObject = [
     id: "E",
     title: "Food Protein Diversification",
     description: "Diversifying our food protein sources to feed our growing population may offer significant benefits for climate and the environment while building national and regional economies and adding new jobs within these fields. While the development of multiple approaches in this arena has seen significant progress over the last 10 years, making a step change to develop new solutions and build regional innovation ecosystems may unlock the potential of this sector of the bioeconomy. Mindful advancement of innovative solutions may help improve food security and promote regional economic growth while supporting national climate goals and expanding the sources and modifications of proteins and other nutrients beyond traditional commodities to supplement the current food system. However, several barriers exist to widespread developmental progress and eventual adoption of these solutions. These include the need for advanced biotechnological research for scalable, cost-effective biomanufacturing processes and the development of infrastructure that utilizes regional strengths and resources for a blossoming bioeconomy. A forthcoming workshop will investigate some of these challenges, focusing on prioritizing the importance and urgency of each to achieve specific, near-term deliverables for advancing alternative food protein products and other novel agricultural bioproducts.",
-    orientation: "August 19th, 2024",
-    dates: "August 21st - 22nd, 2024"
+    orientation: "August 21st, 2024",
+    dates: "August 22nd - 23rd, 2024"
   },
   {
     //WorkshopTopic 6
