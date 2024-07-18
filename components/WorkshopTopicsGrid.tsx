@@ -40,6 +40,21 @@ function WorkshopTopic(workshopTopic:WorkshopTopicData){
                     <span><strong className='text-primary'>Workshop Days:</strong></span>
                     <span>{workshopTopic.dates}</span>
                 </div>
+                <div className='flex flex-row items-center w-full justify-start gap-2'>
+                    <CalendarIcon className={`text-primary h-7`} /> 
+                    <span><strong className='text-primary'>Writing Day:</strong></span>
+                    <span>{workshopTopic.writing}</span>
+                </div>
+                <div className='flex flex-row items-center w-full justify-start gap-2'>
+                    <CalendarIcon className={`text-primary h-7`} /> 
+                    <span><strong className='text-primary'>Application Deadline:</strong></span>
+                    <span><strong className='text-red-800'>{workshopTopic.deadline}</strong></span>
+                </div>
+                <div className='flex flex-row items-center w-full justify-start gap-2'>
+                    <CalendarIcon className={`text-primary h-7`} /> 
+                    <span><strong className='text-primary'>Application Decision:</strong></span>
+                    <span><strong className='text-green-700'>{workshopTopic.decision}</strong></span>
+                </div>
             </div>
             {/* <ExternalLinkIcon className='w-4 h-4' /> */}
            
@@ -60,7 +75,7 @@ function WorkshopTopic(workshopTopic:WorkshopTopicData){
                 behavior: 'smooth'
               }) 
         }}>
-             <ChevronUpIcon />Return to workshop details
+             <ChevronUpIcon />Return to workshop details & application
         </button>
         </div>     
         </div>
