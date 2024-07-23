@@ -40,11 +40,7 @@ function WorkshopTopic(workshopTopic:WorkshopTopicData){
                     <span><strong className='text-primary'>Workshop Days:</strong></span>
                     <span>{workshopTopic.dates}</span>
                 </div>
-                <div className='flex flex-row items-center w-full justify-start gap-2'>
-                    <CalendarIcon className={`text-primary h-7`} /> 
-                    <span><strong className='text-primary'>Writing Day:</strong></span>
-                    <span>{workshopTopic.writing}</span>
-                </div>
+                
                 <div className='flex flex-row items-center w-full justify-start gap-2'>
                     <CalendarIcon className={`text-primary h-7`} /> 
                     <span><strong className='text-primary'>Application Deadline:</strong></span>
