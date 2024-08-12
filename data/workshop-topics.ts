@@ -69,7 +69,7 @@ export const workshopTopic: WorkshopTopicObject = [
     orientation: "August 26th, 2024, 12:00PM - 1:30PM ET",
     dates: "August 28th - 29th, 2024, 10:00AM - 4:00PM ET",
     deadline: "August 5th, 2024",
-    decision: "August 12th, 2024",
+    decision: "August 16th, 2024",
   },
 
  
