@@ -71,7 +71,7 @@ function WorkshopTopic(workshopTopic:WorkshopTopicData){
                 behavior: 'smooth'
               }) 
         }}>
-             <ChevronUpIcon />Return to workshop details & application
+             <ChevronUpIcon />Return to workshop details
         </button>
         </div>     
         </div>
