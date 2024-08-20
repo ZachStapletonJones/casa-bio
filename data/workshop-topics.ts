@@ -28,7 +28,7 @@ export const workshopTopic: WorkshopTopicObject = [
     description: "Fueled by National Agricultural Genome Initiatives, innovative breeding methods are transforming the development of economically important crops and animals, promising significant advances in agricultural productivity and sustainability. However, multiple barriers exist to the widespread implementation of such approaches. These include the need for substantial investment in advanced tools and technologies, gaps in critical infrastructure, regulatory challenges, and concerns about the long-term ecological and genetic impacts, to name a few. A forthcoming workshop will investigate some of these challenges, focusing on the urgent need to find enabling solutions to achieve specific deliverables related to accelerated breeding.",
     orientation: "August 12th, 2024, 12:00PM - 1:30PM ET",
     dates: "August 14th - 15th, 2024, 10:00AM - 4:00PM ET",
-    deadline: "July 27nd, 2024",
+    deadline: "July 27th, 2024",
     decision: "August 2nd, 2024",
   },
   {
