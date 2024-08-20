@@ -39,7 +39,7 @@ export default function Home() {
             </p> */}
             
             <p>
-            The workshops are fully virtual throughoutAugust and September. Each workshop consists of one 90-minute orientation meeting and two full-day sessions. Explore the six workshop topics below!
+            The workshops are fully virtual throughout August and September. Each workshop consists of one 90-minute orientation meeting and two full-day sessions. Explore the six workshop topics below!
             </p>
        
           </div>
