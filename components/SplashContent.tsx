@@ -53,6 +53,10 @@ vision of the Bioeconomy EO by seeking synergy through collaboration in areas of
 See
 our full <a className="cursor-pointer font-semibold text-primary" href="https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Action%20Plan.pdf?alt=media&token=0e6b6388-545c-4c58-91f1-c426810a3988" target="_blank">Action Plan</a>.
 </p>
+
+<p>
+            In August and September, six workshops were held, each led by multiple experts from academia, industry, and non-profit organizations. These leaders developed draft proposals for innovative R&D initiatives with high potential to produce meaningful outcomes for the bioeconomy, and their proposals formed the basis for workshop discussions. Workshop participants with a broad spectrum of interests and expertise engaged in robust discussions at each workshop, and their feedback helped inform final versions of the bioeconomy initiatives.
+            </p>
 {/* <div className="flex gap-2 items-center h-fit">
 <a className='w-fit' href="https://www.whitehouse.gov/briefing-room/presidential-actions/2022/09/12/executive-order-on-advancing-biotechnology-and-biomanufacturing-innovation-for-a-sustainable-safe-and-secure-american-bioeconomy/" target="_blank">
   <Button className='font-semibold flex items-center gap-2 w-fit text-xs h-20 sm:h-full sm:text-sm'><FileText className='h-4 w-4' />View the Executive Order</Button>

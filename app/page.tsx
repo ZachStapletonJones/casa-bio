@@ -23,28 +23,22 @@ export default function Home() {
               <h1 className='scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-2 text-primary w-fit'>Catalyzing Across Sectors to Advance the Bioeconomy</h1>
               <SplashContent />
             </div>
-            <div className="flex flex-col gap-4">
+            {/* <div className="flex flex-col gap-4">
             <h2 id="topics" className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Advancement Workshops</h2>
             <p>
-            CASA-Bio is excited to host our six Advancement Workshops, designed to propel the bioeconomy forward. These interactive workshops are focused on specific research and development challenges and opportunities for the bioeconomy, bringing together experts from academia, industry, and government. The topics of these workshops were selected based on input from the community Town Halls that were hosted earlier in the year and from discussions among the federal, industry, and non-profit stakeholders.
+            In August and September, six workshops were held, each led by multiple experts from academia, industry, and non-profit organizations. These leaders developed draft proposals for innovative R&D initiatives with high potential to produce meaningful outcomes for the bioeconomy, and their proposals formed the basis for workshop discussions. Workshop participants with a broad spectrum of interests and expertise engaged in robust discussions at each workshop, and their feedback helped inform final versions of the bioeconomy initiatives.
             </p>
-            <p>
-            Each workshop includes participants selected from open applications from the R&D community and from suggestions by CASA-Bio organizations, ensuring a diverse range of perspectives and expertise. By working together we can develop strategies to leverage fundamental, use-inspired and translational research and development to drive innovation and advance the bioeconomy.
-
-            </p>
+          
             
-            
-            {/* <p>
-            Each workshop will be fully virtual and take place over two days in July or August. Explore the seven workshop topics below and apply to attend!
-            </p> */}
-            
-            <p>
-            The workshops are fully virtual throughout August and September. Each workshop consists of one 90-minute orientation meeting and two full-day sessions. Explore the six workshop topics below!
-            </p>
+        
        
-          </div>
+          </div> */}
           <div className="flex flex-col gap-4">
-            <h2  className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Advancement Workshop Topics</h2>
+
+            <h2  className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Overview of the Initiatives</h2>
+            <div>The final set of CASA-Bio initiatives capture the excitement and outstanding promise of these R&D areas
+            to catalyze collaboration across sectors to advance the future of the bioeconomy. The initiatives include
+            the following:</div>
             <WorkshopTopics />
             </div>
             
