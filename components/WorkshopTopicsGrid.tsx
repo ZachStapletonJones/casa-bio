@@ -32,7 +32,7 @@ function WorkshopTopic(workshopTopic:WorkshopTopicData){
             </div>
             <div className='flex flex-row items-center w-full justify-start gap-2'>
                 
-                <a className='w-fit font-semibold' href={workshopTopic.summaryURL} target="_blank"><Button className='flex flex-row items-center w-full justify-start gap-2'><DownloadIcon  className={`text-background h-7`} /><span>Initiative Outline Document</span></Button></a>
+                <a className='w-fit font-semibold' href={workshopTopic.summaryURL} target="_blank"><Button className='flex flex-row items-center w-full justify-start gap-2'><DownloadIcon  className={`text-background h-7`} /><span>Bioeconomy Initiative Document</span></Button></a>
                 </div>
             <div className='flex flex-row items-center w-full justify-start gap-2'><span className='italic'>Relevant EO Themes:</span><ThemeLinks themeIds={workshopTopic.themes} /></div>
             <div className='flex flex-row items-center w-full justify-start gap-2'><span className='italic'>Cross-Cutting Advances:</span><AdvancesLinks advancesIds={workshopTopic.advances} /></div>
