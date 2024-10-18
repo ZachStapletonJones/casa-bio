@@ -33,6 +33,8 @@ export default function Home() {
         
        
           </div> */}
+          <Card className='bg-secondary py-4'>
+            <CardContent>
           <div className="flex flex-col gap-4">
 
             <h2 id="initiatives" className='scroll-m-20 border-b w-fit text-2xl font-semibold tracking-tight text-primary'>Overview of the Bioeconomy Initiatives</h2>
@@ -41,7 +43,8 @@ export default function Home() {
             the following:</div>
             <WorkshopTopics />
             </div>
-            
+            </CardContent>
+            </Card>
           
          
           

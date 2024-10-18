@@ -86,10 +86,11 @@ function ThemeLink({themeId, length, index}:{themeId:number, length:number, inde
     const themeObject = themes[themeId];
     const themeName = themeObject ? themeObject.title : "";
     const slug = themeObject ? themeObject.slug : "";
+    const color = 'theme'+themeObject.id
     return (
         <>
             
-            <Link className='w-fit text-primary font-semibold hover:underline'  href={slug}>
+            <Link className={`w-fit text-primary font-semibold ${color} hover:underline`}  href={slug}>
                 {themeName}
             </Link>
             {
