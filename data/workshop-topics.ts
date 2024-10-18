@@ -36,7 +36,7 @@ export const workshopTopic: WorkshopTopicObject = [
     id: "C",
     title: "Diversifying Edible Protein Sources for a Sustainable Future",
     description: "Investments to diversify proteins for human food and animal feed will create food supply chain resilience, drive American innovation in a globally competitive sector, and foster sustainable growth and employment in the modern bioeconomy.",
-    summaryURL: "https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Docs%2FDiversifying%20Edible%20Protein%20Sources%20for%20a%20Sustainable%20Future.pdf?alt=media&token=101cdae8-1b0b-4412-b054-30eb4712523c",
+    summaryURL: "https://firebasestorage.googleapis.com/v0/b/kistorm-media.appspot.com/o/CASA-Bio%20Docs%2FDiversifying%20Edible%20Protein%20Sources%20for%20a%20Sustainable%20Future.pdf?alt=media&token=7b6be9eb-4779-455b-bfb0-7294165cb8b1",
     themes: [0,1,3],
     advances: [1, 4, 3, 2, 0],
     // advances: "Foundational Discovery, Data Infrastructure, Artificial Intelligence, Biomanufacturing, and Workforce Development.",
