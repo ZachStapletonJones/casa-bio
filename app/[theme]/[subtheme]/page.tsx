@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import Markdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
-import { ChevronLeftIcon, Link2Icon, QuestionMarkCircledIcon } from '@radix-ui/react-icons'
+import { ChevronLeftIcon, InfoCircledIcon, Link2Icon, QuestionMarkCircledIcon } from '@radix-ui/react-icons'
 import { Icon } from '@/data/icons'
 import { Card } from '@/components/ui/card'
 import SubthemeGrid from '@/components/SubthemeGrid'
@@ -60,7 +60,10 @@ export default function SubthemePage({params}:{params:{theme:string, subtheme:st
       <Markdown className={'prose pb-8 min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{subthemeData?.pageTitle}</Markdown>
       {/* <img className='hidden md:block md:col-span-2 max-h-32 place-self-end' src={themeData?.promptImage} alt={themeData?.title} /> */}
       <div className='flex flex-col gap-4'>
-   
+      <div className='w-full flex justify-center  mb-0'>
+          <Card className='flex items-center gap-2 p-2 text-primary'>
+            <InfoCircledIcon/> This content may be outdated, please refer to the most up-to-date <Link className='w-fit text-primary font-semibold hover:underline' href="/#initiatives">Bioeconomy Initiative Documents.</Link></Card>
+        </div>
         <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{subthemeData?.questions}</Markdown>
     
     </div>

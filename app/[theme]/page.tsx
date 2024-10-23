@@ -4,9 +4,9 @@ import Link from 'next/link'
 import React from 'react'
 import Markdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
-import { ChevronLeftIcon, Link2Icon } from '@radix-ui/react-icons'
+import { ChevronLeftIcon, InfoCircledIcon, Link2Icon } from '@radix-ui/react-icons'
 import { Icon } from '@/data/icons'
-import { Card } from '@/components/ui/card'
+import { Card, CardContent } from '@/components/ui/card'
 import SubthemeGrid from '@/components/SubthemeGrid'
 import Error from '@/components/Error'
 
@@ -20,19 +20,24 @@ export default function ThemePage({params}:{params:{theme:string}}) {
     const themeData = themes.find(t=>t.slug === params.theme)
     if (!themeData) return <Error />
   return (
-    <div className='flex flex-col gap-12 w-full grow items-start justify-start'>
+    <div className='flex flex-col gap-8 w-full grow items-start justify-start'>
       <div className='flex flex-col w-full items-start'>
         <Link href={'/themes'}>
         <Button variant={'link'} className='p-0 m-0 flex items-center gap-2'><ChevronLeftIcon />Return to Themes</Button>
         </Link>
       <div className='w-full'>
       <Icon className={`fill-current float-right hidden md:inline-block max-h-16 max-w-sm  ${'theme'+themeData?.id}`} id={themeData?.id as number} />
-      <div className='text-primary font-semibold'>EO Bioeconomy Theme:</div>
-      <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.tagline}</Markdown>
-      
-      {/* <img className='hidden md:block md:col-span-2 max-h-32 place-self-end' src={themeData?.promptImage} alt={themeData?.title} /> */}
-      </div>
+        <div className='text-primary font-semibold'>EO Bioeconomy Theme:</div>
+        <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.tagline}</Markdown>
+        
+        {/* <img className='hidden md:block md:col-span-2 max-h-32 place-self-end' src={themeData?.promptImage} alt={themeData?.title} /> */}
+        </div>
+        
       </div> 
+      <div className='w-full flex justify-center  mb-0'>
+          <Card className='flex items-center gap-2 p-2 text-primary'>
+            <InfoCircledIcon/> This content may be outdated, please refer to the most up-to-date <Link className='w-fit text-primary font-semibold hover:underline' href="/#initiatives">Bioeconomy Initiative Documents.</Link></Card>
+        </div>
         <Markdown className={'prose min-w-full &>*:w-full'} remarkPlugins={[remarkGfm]}>{themeData?.introduction}</Markdown>
         <Card className={`border ${'theme'+themeData?.id} border grid grid-cols-1 place-items-center w-full h-32 px-12 border-slate-300`}>
           <div className='flex items-center gap-4 md:gap-2'>
